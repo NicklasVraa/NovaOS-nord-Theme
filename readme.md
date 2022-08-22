@@ -1,28 +1,31 @@
 # Nova-galactic-theme
-Inspired by the brilliant Nordic Darker theme, but adjusted for coherency and simplicity. The theme includes configs for cinnamon, gnome-shell, gtk-2.0, gtk-3.0, gtk-4.0, metacity-1 and xfwm4.
+Inspired by the Nordic Darker theme, but adjusted for coherency and simplicity. The theme includes configs for cinnamon, gnome-shell, gtk-2.0, gtk-3.0, gtk-4.0, metacity-1, xfwm4. Configs for code, terminator, firefox and obsidian will follow soon.
 
-See the accompanying icon pack of the same name.
+Check out the accompanying [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons) and try the theme with redshift.
 
-It was created for Nova-OS, a spin on the brilliant Linux Mint, on which I am currently working.
+This was created for Nova-OS, a spin on the brilliant Linux Mint, on which I am currently working.
 
 ## Preview
-Menu
-![alt](meta/screen_1.png)
+Desktop and launcher.
+![alt](meta/desktop.png)
 
-Applets
-![alt](meta/screen_2.png)
+Applets, in this case the calendar.
+![alt](meta/applet.png)
 
-Applications
-![alt](meta/screen_3.png)
+Files and settings.
+![alt](meta/files_settings.png)
 
-System Applications
-![alt](meta/screen_4.png)
+System applications.
+![alt](meta/os_apps.png)
 
-Expo
-![alt](meta/screen_5.png)
+Code and Terminator.
+![alt](meta/code_term.png)
 
-Workspaces
-![alt](meta/screen_6.png)
+Obsidian notes.
+![alt](meta/obsidian.png)
 
-Screensaver
-![alt](meta/screen_7.png)
+Firefox and Inkscape.
+![alt](meta/browser_inkscape.png)
+
+Screensaver/lockscreen.
+![alt](meta/lock.png)

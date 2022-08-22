@@ -30,13 +30,13 @@
 
 <!-- Focused window -->
 <frame_geometry name="normal" title_scale="small" rounded_top_left="false" rounded_top_right="false">
-	<distance name="left_width" value="3" />
-	<distance name="right_width" value="3" />
-	<distance name="bottom_height" value="3" />
+	<distance name="left_width" value="4" />
+	<distance name="right_width" value="4" />
+	<distance name="bottom_height" value="4" />
 	<distance name="left_titlebar_edge" value="5" />
-	<distance name="right_titlebar_edge" value="5" />
+	<distance name="right_titlebar_edge" value="0" />
 	<distance name="title_vertical_pad" value="4" />
-	<distance name="button_width" value="26"/>
+	<distance name="button_width" value="22"/>
   	<distance name="button_height" value="20"/>
 	<border name="title_border" left="4" right="4" top="2" bottom="2" />
 	<border name="button_border" left="0" right="0" top="1" bottom="2" />
@@ -222,147 +222,147 @@
 
 <!-- Close icon -->
 <draw_ops name="close_focused">
-	<image filename="close_focused_normal.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="close_focused_prelight">
-	<image filename="close_focused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="close_focused_pressed">
-	<image filename="close_focused_pressed.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="close_unfocused">
-	<image filename="close_unfocused.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="close_unfocused_prelight">
-	<image filename="close_unfocused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="close_unfocused_pressed">
-	<image filename="close_unfocused_pressed.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 
 
 <!-- Maximize icon -->
 <draw_ops name="maximize_focused">
-	<image filename="maximize_focused_normal.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="maximize_focused_prelight">
-	<image filename="maximize_focused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="maximize_focused_pressed">
-	<image filename="maximize_focused_pressed.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="maximize_unfocused">
-	<image filename="maximize_unfocused.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="maximize_unfocused_prelight">
-	<image filename="maximize_unfocused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="maximize_unfocused_pressed">
-	<image filename="maximize_unfocused_pressed.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 
 <!-- Unmaximize icon -->
 <draw_ops name="unmaximize_focused">
-	<image filename="unmaximize_focused_normal.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unmaximize_focused_prelight">
-	<image filename="unmaximize_focused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unmaximize_focused_pressed">
-	<image filename="unmaximize_focused_pressed.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unmaximize_unfocused">
-	<image filename="unmaximize_unfocused.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unmaximize_unfocused_prelight">
-	<image filename="unmaximize_unfocused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unmaximize_unfocused_pressed">
-	<image filename="unmaximize_unfocused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 
 
 <!-- Minimize icon -->
 <draw_ops name="minimize_focused">
-	<image filename="minimize_focused_normal.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="minimize_focused_prelight">
-	<image filename="minimize_focused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="minimize_focused_pressed">
-	<image filename="minimize_focused_pressed.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="minimize_unfocused">
-	<image filename="minimize_unfocused.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_normal.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="minimize_unfocused_prelight">
-	<image filename="minimize_unfocused_prelight.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="minimize_unfocused_pressed">
-	<image filename="minimize_unfocused_pressed.png" x="10" y="1" width="object_width" height="object_height" />
+	<image filename="button_hover.png" x="0" y="1" width="object_width" height="object_height" />
 </draw_ops>
 
 
 <!-- Menu icon -->
 <draw_ops name="menu_focused">
-	<image filename="menu_focused_normal.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="menu_normal.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_focused_prelight">
-	<image filename="menu_focused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="menu_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_focused_pressed">
-	<image filename="menu_focused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="menu_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_unfocused">
-	<image filename="menu_unfocused.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="menu_normal.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_unfocused_prelight">
-	<image filename="menu_unfocused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="menu_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_unfocused_pressed">
-	<image filename="menu_unfocused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="menu_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 
 
 <!-- Shade icon -->
 <draw_ops name="shade_focused">
-	<image filename="shade_focused_normal.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_normal.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_focused_prelight">
-	<image filename="shade_focused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_focused_pressed">
-	<image filename="shade_focused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_unfocused">
-	<image filename="shade_unfocused.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_normal.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_unfocused_prelight">
-	<image filename="shade_unfocused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_unfocused_pressed">
-	<image filename="shade_unfocused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 
 
 <!-- Unshade icon -->
 <draw_ops name="unshade_focused">
-	<image filename="unshade_focused_normal.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_normal.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_focused_prelight">
-	<image filename="unshade_focused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_focused_pressed">
-	<image filename="unshade_focused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_unfocused">
-	<image filename="unshade_unfocused.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_normal.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_unfocused_prelight">
-	<image filename="unshade_unfocused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_unfocused_pressed">
-	<image filename="unshade_unfocused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_hover.png" x="0" y="2" width="object_width" height="object_height" />
 </draw_ops>
 
 
