@@ -1,0 +1,28 @@
+/*********************************************************************
+DESC: Firefox custom UI styling.
+AUTH: Nicklas Vraa
+
+Add to ~/.mozilla/firefox/*.default-release/chrome/
+In address bar, type about:config, then search toolkit.legacy...
+Set to true, then restart firefox.
+**********************************************************************/
+
+.tabbrowser-tab {
+    max-height: 18px !important;
+    padding-inline: 0px !important;
+}
+
+.tabbrowser-tab[first-visible-tab] {
+    padding-inline-start: 0px !important;
+}
+
+.tab-background {
+    border-radius: 0px !important;
+    margin-block: 0px 0px !important;
+}
+
+.toolbarbutton-icon,
+.tab-icon-image,
+.bookmark-item {
+	filter: grayscale(100%) !important;
+}

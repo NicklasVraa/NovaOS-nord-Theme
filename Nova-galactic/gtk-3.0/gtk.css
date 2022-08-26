@@ -1,7 +1,3 @@
-/*$selected_bg_color: #00e8c6;06d6a0*/
-/* GTK NAMED COLORS
-   ----------------
-   use responsibly! */
 /* widget text/foreground color */
 @define-color theme_fg_color #d8dee9;
 /* text color for entries, views and content in general */
@@ -140,7 +136,7 @@ read if you used those and something break with a version upgrade you're on your
   outline-style: dashed;
   outline-offset: -3px;
   outline-width: 1px;
-  -gtk-outline-radius: 2px;
+  -gtk-outline-radius: 0px;
   -gtk-secondary-caret-color: #4c566a; }
 
 /***********

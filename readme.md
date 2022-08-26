@@ -1,5 +1,5 @@
 # Nova-galactic-theme
-Inspired by the Nordic Darker theme, but adjusted for coherency and simplicity. The theme includes configs for cinnamon, gnome-shell, gtk-2.0, gtk-3.0, gtk-4.0, metacity-1, xfwm4. Configs for code, terminator, firefox and obsidian will follow soon.
+Inspired by the Nordic Darker theme, but adjusted for coherency and simplicity. The theme includes configs for cinnamon, gnome-shell, gtk-2.0, gtk-3.0, gtk-4.0, metacity-1, as well as code, terminator, firefox and obsidian.
 
 Check out the accompanying [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons) and try the theme with redshift.
 

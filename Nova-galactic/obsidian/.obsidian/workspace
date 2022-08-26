@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "8303b92e5c7ad3df",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cd19f0bca2a8c72",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Computing/Linux/Bash Scripting.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9aeb4280a2c2d08",
+    "type": "split",
+    "children": [
+      {
+        "id": "281bb42a4e3e314b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8b7a8df1df37d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "697d3d6b2172979e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 167.42283630371094
+  },
+  "right": {
+    "id": "d35ca1f0df1afd36",
+    "type": "split",
+    "children": [
+      {
+        "id": "f434834d50971a90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7947bfbe52180808",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computing/Linux/Bash Scripting.md"
+              }
+            }
+          },
+          {
+            "id": "5709b67c1ca2b6ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computing/Linux/Bash Scripting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1e30728a2c555b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computing/Linux/Bash Scripting.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "96b2d9010676ffec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 181.0365753173828,
+    "collapsed": true
+  },
+  "active": "1cd19f0bca2a8c72",
+  "lastOpenFiles": [
+    "Computing/Linux/The Linux Stack.md",
+    "Computing/Linux/GNU-Linux.md",
+    "Computing/Linux/Bash Scripting.md",
+    "Projects/NovaOS.md",
+    "Computing/My System.md",
+    "Computing/Linux/Maintenance.md",
+    "Computing/Linux/Ffmpeg.md",
+    "Computing/Linux/Distributions/Arch.md",
+    "Computing/Terminology.md",
+    "Computing/Linux/Distributions/Mint.md"
+  ]
+}

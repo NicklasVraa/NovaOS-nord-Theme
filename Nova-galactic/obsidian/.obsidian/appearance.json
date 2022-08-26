@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "custom"
+  ],
+  "translucency": false,
+  "textFontFamily": "Ubuntu",
+  "interfaceFontFamily": "Ubuntu",
+  "monospaceFontFamily": "monospace",
+  "baseFontSize": 14
+}

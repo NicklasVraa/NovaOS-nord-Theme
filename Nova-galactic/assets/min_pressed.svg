@@ -13,8 +13,8 @@
    height="13"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="min.svg">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="min_pressed.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,21 +24,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="32"
-     inkscape:cx="5.1747456"
-     inkscape:cy="6.258007"
+     inkscape:zoom="45.254834"
+     inkscape:cx="4.0623321"
+     inkscape:cy="7.8873977"
      inkscape:document-units="px"
-     inkscape:current-layer="g4415"
+     inkscape:current-layer="g4493"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1280"
-     inkscape:window-height="751"
+     inkscape:window-width="952"
+     inkscape:window-height="499"
      inkscape:window-x="0"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="554"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,17 +86,17 @@
                      id="g4493">
                     <path
                        id="path4495"
-                       style="fill:#fac536;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                       style="fill:#ebcb8b;fill-opacity:1;fill-rule:evenodd;stroke:none"
                        d="m 435.832,9.64453 c 236.066,0 427.434,191.36747 427.434,427.42547 0,236.063 -191.368,427.43 -427.434,427.43 C 199.77,864.5 8.40234,673.133 8.40234,437.07 8.40234,201.012 199.77,9.64453 435.832,9.64453"
                        inkscape:connector-curvature="0" />
                     <path
                        id="path4497"
-                       style="fill:#fac536;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                       style="fill:#ebcb8b;fill-opacity:1;fill-rule:evenodd;stroke:none"
                        d="M 435.832,45.9961 C 651.82,45.9961 826.91,221.09 826.91,437.07 826.91,653.059 651.82,828.148 435.832,828.148 219.848,828.148 44.7578,653.059 44.7578,437.07 44.7578,221.09 219.848,45.9961 435.832,45.9961"
                        inkscape:connector-curvature="0" />
                     <path
                        id="path4499"
-                       style="fill:#975914;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                       style="fill:#232831;fill-opacity:1;fill-rule:evenodd;stroke:none"
                        d="m 186.305,472.652 499.058,0 c 19.313,0 35.114,-15.8 35.114,-35.117 l 0,-0.93 c 0,-19.316 -15.801,-35.113 -35.114,-35.113 l -499.058,0 c -19.317,0 -35.114,15.797 -35.114,35.113 l 0,0.93 c 0,19.317 15.797,35.117 35.114,35.117"
                        inkscape:connector-curvature="0" />
                   </g>
