@@ -1534,7 +1534,7 @@ StScrollBar StButton#hhandle:active {
 .menu-places-box {
   margin: 0px;
   padding: 10px;
-  border: 0px solid red;
+  border: 0px solid rgba(0, 0, 0, 0);
 }
 
 .menu-places-button {

@@ -1,11 +1,17 @@
 {
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "custom"
+    "custom",
+    "UI-tweaks",
+    "No-animation",
+    "PDF-export"
   ],
   "translucency": false,
   "textFontFamily": "Ubuntu",
   "interfaceFontFamily": "Ubuntu",
   "monospaceFontFamily": "monospace",
-  "baseFontSize": 14
+  "baseFontSize": 15,
+  "accentColor": "",
+  "nativeMenus": true,
+  "showViewHeader": false
 }

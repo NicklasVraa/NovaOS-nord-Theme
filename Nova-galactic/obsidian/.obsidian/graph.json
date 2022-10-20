@@ -4,41 +4,97 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:Personal",
+      "query": "path:Technology",
       "color": {
         "a": 1,
-        "rgb": 7907805
+        "rgb": 12542314
       }
     },
     {
-      "query": "path:Todo",
+      "query": "path:Projects",
       "color": {
         "a": 1,
-        "rgb": 5431511
+        "rgb": 13666160
       }
     },
     {
-      "query": "path:Academia",
+      "query": "path:Meta",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 15453067
+      }
+    },
+    {
+      "query": "path:University",
+      "color": {
+        "a": 1,
+        "rgb": 10731148
+      }
+    },
+    {
+      "query": "path:1.Cross-discipline",
+      "color": {
+        "a": 1,
+        "rgb": 6129068
+      }
+    },
+    {
+      "query": "path:2.Mathematics",
+      "color": {
+        "a": 1,
+        "rgb": 6125740
+      }
+    },
+    {
+      "query": "path:3.Physics",
+      "color": {
+        "a": 1,
+        "rgb": 6122156
+      }
+    },
+    {
+      "query": "path:4.Control",
+      "color": {
+        "a": 1,
+        "rgb": 6118828
+      }
+    },
+    {
+      "query": "path:5.Electrical",
+      "color": {
+        "a": 1,
+        "rgb": 6970796
+      }
+    },
+    {
+      "query": "path:6.Signals",
+      "color": {
+        "a": 1,
+        "rgb": 7888300
+      }
+    },
+    {
+      "query": "path:7.Data",
+      "color": {
+        "a": 1,
+        "rgb": 8740268
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 0.912883489205489,
+  "textFadeMultiplier": -0.2,
+  "nodeSizeMultiplier": 0.997109207708779,
+  "lineSizeMultiplier": 0.997109207708779,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.925410421127766,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.6554052391731593,
+  "linkDistance": 30,
+  "scale": 0.6164610992636054,
   "close": true
 }

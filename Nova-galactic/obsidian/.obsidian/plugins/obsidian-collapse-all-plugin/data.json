@@ -1,0 +1,10 @@
+{
+  "commands": {
+    "global": true,
+    "FileExplorer": false,
+    "TagPane": false
+  },
+  "folderContextMenu": false,
+  "expandAttachmentFolder": false,
+  "splitButtons": false
+}

@@ -8,7 +8,7 @@ Set to true, then restart firefox.
 **********************************************************************/
 
 .tabbrowser-tab {
-    max-height: 18px !important;
+    max-height: 30px !important;
     padding-inline: 0px !important;
 }
 
