@@ -1,4 +1,9 @@
-/* UI-Tweaks for the Obsidian application. */
+/*
+Desc: UI-Tweaks for the Obsidian application.
+      Should be used with the minimal theme.
+
+Auth: Nicklas Vraa
+*/
 
 body {
     --radius-m: 0;
@@ -44,4 +49,41 @@ body:not(.is-mobile) .modal {
 .markdown-source-view.mod-cm6:not(.is-readable-line-width) .cm-contentContainer,
 .markdown-reading-view .markdown-preview-view:not(.is-readable-line-width)>.markdown-preview-sizer {
     margin: 0 0 0 20px !important;
+}
+.graph-view.color-fill-tag {
+    color: white !important; /* fdbe38  #ffff00*/
+    opacity: 1;
+}
+.graph-view.color-fill-attachment {
+    color: white !important;
+    opacity: 1;
+}
+.graph-view.color-line {
+    color: white !important;
+    opacity: 0.1;
+}
+img {
+    display: block !important;
+    margin: 10px auto !important;
+}
+.markdown-source-view.mod-cm6 .cm-content > * {
+    margin: auto auto !important;
+}
+figcaption {
+    text-align: center !important;
+    font-size: 0.8em !important;
+}
+table {
+    margin-left: auto !important;
+    margin: 10px auto !important;
+}
+.cm-strikethrough {
+    text-decoration: none !important;
+}
+.cm-quote {
+    opacity: 50% !important;
+}
+.cm-s-obsidian span.cm-math,
+.cm-s-obsidian span.hmd-fold-math-placeholder{
+    font-style: normal;
 }

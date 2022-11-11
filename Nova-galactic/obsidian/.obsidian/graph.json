@@ -1,100 +1,170 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:Technology",
+      "query": "tag:Linux",
       "color": {
         "a": 1,
         "rgb": 12542314
       }
     },
     {
-      "query": "path:Projects",
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 12938860
+      }
+    },
+    {
+      "query": "tag:Projects",
+      "color": {
+        "a": 1,
+        "rgb": 13269614
+      }
+    },
+    {
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 13666160
       }
     },
     {
-      "query": "path:Meta",
+      "query": "tag:Meta",
+      "color": {
+        "a": 1,
+        "rgb": 14261881
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14857346
+      }
+    },
+    {
+      "query": "tag:University",
       "color": {
         "a": 1,
         "rgb": 15453067
       }
     },
     {
-      "query": "path:University",
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 13879179
+      }
+    },
+    {
+      "query": "tag:Mechanical",
+      "color": {
+        "a": 1,
+        "rgb": 12305036
+      }
+    },
+    {
+      "query": "tag:Programming",
       "color": {
         "a": 1,
         "rgb": 10731148
       }
     },
     {
-      "query": "path:1.Cross-discipline",
+      "query": "tag:Physics",
       "color": {
         "a": 1,
-        "rgb": 6129068
+        "rgb": 10141603
       }
     },
     {
-      "query": "path:2.Mathematics",
+      "query": "",
       "color": {
         "a": 1,
-        "rgb": 6125740
+        "rgb": 9551801
       }
     },
     {
-      "query": "path:3.Physics",
+      "query": "tag:Control",
       "color": {
         "a": 1,
-        "rgb": 6122156
+        "rgb": 8962256
       }
     },
     {
-      "query": "path:4.Control",
+      "query": "",
       "color": {
         "a": 1,
-        "rgb": 6118828
+        "rgb": 8039364
       }
     },
     {
-      "query": "path:5.Electrical",
+      "query": "tag:Electrical",
       "color": {
         "a": 1,
-        "rgb": 6970796
+        "rgb": 7116472
       }
     },
     {
-      "query": "path:6.Signals",
+      "query": "tag:Mathematics",
       "color": {
         "a": 1,
-        "rgb": 7888300
+        "rgb": 6193580
       }
     },
     {
-      "query": "path:7.Data",
+      "query": "tag:Signal-Processing",
       "color": {
         "a": 1,
-        "rgb": 8740268
+        "rgb": 8095148
+      }
+    },
+    {
+      "query": "tag:Web",
+      "color": {
+        "a": 1,
+        "rgb": 9931437
+      }
+    },
+    {
+      "query": "tag:Data-Science",
+      "color": {
+        "a": 1,
+        "rgb": 11833005
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 12091287
+      }
+    },
+    {
+      "query": "tag:Biology",
+      "color": {
+        "a": 1,
+        "rgb": 12284032
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -0.2,
+  "textFadeMultiplier": -0.9,
   "nodeSizeMultiplier": 0.997109207708779,
-  "lineSizeMultiplier": 0.997109207708779,
-  "collapse-forces": false,
-  "centerStrength": 0.925410421127766,
+  "lineSizeMultiplier": 0.745289079229122,
+  "collapse-forces": true,
+  "centerStrength": 0.896859386152748,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.6164610992636054,
+  "scale": 0.5016929223776337,
   "close": true
 }

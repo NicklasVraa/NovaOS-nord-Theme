@@ -4,14 +4,16 @@
     "custom",
     "UI-tweaks",
     "No-animation",
-    "PDF-export"
+    "PDF-export",
+    "academic-pdf-export"
   ],
   "translucency": false,
-  "textFontFamily": "Ubuntu",
+  "textFontFamily": "Ubuntu,CMU Serif,Latin Modern Roman,Latin Modern Roman Caps",
   "interfaceFontFamily": "Ubuntu",
-  "monospaceFontFamily": "monospace",
+  "monospaceFontFamily": "Monospace,Latin Modern Mono",
   "baseFontSize": 15,
   "accentColor": "",
   "nativeMenus": true,
-  "showViewHeader": false
+  "showViewHeader": false,
+  "baseFontSizeAction": false
 }

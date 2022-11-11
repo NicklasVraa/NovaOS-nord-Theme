@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "646b1c614ecc4244",
+        "id": "2ae24eda75bfd0eb",
         "type": "tabs",
         "children": [
           {
-            "id": "de52af70bd50e844",
+            "id": "ab8ce5fe27fbbfb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/7.Data/Object Detection.md",
+                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -77,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Science/7.Data/Object Detection.md"
+                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md"
               }
             }
           },
@@ -87,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/7.Data/Object Detection.md",
+                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Science/7.Data/Object Detection.md",
+                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,27 +120,24 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 200,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "de52af70bd50e844",
+  "active": "ab8ce5fe27fbbfb2",
   "lastOpenFiles": [
-    "Science/7.Data/Neural Networks.md",
-    "Science/7.Data/Object Detection.md",
-    "Science/7.Data/Deep Learning.md",
-    "Science/7.Data/Generative Modeling.md",
-    "Assets/state_space_control.svg",
-    "Assets/sym_stripline.png",
-    "Assets/nn_residual_block.svg",
     "Meta/Todo.md",
-    "Science/7.Data/Semantic Segmentation.md",
-    "Science/7.Data/Regularization.md"
+    "Meta/Typesetting/PDF-export.md",
+    "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
+    "University/7. sem/ASP.md",
+    "Meta/Typesetting/Obsidian.md",
+    "Meta/Publishing.md",
+    "Meta/Typesetting/Markdown.md",
+    "Science/2.Mathematics/Transforms/Fourier Transform.md",
+    "Science/7.Data Science/Neural Networks/Neural Networks.md",
+    "Meta/Curriculum Vitae.md"
   ]
 }

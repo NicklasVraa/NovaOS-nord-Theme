@@ -11,5 +11,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "spellcheck": true
 }

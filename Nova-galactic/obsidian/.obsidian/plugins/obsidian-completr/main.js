@@ -2253,7 +2253,7 @@ var CompletrPlugin = class extends import_obsidian5.Plugin {
   constructor() {
     super(...arguments);
     this.onFileOpened = (file) => {
-      if (!this.settings.fileScannerScanCurrent || !file)
+      if (!this.settings.fileScannerProviderEnabled || !this.settings.fileScannerScanCurrent || !file)
         return;
       FileScanner.scanFile(this.settings, file, true);
     };
@@ -2327,7 +2327,8 @@ var CompletrPlugin = class extends import_obsidian5.Plugin {
       ],
       editorCallback: (editor) => {
         this._suggestionPopup.trigger(editor, this.app.workspace.getActiveFile(), true);
-      }
+      },
+      isVisible: () => !this._suggestionPopup.isVisible()
     });
     this.addCommand({
       id: "completr-select-next-suggestion",

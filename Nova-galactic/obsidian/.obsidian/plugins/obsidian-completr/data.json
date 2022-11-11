@@ -9,10 +9,10 @@
   "latexTriggerInCodeBlocks": true,
   "latexMinWordTriggerLength": 2,
   "latexIgnoreCase": false,
-  "fileScannerProviderEnabled": true,
-  "fileScannerScanCurrent": true,
+  "fileScannerProviderEnabled": false,
+  "fileScannerScanCurrent": false,
   "wordListProviderEnabled": true,
-  "frontMatterProviderEnabled": true,
+  "frontMatterProviderEnabled": false,
   "frontMatterTagAppendSuffix": true,
   "frontMatterIgnoreCase": true
 }
