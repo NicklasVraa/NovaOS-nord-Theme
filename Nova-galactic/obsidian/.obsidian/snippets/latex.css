@@ -1,0 +1,281 @@
+/*
+
+LaTeX inspired PDF Export Theme for https://obsidian.md
+Made by @phibr0 on Github
+
+Tested with Obsidians default Theme and the California Coast Community Theme
+
+Please don't share this File with others, instead share this Link: https://www.buymeacoffee.com/phibr0/e/42263
+
+*/
+/*@settings
+
+name: LaTeX like PDF's
+id: latex-pdf-css
+settings:
+    -
+        id: pdf-font
+        title: PDF Font
+        description: Font used for the exported PDF's (The CSS Snippet includes the Computer Modern Font and LM Roman 10)
+        type: variable-text
+        default: '"LM Roman 10"'
+    -
+        id: pdf-mono-font
+        title: PDF Monospace Font
+        description: "Monospaced Font used for the exported PDF's (For use in Code)"
+        type: variable-text
+        default: '"Consolas"'
+    -
+        id: enhanced-everything
+        title: LaTeX like Enhancements
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: enhanced-page-breaks
+        title: Enhanced Page Breaks
+        description: "Improves Page Breaking in Obsidian's PDF's"
+        type: class-toggle
+        default: true
+    -
+        id: enhanced-tables
+        title: Enhanced Tables
+        type: class-toggle
+        default: true
+    -
+        id: enhanced-blockquotes
+        title: Enhanced Blockquotes
+        type: class-toggle
+        default: true
+    -
+        id: enhanced-images
+        title: Enhanced Images
+        type: class-toggle
+        default: true
+    -
+        id: codeblocks
+        title: Codeblocks
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: enhanced-codeblocks
+        title: Enhanced Codeblocks
+        type: class-toggle
+        default: true
+    -
+        id: codeblock-background
+        title: Codeblock Background Color
+        type: variable-color
+        opacity: false
+        format: hex
+        default: '#FFFAF0'
+    -
+        id: numbered-anything
+        title: Numbering
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: numbered-headings
+        title: Numbered Headings
+        description: "Number the Headings in your PDF. For example:\n1. Heading one\n1.1 Subheading"
+        type: class-toggle
+        default: true
+    -
+        id: numbered-math
+        title: Numbered Math Environments
+        description: "Number the Math Environments in your PDF."
+        type: class-toggle
+        default: true
+    -
+        id: image-alt-text
+        title: Show Image Numbering and Caption
+        description: "Use it like so: [[Image.png|Caption here]]"
+        type: class-toggle
+        default: true
+    -
+        id: numbered-codeblocks
+        title: Numbered Codeblocks
+        type: class-toggle
+        default: true
+*/
+
+@media print {
+  body {
+    --default-font: var(--pdf-font);
+    --text-preview: var(--pdf-font);
+    text-align: justify;
+    line-height: 1.8;
+  }
+
+  h1 {
+    margin-top: 0 !important;
+  }
+
+  @page {
+    margin: 2.33cm;
+  }
+  h1, h2, h3, h4, h5 {
+    font-weight: 600 !important;
+  }
+
+  /* Page Break Stuff */
+  .enhanced-page-breaks hr {
+    page-break-after: always;
+  }
+  .enhanced-page-breaks .markdown-preview-view hr {
+    border: none;
+    border-top: 2px solid;
+    border-color: transparent;
+  }
+  .enhanced-page-breaks .image-embed,
+.enhanced-page-breaks img {
+    page-break-inside: avoid;
+  }
+  .enhanced-page-breaks blockquote,
+.enhanced-page-breaks table,
+.enhanced-page-breaks pre {
+    page-break-inside: avoid;
+  }
+  .enhanced-page-breaks h1,
+.enhanced-page-breaks h2,
+.enhanced-page-breaks h3,
+.enhanced-page-breaks h4,
+.enhanced-page-breaks h5,
+.enhanced-page-breaks h6 {
+    page-break-after: avoid;
+  }
+
+  .MJX-TEX {
+    font-size: 110% !important;
+  }
+
+  body {
+    counter-reset: math-block;
+  }
+
+  .numbered-math .math-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    counter-increment: math-block;
+  }
+  .numbered-math .math-block::before {
+    content: "(" counter(math-block) ")";
+    visibility: hidden;
+  }
+  .numbered-math .math-block::after {
+    content: "(" counter(math-block) ")";
+  }
+
+  /* Heading Numbers */
+  .numbered-headings body {
+    counter-reset: section;
+  }
+  .numbered-headings h2 {
+    counter-reset: sub-section;
+    counter-increment: section;
+  }
+  .numbered-headings h2::before {
+    content: counter(section) ". ";
+  }
+  .numbered-headings h3 {
+    counter-reset: composite;
+    counter-increment: sub-section;
+  }
+  .numbered-headings h3::before {
+    content: counter(section) "." counter(sub-section) " ";
+  }
+  .numbered-headings h4 {
+    counter-reset: detail;
+    counter-increment: composite;
+  }
+  .numbered-headings h4::before {
+    content: counter(section) "." counter(sub-section) "." counter(composite) " ";
+  }
+  .numbered-headings h5 {
+    counter-increment: detail;
+  }
+  .numbered-headings h5::before {
+    content: counter(section) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";
+  }
+
+  /* Table Stuff */
+  .enhanced-tables table {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: 1.5pt solid black !important;
+    border-bottom: 1.5pt solid black !important;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .enhanced-tables th,
+.enhanced-tables td {
+    border: none !important;
+    line-height: 1.33em;
+  }
+  .enhanced-tables th {
+    font-family: var(--text-preview) !important;
+    font-weight: 500;
+    text-align: center !important;
+    background-color: transparent !important;
+    border-bottom: 1pt solid black !important;
+  }
+  .enhanced-tables td:first-child {
+    padding-left: 4px;
+  }
+
+  /* Codeblock Stuff */
+  .enhanced-codeblocks.numbered-codeblocks pre::after {
+    content: "Codeblock " counter(codeblock) " (" attr(class) " )";
+    font-size: 0.8em;
+    color: gray;
+    text-align: right;
+  }
+  .enhanced-codeblocks pre {
+    font-family: var(--pdf-mono-font) !important;
+    counter-increment: codeblock;
+    background-color: var(--codeblock-background) !important;
+    margin: 1rem 0.2rem !important;
+    border-top: 1pt solid black !important;
+    border-bottom: 1pt solid black !important;
+    border-radius: 0 !important;
+  }
+  .enhanced-codeblocks pre code {
+    font-family: var(--pdf-mono-font) !important;
+    opacity: 100% !important;
+    background-color: transparent;
+  }
+  .enhanced-codeblocks p code {
+    padding: 0;
+    font-family: var(--pdf-mono-font) !important;
+    background-color: transparent;
+  }
+
+  body {
+    counter-reset: codeblock;
+  }
+
+  /* Blockquote Stuff */
+  .enhanced-blockquotes blockquote {
+    padding-left: 1.8rem !important;
+    border: none !important;
+    font-style: normal !important;
+  }
+
+  .enhanced-images.image-alt-text span.image-embed {
+    counter-increment: image;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.6em;
+  }
+  .enhanced-images.image-alt-text span.image-embed::after {
+    content: "Image " counter(image) ": " attr(alt);
+    text-align: center;
+  }
+  .enhanced-images.image-alt-text body {
+    counter-reset: image;
+  }
+}

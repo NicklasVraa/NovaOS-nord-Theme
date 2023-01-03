@@ -8,6 +8,8 @@
   title_inactive_bg_color = "#2b313c"
   inactive_color_offset = 1.0
   suppress_multiple_term_dialog = True
+  title_use_system_font = False
+  title_font = Fira Code 9
 [keybindings]
   toggle_scrollbar = None
   toggle_zoom = None

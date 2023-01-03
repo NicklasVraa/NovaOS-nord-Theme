@@ -4,22 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2ae24eda75bfd0eb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ab8ce5fe27fbbfb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+        "id": "b9c3ed65fe52c04a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Meta/Todo.md",
+            "mode": "source",
+            "source": false
           }
-        ]
+        }
       }
     ],
     "direction": "vertical"
@@ -61,8 +55,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -78,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md"
+                "file": "Meta/Todo.md"
               }
             }
           },
@@ -88,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
+                "file": "Meta/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
+                "file": "Meta/Todo.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,24 +113,32 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 226.5,
     "collapsed": true
   },
-  "active": "ab8ce5fe27fbbfb2",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "b9c3ed65fe52c04a",
   "lastOpenFiles": [
     "Meta/Todo.md",
-    "Meta/Typesetting/PDF-export.md",
-    "University/7. sem/Assignments/ASP - A2/ASP - A2.md",
-    "University/7. sem/ASP.md",
-    "Meta/Typesetting/Obsidian.md",
-    "Meta/Publishing.md",
-    "Meta/Typesetting/Markdown.md",
-    "Science/2.Mathematics/Transforms/Fourier Transform.md",
-    "Science/7.Data Science/Neural Networks/Neural Networks.md",
-    "Meta/Curriculum Vitae.md"
+    "state_space_control.svg.md",
+    "University/ACS Exam/3. State feedback design 2.md",
+    "Science/4.Control/State-Space.md",
+    "Science/4.Control/Control Theory.md",
+    "University/ACS Exam/1. State space systems.md",
+    "Science/4.Control/Untitled.md",
+    "University/ACS Exam/5. Anti wind-up, gain scheduling.md",
+    "University/ACS Exam/4. Digital implementation.md",
+    "Science/6.Signal-Processing/Filters/EKF.md"
   ]
 }

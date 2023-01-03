@@ -12,7 +12,6 @@
   "minimal-style@@h4-color@@dark": "#88C0D0",
   "minimal-style@@h5-color@@dark": "#88C0D0",
   "minimal-style@@h6-color@@dark": "#D8DEE9",
-  "minimal-style@@header-height": "32px",
   "minimal-style@@tx3@@dark": "#93979F",
   "minimal-style@@ig-adjust-edit": -1,
   "minimal-advanced@@folding-offset": 10,
@@ -41,5 +40,8 @@
   "minimal-style@@h5-size": "1em",
   "minimal-style@@h4-size": "1em",
   "minimal-style@@h2-weight": 500,
-  "minimal-style@@h3-weight": 500
+  "minimal-style@@h3-weight": 500,
+  "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
+  "minimal-style@@ui1@@dark": "#3B4252",
+  "minimal-style@@header-height": "39px"
 }

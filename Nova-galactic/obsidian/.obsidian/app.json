@@ -12,5 +12,9 @@
     "downscalePercent": 100
   },
   "showInlineTitle": false,
-  "spellcheck": true
+  "spellcheck": false,
+  "spellcheckLanguages": [
+    "en-US",
+    "en-GB"
+  ]
 }
