@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b9c3ed65fe52c04a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Meta/Todo.md",
-            "mode": "source",
-            "source": false
+        "id": "28ec17cec64334a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6615430c8d6e311c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meta/Todo.md"
+                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md"
               }
             }
           },
@@ -81,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/Todo.md",
+                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -93,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meta/Todo.md",
+                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
+    "width": 270.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -128,17 +134,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b9c3ed65fe52c04a",
+  "active": "6615430c8d6e311c",
   "lastOpenFiles": [
     "Meta/Todo.md",
-    "state_space_control.svg.md",
-    "University/ACS Exam/3. State feedback design 2.md",
-    "Science/4.Control/State-Space.md",
-    "Science/4.Control/Control Theory.md",
-    "University/ACS Exam/1. State space systems.md",
-    "Science/4.Control/Untitled.md",
-    "University/ACS Exam/5. Anti wind-up, gain scheduling.md",
-    "University/ACS Exam/4. Digital implementation.md",
-    "Science/6.Signal-Processing/Filters/EKF.md"
+    "University/7. sem/EHSD.md",
+    "Science/5.Electrical/LTSpice.md",
+    "University/7. sem/DL.md",
+    "University/7. sem/ASP.md",
+    "University/7. sem/ACS.md",
+    "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
+    "Science/5.Electrical/High-frequency Hardware/Characteristic Impedance.md",
+    "Science/5.Electrical/High-frequency Hardware/Transmission Lines.md",
+    "Science/5.Electrical/Semiconductors.md"
   ]
 }

@@ -96,9 +96,11 @@ table {
 }
 .minimal-status-off .status-bar {
     font-size: 10pt !important;
-    padding-top: 1px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
 }
 .status-bar-item {
-    padding-top: 5px;
-    padding-bottom: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
+/* mjx-math {font-size: 100% !important;} */

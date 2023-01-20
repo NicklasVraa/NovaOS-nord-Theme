@@ -79509,7 +79509,7 @@ function findTagCompletionType(keyInfo, editor, currentLineIndex, currentLine, i
   const isList = keyInfo.isList;
   if (currentLine.startsWith(key + ": "))
     return "inline";
-  if (!currentLine.startsWith("- ") || !isList)
+  if (!currentLine.trimStart().startsWith("- ") || !isList)
     return "none";
   let foundListStart = false;
   for (let i = currentLineIndex - 1; i >= 1; i--) {
@@ -79564,7 +79564,7 @@ var FrontMatterSuggestionProvider = class {
     };
   }
   getSuggestions(context, settings) {
-    var _a;
+    var _a, _b, _c;
     if (!settings.frontMatterProviderEnabled)
       return [];
     const firstLine = context.editor.getLine(0);
@@ -79617,11 +79617,24 @@ var FrontMatterSuggestionProvider = class {
       (char) => new RegExp("[" + settings.characterRegex + "/\\-_]", "u").test(char),
       settings.maxLookBackDistance
     ).query, ignoreCase);
-    return [...key.completions].filter((tag) => maybeLowerCase(tag, ignoreCase).startsWith(customQuery)).map((tag) => new Suggestion(
-      tag,
-      tag + (settings.frontMatterTagAppendSuffix && key.isList ? type === "inline" ? ", " : "\n- " : ""),
-      { ...context.end, ch: context.end.ch - customQuery.length }
-    )).sort((a, b) => a.displayName.length - b.displayName.length);
+    let replacementSuffix = "";
+    if (settings.frontMatterTagAppendSuffix && key.isList) {
+      if (type === "inline") {
+        replacementSuffix = ", ";
+      } else {
+        const line = context.editor.getLine(context.start.line);
+        const indentation = (_c = (_b = line.match(/^\s*/)) == null ? void 0 : _b[0]) != null ? _c : "";
+        replacementSuffix = `
+${indentation}- `;
+      }
+    }
+    return [...key.completions].filter((tag) => maybeLowerCase(tag, ignoreCase).startsWith(customQuery)).map((tag) => {
+      return new Suggestion(
+        tag,
+        tag + replacementSuffix,
+        { ...context.end, ch: context.end.ch - customQuery.length }
+      );
+    }).sort((a, b) => a.displayName.length - b.displayName.length);
   }
   loadYAMLKeyCompletions(cache, files) {
     for (let file of files) {
