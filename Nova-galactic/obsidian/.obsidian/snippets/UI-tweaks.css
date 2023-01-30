@@ -22,6 +22,12 @@ body:not(.is-mobile) .modal {
 .side-dock-ribbon {
     display:block;
 }
+.side-dock-actions {
+    margin-bottom: 8px;
+}
+.side-dock-settings {
+    margin-bottom: 8px;
+}
 .minimal-status-off .status-bar {
     background-color: #3b4252;
     border-top: 0px;
@@ -51,7 +57,7 @@ body:not(.is-mobile) .modal {
     margin: 0 0 0 20px !important;
 }
 .graph-view.color-fill-tag {
-    color: white !important; /* fdbe38  #ffff00*/
+    color: white !important;
     opacity: 1;
 }
 .graph-view.color-fill-attachment {
@@ -63,10 +69,9 @@ body:not(.is-mobile) .modal {
     opacity: 0.1;
 }
 img {
-    /*display: block !important;
-    margin: 10px auto !important;*/
+    /* display: block !important; */
+    margin: 10px auto !important;
     filter: invert(100%) !important;
-    margin: 10px 0px !important;
 }
 .markdown-source-view.mod-cm6 .cm-content > * {
     margin: auto auto !important;

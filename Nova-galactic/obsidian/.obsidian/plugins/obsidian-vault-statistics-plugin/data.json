@@ -3,7 +3,7 @@
   "showNotes": true,
   "showAttachments": false,
   "showFiles": false,
-  "showLinks": false,
+  "showLinks": true,
   "showWords": true,
   "showSize": true
 }

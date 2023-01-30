@@ -3,8 +3,8 @@
   "global-search",
   "switcher",
   "graph",
-  "backlink",
   "outgoing-link",
+  "templates",
   "command-palette",
   "editor-status",
   "outline"

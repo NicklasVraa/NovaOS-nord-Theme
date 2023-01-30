@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "28ec17cec64334a9",
+        "id": "4d25e97f763ea8fb",
         "type": "tabs",
         "children": [
           {
-            "id": "6615430c8d6e311c",
+            "id": "bf2a25c7a00bc49d",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {},
+              "pinned": true
             }
           }
         ]
@@ -76,9 +74,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md"
-              }
+              "state": {}
             }
           },
           {
@@ -87,25 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d1e30728a2c555b7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -119,32 +97,33 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 270.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "homepage:Open homepage": false
+      "templates:Insert template": false
     }
   },
-  "active": "6615430c8d6e311c",
+  "active": "bf2a25c7a00bc49d",
   "lastOpenFiles": [
+    "Science/9.Biology/test.md",
+    "Meta/Templates/Default.md",
+    "test.md",
     "Meta/Todo.md",
-    "University/7. sem/EHSD.md",
-    "Science/5.Electrical/LTSpice.md",
-    "University/7. sem/DL.md",
-    "University/7. sem/ASP.md",
-    "University/7. sem/ACS.md",
-    "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
-    "Science/5.Electrical/High-frequency Hardware/Characteristic Impedance.md",
-    "Science/5.Electrical/High-frequency Hardware/Transmission Lines.md",
-    "Science/5.Electrical/Semiconductors.md"
+    "Science/7.Data Science/Neural Networks/Style Transfer.md",
+    "Science/7.Data Science/Hyper-parameter Search.md",
+    "Science/7.Data Science/Transfer Learning.md",
+    "Science/7.Data Science/Neural Networks/Multitask Learning.md",
+    "Science/7.Data Science/Neural Networks/Sequence Models/NLP.md",
+    "Science/7.Data Science/Neural Networks/Generative Modeling/Auto-encoders.md"
   ]
 }
