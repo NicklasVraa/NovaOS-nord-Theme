@@ -5,33 +5,30 @@ Desc: UI-Tweaks for the Obsidian application.
 Auth: Nicklas Vraa
 */
 
+/* UI: ---------------------------------------------------------------------- */
+
+/* Removes all rounded corners. */
 body {
     --radius-m: 0;
     --input-radius: 0;
 }
-body:not(.is-mobile) .modal {
-    border: none;
-}
-.prompt {
-    border: none;
-    border-radius: 0px;
-}
+body:not(.is-mobile) .modal,
+.prompt,
 .modal {
+    border: none;
     border-radius: 0px;
 }
 .side-dock-ribbon {
     display:block;
 }
-.side-dock-actions {
-    margin-bottom: 8px;
-}
+.side-dock-actions,
 .side-dock-settings {
     margin-bottom: 8px;
 }
 .minimal-status-off .status-bar {
+    color: #D8DEE9;
     background-color: #3b4252;
     border-top: 0px;
-    color: #D8DEE9;
     padding-top: 3px;
 }
 .markdown-source-view.mod-cm6 .cm-scroller,
@@ -56,45 +53,6 @@ body:not(.is-mobile) .modal {
 .markdown-reading-view .markdown-preview-view:not(.is-readable-line-width)>.markdown-preview-sizer {
     margin: 0 0 0 20px !important;
 }
-.graph-view.color-fill-tag {
-    color: white !important;
-    opacity: 1;
-}
-.graph-view.color-fill-attachment {
-    color: white !important;
-    opacity: 1;
-}
-.graph-view.color-line {
-    color: white !important;
-    opacity: 0.1;
-}
-img {
-    /* display: block !important; */
-    margin: 10px auto !important;
-    filter: invert(100%) !important;
-}
-.markdown-source-view.mod-cm6 .cm-content > * {
-    margin: auto auto !important;
-}
-figcaption {
-    /*text-align: center !important;*/
-    font-size: 0.8em !important;
-}
-table {
-    /*margin-left: auto !important;
-    margin: 10px auto !important;*/
-    margin: 10px 0px !important;
-}
-.cm-strikethrough {
-    text-decoration: none !important;
-}
-.cm-quote {
-    opacity: 50% !important;
-}
-.cm-s-obsidian span.cm-math,
-.cm-s-obsidian span.hmd-fold-math-placeholder{
-    font-style: normal;
-}
 .nav-file-title, .nav-folder-title {
     margin-bottom: 0px !important;
     padding-bottom: 2px !important;
@@ -108,4 +66,68 @@ table {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-/* mjx-math {font-size: 100% !important;} */
+
+/* GRAPH: ------------------------------------------------------------------- */
+.graph-view.color-fill-tag {
+    color: white !important;
+    opacity: 1;
+}
+.graph-view.color-fill-attachment {
+    color: white !important;
+    opacity: 1;
+}
+.graph-view.color-line {
+    color: white !important;
+    opacity: 0.2;
+}
+.markdown-source-view.mod-cm6 .cm-content > * {
+    margin: auto auto !important;
+}
+
+/* EDITOR: ------------------------------------------------------------------ */
+
+/* Adds vertical breathing room for tables. */
+table {
+    margin: 10px 0px !important;
+}
+
+/* Invert image colors for dark theme. */
+img {
+    margin: 10px auto !important;
+    filter: invert(100%) !important;
+}
+
+/* Adds padding around list elements. */
+.HyperMD-list-line{
+    padding-left: 20px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+/* Makes code block language specifier less intrusive. */
+.code-block-flair{
+    font-size: 10px !important;
+    opacity: 0.5 !important;
+}
+/* Fixes indentation for bullet-point lists. */
+.markdown-source-view.mod-cm6 .cm-formatting-list-ul{
+    text-indent: 5px !important;
+    margin-left: -14px !important;
+}
+/* Makes quote blocks less prominent. */
+.cm-quote {
+    opacity: 60% !important;
+}
+
+/* ACADEMIC EXPORT: --------------------------------------------------------- */
+
+/* Repurposes the tilde characters, i.e. ~~x~~ */
+.cm-strikethrough {
+    text-decoration: none !important;
+}
+.cm-s-obsidian span.cm-math,
+.cm-s-obsidian span.hmd-fold-math-placeholder{
+    font-style: normal;
+}
+figcaption {
+    font-size: 0.8em !important;
+}

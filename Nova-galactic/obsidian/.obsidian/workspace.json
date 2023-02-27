@@ -4,17 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4d25e97f763ea8fb",
+        "id": "4dd9926c50fec5c7",
         "type": "tabs",
         "children": [
           {
-            "id": "bf2a25c7a00bc49d",
+            "id": "bbb48efc42db6a23",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
+              "type": "markdown",
+              "state": {
+                "file": "Meta/My Computer/My hardware.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -70,22 +73,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7947bfbe52180808",
+            "id": "32870eac3e631984",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "5709b67c1ca2b6ee",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              "type": "graph",
+              "state": {},
+              "pinned": true
             }
           },
           {
@@ -95,35 +89,57 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "7947bfbe52180808",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Meta/My Computer/My hardware.md"
+              }
+            }
+          },
+          {
+            "id": "5709b67c1ca2b6ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Meta/My Computer/My hardware.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 387.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "bf2a25c7a00bc49d",
+  "active": "bbb48efc42db6a23",
   "lastOpenFiles": [
-    "Science/9.Biology/test.md",
-    "Meta/Templates/Default.md",
-    "test.md",
+    "Meta/Curriculum Vitae.md",
     "Meta/Todo.md",
-    "Science/7.Data Science/Neural Networks/Style Transfer.md",
-    "Science/7.Data Science/Hyper-parameter Search.md",
-    "Science/7.Data Science/Transfer Learning.md",
-    "Science/7.Data Science/Neural Networks/Multitask Learning.md",
-    "Science/7.Data Science/Neural Networks/Sequence Models/NLP.md",
-    "Science/7.Data Science/Neural Networks/Generative Modeling/Auto-encoders.md"
+    "Science/6.Signal-Processing/Image Processing/Compression.md",
+    "Science/6.Signal-Processing/Image Processing/Binary Image Morphology.md",
+    "Science/6.Signal-Processing/Image Processing/Image Denoising.md",
+    "Science/6.Signal-Processing/Image Processing/Gray-scale Image Morphology.md",
+    "Meta/Donation Panel.md",
+    "Meta/Licenses.md",
+    "Meta/Rent.md",
+    "Meta/Accounts.md"
   ]
 }

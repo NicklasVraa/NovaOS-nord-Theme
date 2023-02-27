@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:Writing",
       "color": {
         "a": 1,
         "rgb": 12938860
@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:Business",
       "color": {
         "a": 1,
         "rgb": 14857346
@@ -157,14 +157,14 @@
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -0.9,
-  "nodeSizeMultiplier": 0.997109207708779,
-  "lineSizeMultiplier": 0.745289079229122,
-  "collapse-forces": false,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.00298596152418,
+  "lineSizeMultiplier": 1.00298596152418,
+  "collapse-forces": true,
   "centerStrength": 1,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.4016151595358479,
+  "scale": 0.24300353297665414,
   "close": true
 }

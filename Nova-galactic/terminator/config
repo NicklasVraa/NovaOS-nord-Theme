@@ -11,7 +11,13 @@
   title_use_system_font = False
   title_font = Fira Code 9
 [keybindings]
+  split_horiz = <Primary><Shift>Down
+  split_vert = <Primary><Shift>Right
   toggle_scrollbar = None
+  resize_up = <Primary><Alt>Up
+  resize_down = <Primary><Alt>Down
+  resize_left = <Primary><Alt>Right
+  resize_right = <Primary><Alt>Left
   toggle_zoom = None
   ungroup_all = None
   ungroup_tab = None

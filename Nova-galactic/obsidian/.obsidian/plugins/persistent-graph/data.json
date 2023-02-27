@@ -1,0 +1,1055 @@
+{
+  "nodePositions": [
+    {
+      "id": "Business/Copyright.md",
+      "x": -6.367414951324463,
+      "y": -47.753395080566406
+    },
+    {
+      "id": "Business/Creative Commons.md",
+      "x": -60.583316802978516,
+      "y": 64.22502136230469
+    },
+    {
+      "id": "Business/DK Tax Law.md",
+      "x": -24.27701187133789,
+      "y": 195.5347137451172
+    },
+    {
+      "id": "Business/Innovation.md",
+      "x": 82.53044891357422,
+      "y": 257.8428039550781
+    },
+    {
+      "id": "Business/Patenting.md",
+      "x": 103.02159118652344,
+      "y": 8.477019309997559
+    },
+    {
+      "id": "Business/Systems Engineering/Management.md",
+      "x": 226.06594848632812,
+      "y": 356.98663330078125
+    },
+    {
+      "id": "Business/Systems Engineering/SEMP.md",
+      "x": 580.2120361328125,
+      "y": 375.9419860839844
+    },
+    {
+      "id": "Meta/Color Palettes.md",
+      "x": 74.86212921142578,
+      "y": 984.5079956054688
+    },
+    {
+      "id": "Meta/Curriculum Vitae.md",
+      "x": -158.46173095703125,
+      "y": 823.427978515625
+    },
+    {
+      "id": "Meta/Dictionary.md",
+      "x": -36.67768859863281,
+      "y": 793.457763671875
+    },
+    {
+      "id": "Meta/Ideas.md",
+      "x": -210.07192993164062,
+      "y": 931.7327880859375
+    },
+    {
+      "id": "Meta/My Computer/My OS.md",
+      "x": -37.6817626953125,
+      "y": 1196.5167236328125
+    },
+    {
+      "id": "Meta/My Computer/My hardware.md",
+      "x": 72.53900909423828,
+      "y": 1149.087646484375
+    },
+    {
+      "id": "Meta/My Computer/My keybindings.md",
+      "x": -144.37278747558594,
+      "y": 1081.3028564453125
+    },
+    {
+      "id": "Meta/Study Strategy.md",
+      "x": 59.190216064453125,
+      "y": 865.5725708007812
+    },
+    {
+      "id": "Meta/Todo.md",
+      "x": -32.24230194091797,
+      "y": 1038.572509765625
+    },
+    {
+      "id": "Science/1.Cross-discipline/Constants.md",
+      "x": -333.0619812011719,
+      "y": -277.87420654296875
+    },
+    {
+      "id": "Science/1.Cross-discipline/SI-notation.md",
+      "x": 36.36588668823242,
+      "y": -529.6364135742188
+    },
+    {
+      "id": "Science/1.Cross-discipline/SI-units.md",
+      "x": -449.4852600097656,
+      "y": -306.870361328125
+    },
+    {
+      "id": "Science/1.Cross-discipline/Scientific Methods.md",
+      "x": -367.7231750488281,
+      "y": -163.024658203125
+    },
+    {
+      "id": "Science/2.Mathematics/Algebra.md",
+      "x": 258.66485595703125,
+      "y": -630.0639038085938
+    },
+    {
+      "id": "Science/2.Mathematics/Calculus/Calculus.md",
+      "x": 5.7134928703308105,
+      "y": -298.2438049316406
+    },
+    {
+      "id": "Science/2.Mathematics/Calculus/Differential Equations.md",
+      "x": 162.949951171875,
+      "y": -514.7097778320312
+    },
+    {
+      "id": "Science/2.Mathematics/Complex Numbers.md",
+      "x": 240.57334899902344,
+      "y": -1129.2823486328125
+    },
+    {
+      "id": "Science/2.Mathematics/Convolution.md",
+      "x": -250.41891479492188,
+      "y": -471.5241394042969
+    },
+    {
+      "id": "Science/2.Mathematics/Fraction Decomposition.md",
+      "x": 329.02606201171875,
+      "y": -758.2141723632812
+    },
+    {
+      "id": "Science/2.Mathematics/Geometry.md",
+      "x": 275.96405029296875,
+      "y": -1011.2952880859375
+    },
+    {
+      "id": "Science/2.Mathematics/Linear Algebra/Eigenvectors.md",
+      "x": 61.421199798583984,
+      "y": -1174.5980224609375
+    },
+    {
+      "id": "Science/2.Mathematics/Linear Algebra/Linear Algebra.md",
+      "x": 106.68112182617188,
+      "y": -1047.8531494140625
+    },
+    {
+      "id": "Science/2.Mathematics/Linear Algebra/Matrices.md",
+      "x": -20.70824432373047,
+      "y": -891.36328125
+    },
+    {
+      "id": "Science/2.Mathematics/Linear Algebra/Vector Calculus.md",
+      "x": -157.57791137695312,
+      "y": -389.9420471191406
+    },
+    {
+      "id": "Science/2.Mathematics/Linear Algebra/Vectors.md",
+      "x": -84.84294128417969,
+      "y": -788.6763916015625
+    },
+    {
+      "id": "Science/2.Mathematics/Notation.md",
+      "x": -129.17909240722656,
+      "y": -236.02914428710938
+    },
+    {
+      "id": "Science/2.Mathematics/Statistics/Common Distributions.md",
+      "x": 42.353904724121094,
+      "y": -710.5988159179688
+    },
+    {
+      "id": "Science/2.Mathematics/Statistics/Introductory Statistics.md",
+      "x": -41.99324417114258,
+      "y": -422.1886291503906
+    },
+    {
+      "id": "Science/2.Mathematics/Statistics/Probability Functions.md",
+      "x": -81.36302947998047,
+      "y": -608.8548583984375
+    },
+    {
+      "id": "Science/2.Mathematics/Transforms/Fourier Transform.md",
+      "x": 106.15387725830078,
+      "y": -891.3934936523438
+    },
+    {
+      "id": "Science/2.Mathematics/Transforms/Hilbert Transform.md",
+      "x": -245.40594482421875,
+      "y": -1010.789794921875
+    },
+    {
+      "id": "Science/2.Mathematics/Transforms/Laplace Transform.md",
+      "x": 166.78546142578125,
+      "y": -357.8536071777344
+    },
+    {
+      "id": "Science/2.Mathematics/Transforms/Transforms.md",
+      "x": -36.34681701660156,
+      "y": -1037.2073974609375
+    },
+    {
+      "id": "Science/2.Mathematics/Transforms/Z-Transform.md",
+      "x": 223.6145782470703,
+      "y": -866.9506225585938
+    },
+    {
+      "id": "Science/2.Mathematics/Trigonometry.md",
+      "x": 344.0018615722656,
+      "y": -912.4503784179688
+    },
+    {
+      "id": "Science/3.Physics/Dynamics/Energy.md",
+      "x": -773.9000854492188,
+      "y": -474.21405029296875
+    },
+    {
+      "id": "Science/3.Physics/Dynamics/Gravity.md",
+      "x": -892.9304809570312,
+      "y": -459.03167724609375
+    },
+    {
+      "id": "Science/3.Physics/Dynamics/Kinematics.md",
+      "x": -637.6542358398438,
+      "y": -474.41094970703125
+    },
+    {
+      "id": "Science/3.Physics/Dynamics/Mechanics.md",
+      "x": -949.8147583007812,
+      "y": -333.1099853515625
+    },
+    {
+      "id": "Science/3.Physics/Dynamics/Oscillations.md",
+      "x": -706.4833374023438,
+      "y": -319.0748596191406
+    },
+    {
+      "id": "Science/3.Physics/Dynamics/Relativity.md",
+      "x": -830.8565063476562,
+      "y": -306.316650390625
+    },
+    {
+      "id": "Science/3.Physics/Dynamics/Waves.md",
+      "x": -508.5077209472656,
+      "y": -161.06394958496094
+    },
+    {
+      "id": "Science/3.Physics/EMF/Electromagnetics.md",
+      "x": -202.67547607421875,
+      "y": -36.90956497192383
+    },
+    {
+      "id": "Science/3.Physics/EMF/Lasers.md",
+      "x": -738.1260986328125,
+      "y": -138.96295166015625
+    },
+    {
+      "id": "Science/3.Physics/EMF/Optics.md",
+      "x": -518.7484130859375,
+      "y": -41.532676696777344
+    },
+    {
+      "id": "Science/3.Physics/Quantum/Atoms.md",
+      "x": -875.3282470703125,
+      "y": -83.36138153076172
+    },
+    {
+      "id": "Science/3.Physics/Quantum/Molecules.md",
+      "x": -964.3214111328125,
+      "y": -195.283935546875
+    },
+    {
+      "id": "Science/3.Physics/Quantum/Particles.md",
+      "x": -657.6788940429688,
+      "y": -49.9402961730957
+    },
+    {
+      "id": "Science/3.Physics/Quantum/Quantum.md",
+      "x": -322.1860656738281,
+      "y": -11.249085426330566
+    },
+    {
+      "id": "Science/4.Control/Control Theory.md",
+      "x": 626.1199340820312,
+      "y": 606.3770751953125
+    },
+    {
+      "id": "Science/4.Control/Controller Architectures.md",
+      "x": 888.7740478515625,
+      "y": 753.3807983398438
+    },
+    {
+      "id": "Science/4.Control/Controllers/LQR Control.md",
+      "x": 730.131103515625,
+      "y": 882.2791137695312
+    },
+    {
+      "id": "Science/4.Control/Controllers/PID Control.md",
+      "x": 772.093017578125,
+      "y": 725.3995971679688
+    },
+    {
+      "id": "Science/4.Control/Controllers/Pole-placement Control.md",
+      "x": 850.0894775390625,
+      "y": 884.457763671875
+    },
+    {
+      "id": "Science/4.Control/Lyapunov Stability.md",
+      "x": 504.5077819824219,
+      "y": 758.052490234375
+    },
+    {
+      "id": "Science/4.Control/Observers.md",
+      "x": 353.9366760253906,
+      "y": 369.4159851074219
+    },
+    {
+      "id": "Science/4.Control/State-Space.md",
+      "x": 419.62994384765625,
+      "y": 473.5118713378906
+    },
+    {
+      "id": "Science/4.Control/System Stability.md",
+      "x": 469.8385314941406,
+      "y": 633.0296020507812
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Amplifiers/Differential Amplifiers.md",
+      "x": 1117.6314697265625,
+      "y": 422.11627197265625
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Amplifiers/Operational Amplifiers.md",
+      "x": 999.959716796875,
+      "y": 398.73052978515625
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Analog Components.md",
+      "x": 955.7192993164062,
+      "y": -16.044767379760742
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Circuit Analysis.md",
+      "x": 698.3489990234375,
+      "y": 30.875370025634766
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Modified Nodal Analysis.md",
+      "x": 834.6484985351562,
+      "y": -3.7182435989379883
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Passive Filters/Bessel Filter.md",
+      "x": 1071.3525390625,
+      "y": 15.913086891174316
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Passive Filters/Butterworth Filter.md",
+      "x": 1159.2935791015625,
+      "y": -65.6528549194336
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Passive Filters/Chebyshev Filter.md",
+      "x": 1001.0736083984375,
+      "y": -132.06678771972656
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Passive Filters/RLC Filters.md",
+      "x": 1114.64404296875,
+      "y": -190.86865234375
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Single-Transistor Amps.md",
+      "x": 1051.8714599609375,
+      "y": 545.2662353515625
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Transformers.md",
+      "x": 979.516845703125,
+      "y": 233.84170532226562
+    },
+    {
+      "id": "Science/5.Electrical/Analog/Transistors.md",
+      "x": 712.401611328125,
+      "y": 443.3056945800781
+    },
+    {
+      "id": "Science/5.Electrical/Digital/Combinational Logic.md",
+      "x": 876.6943969726562,
+      "y": 393.0481872558594
+    },
+    {
+      "id": "Science/5.Electrical/Digital/Logic Gates.md",
+      "x": 810.6232299804688,
+      "y": 512.215087890625
+    },
+    {
+      "id": "Science/5.Electrical/Digital/Sequential Logic.md",
+      "x": 926.3458862304688,
+      "y": 543.9299926757812
+    },
+    {
+      "id": "Science/5.Electrical/Electricity.md",
+      "x": 705.6051635742188,
+      "y": 273.267822265625
+    },
+    {
+      "id": "Science/5.Electrical/High-frequency Hardware/Characteristic Impedance.md",
+      "x": 1198.7864990234375,
+      "y": 151.89646911621094
+    },
+    {
+      "id": "Science/5.Electrical/High-frequency Hardware/Crosstalk.md",
+      "x": 1132.34130859375,
+      "y": 269.5974426269531
+    },
+    {
+      "id": "Science/5.Electrical/High-frequency Hardware/Transmission Lines.md",
+      "x": 1077.7623291015625,
+      "y": 147.61927795410156
+    },
+    {
+      "id": "Science/5.Electrical/LTSpice.md",
+      "x": 726.4801635742188,
+      "y": 155.11239624023438
+    },
+    {
+      "id": "Science/5.Electrical/Power Systems/Magnetic Circuits.md",
+      "x": 430.82305908203125,
+      "y": 176.29345703125
+    },
+    {
+      "id": "Science/5.Electrical/Power Systems/Power Electronics.md",
+      "x": 859.1688232421875,
+      "y": 113.7386474609375
+    },
+    {
+      "id": "Science/5.Electrical/Semiconductors.md",
+      "x": 492.20770263671875,
+      "y": 288.75018310546875
+    },
+    {
+      "id": "Science/6.Signal-Processing/Communication Systems/Modulation.md",
+      "x": -400.537841796875,
+      "y": -995.71533203125
+    },
+    {
+      "id": "Science/6.Signal-Processing/Eigen-analysis.md",
+      "x": -196.03048706054688,
+      "y": -1130.7447509765625
+    },
+    {
+      "id": "Science/6.Signal-Processing/Filters/Adaptive Algorithms.md",
+      "x": -236.4520263671875,
+      "y": -682.6365966796875
+    },
+    {
+      "id": "Science/6.Signal-Processing/Filters/Adaptive Filters.md",
+      "x": -355.8664855957031,
+      "y": -737.2868041992188
+    },
+    {
+      "id": "Science/6.Signal-Processing/Filters/Digital Filters.md",
+      "x": -537.9066162109375,
+      "y": -894.916015625
+    },
+    {
+      "id": "Science/6.Signal-Processing/Filters/EKF.md",
+      "x": 647.5657348632812,
+      "y": 990.6951293945312
+    },
+    {
+      "id": "Science/6.Signal-Processing/Filters/Kalman Filters.md",
+      "x": 571.3886108398438,
+      "y": 898.01806640625
+    },
+    {
+      "id": "Science/6.Signal-Processing/Filters/Matched Filters.md",
+      "x": -624.2579956054688,
+      "y": -1014.7293090820312
+    },
+    {
+      "id": "Science/6.Signal-Processing/Filters/Wiener Filters.md",
+      "x": -519.1260986328125,
+      "y": -1072.52587890625
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Color Spaces.md",
+      "x": -718.5724487304688,
+      "y": -922.5209350585938
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Compression.md",
+      "x": -400.53167724609375,
+      "y": -861.8345947265625
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Image Denoising.md",
+      "x": -643.517822265625,
+      "y": -673.646484375
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Image Pipeline.md",
+      "x": -781.5895385742188,
+      "y": -820.4357299804688
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Intensity Transforms.md",
+      "x": -505.4486083984375,
+      "y": -490.0799255371094
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Spatial Filtering.md",
+      "x": -463.2758483886719,
+      "y": -602.4070434570312
+    },
+    {
+      "id": "Science/6.Signal-Processing/Power Spectrum.md",
+      "x": -205.26190185546875,
+      "y": -887.6287841796875
+    },
+    {
+      "id": "Science/6.Signal-Processing/Signals.md",
+      "x": -376.80389404296875,
+      "y": -1113.314453125
+    },
+    {
+      "id": "Science/6.Signal-Processing/Stochastic Processes.md",
+      "x": -306.4984436035156,
+      "y": -579.1602172851562
+    },
+    {
+      "id": "Science/6.Signal-Processing/Wavelets.md",
+      "x": -610.8086547851562,
+      "y": -793.5142822265625
+    },
+    {
+      "id": "Science/7.Data Science/Computer Vision/Bag-of-Words.md",
+      "x": -530.9248046875,
+      "y": 610.528564453125
+    },
+    {
+      "id": "Science/7.Data Science/Computer Vision/DETR.md",
+      "x": -891.9947509765625,
+      "y": 299.7485656738281
+    },
+    {
+      "id": "Science/7.Data Science/Computer Vision/Edge Detection.md",
+      "x": -468.86175537109375,
+      "y": 125.88510131835938
+    },
+    {
+      "id": "Science/7.Data Science/Computer Vision/Object Detection.md",
+      "x": -1054.8155517578125,
+      "y": 204.35769653320312
+    },
+    {
+      "id": "Science/7.Data Science/Computer Vision/Semantic Segmentation.md",
+      "x": -913.0894165039062,
+      "y": 153.4043731689453
+    },
+    {
+      "id": "Science/7.Data Science/Computer Vision/Single-Shot Detectors.md",
+      "x": -1063.248046875,
+      "y": 324.0351867675781
+    },
+    {
+      "id": "Science/7.Data Science/Datasets.md",
+      "x": -716.3779296875,
+      "y": 408.03448486328125
+    },
+    {
+      "id": "Science/7.Data Science/Hyper-parameter Search.md",
+      "x": -834.6430053710938,
+      "y": 452.423095703125
+    },
+    {
+      "id": "Science/7.Data Science/Loss-Functions.md",
+      "x": -571.9470825195312,
+      "y": 331.34423828125
+    },
+    {
+      "id": "Science/7.Data Science/Machine Learning.md",
+      "x": -387.7950134277344,
+      "y": 655.4149780273438
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/CNN.md",
+      "x": -738.7481689453125,
+      "y": 90.78168487548828
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Deep Learning.md",
+      "x": -610.1609497070312,
+      "y": 144.3053436279297
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Generative Modeling/Auto-encoders.md",
+      "x": -998.0576171875,
+      "y": 697.9019165039062
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Generative Modeling/GANs.md",
+      "x": -1074.4346923828125,
+      "y": 454.9453430175781
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Generative Modeling/Generative Modeling.md",
+      "x": -1095.721923828125,
+      "y": 573.0266723632812
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Multitask Learning.md",
+      "x": -521.0693359375,
+      "y": 458.1241149902344
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Neural Networks.md",
+      "x": -419.6368713378906,
+      "y": 329.5845947265625
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Optimizers.md",
+      "x": -362.273681640625,
+      "y": 201.34115600585938
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/PyTorch.md",
+      "x": -242.9514617919922,
+      "y": 188.7008056640625
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Sequence Models/Attention.md",
+      "x": -627.9891967773438,
+      "y": 802.6146850585938
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Sequence Models/Encoder-Decoder.md",
+      "x": -905.2576293945312,
+      "y": 810.716796875
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Sequence Models/ML Transformers.md",
+      "x": -777.8917846679688,
+      "y": 262.76580810546875
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Sequence Models/Multi-Head-Attention.md",
+      "x": -948.1255493164062,
+      "y": 413.5944519042969
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Sequence Models/NLP.md",
+      "x": -760.6818237304688,
+      "y": 789.8872680664062
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Sequence Models/Self-attention.md",
+      "x": -836.5210571289062,
+      "y": 662.9862670898438
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Sequence Models/Sequence Modelling.md",
+      "x": -774.3591918945312,
+      "y": 909.0858764648438
+    },
+    {
+      "id": "Science/7.Data Science/Neural Networks/Style Transfer.md",
+      "x": -958.8062744140625,
+      "y": 562.9725341796875
+    },
+    {
+      "id": "Science/7.Data Science/Positional Encoding.md",
+      "x": -672.3792114257812,
+      "y": 685.1598510742188
+    },
+    {
+      "id": "Science/7.Data Science/Regularization.md",
+      "x": -502.7569580078125,
+      "y": 727.1696166992188
+    },
+    {
+      "id": "Science/7.Data Science/Reinforcement.md",
+      "x": -641.3464965820312,
+      "y": 514.8303833007812
+    },
+    {
+      "id": "Science/7.Data Science/Transfer Learning.md",
+      "x": -409.3365478515625,
+      "y": 516.3775024414062
+    },
+    {
+      "id": "Science/8.Mechanical/3D-Printing.md",
+      "x": -1159.1611328125,
+      "y": 44.757686614990234
+    },
+    {
+      "id": "Science/8.Mechanical/Joints.md",
+      "x": -1131.419189453125,
+      "y": -220.09866333007812
+    },
+    {
+      "id": "Science/8.Mechanical/Materials.md",
+      "x": -1217.15625,
+      "y": -78.39583587646484
+    },
+    {
+      "id": "Science/9.Biology/Epigenetics.md",
+      "x": -1133.250732421875,
+      "y": -507.46832275390625
+    },
+    {
+      "id": "Science/9.Biology/Genetics.md",
+      "x": -1128.8642578125,
+      "y": -387.47430419921875
+    },
+    {
+      "id": "Technology/Linux/Arch Linux.md",
+      "x": 929.7744140625,
+      "y": -526.013671875
+    },
+    {
+      "id": "Technology/Linux/Bash Scripting.md",
+      "x": 517.9954833984375,
+      "y": -1067.984130859375
+    },
+    {
+      "id": "Technology/Linux/GNU-Linux.md",
+      "x": 1019.1455688476562,
+      "y": -445.9414367675781
+    },
+    {
+      "id": "Technology/Linux/Linux Mint.md",
+      "x": 1047.984130859375,
+      "y": -583.0164794921875
+    },
+    {
+      "id": "Technology/Linux/Linux Packages.md",
+      "x": 754.830810546875,
+      "y": -633.0538330078125
+    },
+    {
+      "id": "Technology/Linux/Maintenance.md",
+      "x": 694.9344482421875,
+      "y": -820.5081176757812
+    },
+    {
+      "id": "Technology/Linux/PulseAudio.md",
+      "x": 873.099609375,
+      "y": -653.1527709960938
+    },
+    {
+      "id": "Technology/Linux/Software/Docker.md",
+      "x": 795.6312866210938,
+      "y": -898.7491455078125
+    },
+    {
+      "id": "Technology/Linux/Software/Expect.md",
+      "x": 551.7183227539062,
+      "y": -855.4822387695312
+    },
+    {
+      "id": "Technology/Linux/Software/Ffmpeg.md",
+      "x": 698.7990112304688,
+      "y": -1014.1138305664062
+    },
+    {
+      "id": "Technology/Linux/Software/Git.md",
+      "x": 654.485107421875,
+      "y": -707.5314331054688
+    },
+    {
+      "id": "Technology/Linux/Software/ImageMagick.md",
+      "x": 959.245849609375,
+      "y": -736.6505126953125
+    },
+    {
+      "id": "Technology/Linux/The Linux Stack.md",
+      "x": 901.1534423828125,
+      "y": -841.63427734375
+    },
+    {
+      "id": "Technology/Linux/Xrandr.md",
+      "x": 587.2360229492188,
+      "y": -970.0418090820312
+    },
+    {
+      "id": "Technology/Programming/Complexity.md",
+      "x": 649.7955322265625,
+      "y": -178.91322326660156
+    },
+    {
+      "id": "Technology/Programming/Frameworks/ROS.md",
+      "x": 525.9907836914062,
+      "y": -528.474609375
+    },
+    {
+      "id": "Technology/Programming/Languages/Compiled Languages/C++.md",
+      "x": 623.3965454101562,
+      "y": -458.3908386230469
+    },
+    {
+      "id": "Technology/Programming/Languages/Compiled Languages/C.md",
+      "x": 548.68701171875,
+      "y": -74.99240112304688
+    },
+    {
+      "id": "Technology/Programming/Languages/Compiled Languages/Java.md",
+      "x": 530.7340087890625,
+      "y": -193.5403289794922
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Lua.md",
+      "x": 513.8662719726562,
+      "y": -371.6600646972656
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Matlab.md",
+      "x": 428.7286376953125,
+      "y": -110.47342681884766
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Python/Cython.md",
+      "x": 278.03662109375,
+      "y": -295.5359802246094
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Python/Matplotlib.md",
+      "x": 280.2282409667969,
+      "y": -132.45452880859375
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Python/Numpy.md",
+      "x": 711.9552612304688,
+      "y": -337.570068359375
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Python/Pip.md",
+      "x": 323.2866516113281,
+      "y": -443.04705810546875
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Python/Python.md",
+      "x": 188.4285888671875,
+      "y": -209.7117462158203
+    },
+    {
+      "id": "Technology/Programming/Languages/Interpreted Languages/Python/Scipy.md",
+      "x": 820.5757446289062,
+      "y": -286.6310729980469
+    },
+    {
+      "id": "Technology/Programming/Languages/Machine Code/Assembly.md",
+      "x": 601.7791137695312,
+      "y": -290.11395263671875
+    },
+    {
+      "id": "Technology/Programming/Languages/Programming Languages.md",
+      "x": 276.5610046386719,
+      "y": 183.19216918945312
+    },
+    {
+      "id": "Technology/Programming/Paradigms/Functional Programming.md",
+      "x": 417.598388671875,
+      "y": 37.05369186401367
+    },
+    {
+      "id": "Technology/Programming/Paradigms/OOP.md",
+      "x": 296.259765625,
+      "y": 13.183295249938965
+    },
+    {
+      "id": "Technology/Programming/Regex.md",
+      "x": 396.3553771972656,
+      "y": -347.99542236328125
+    },
+    {
+      "id": "Technology/Web Tech/CSS.md",
+      "x": -387.53485107421875,
+      "y": 952.3917846679688
+    },
+    {
+      "id": "Technology/Web Tech/HTML.md",
+      "x": -206.49021911621094,
+      "y": 1199.88818359375
+    },
+    {
+      "id": "Technology/Web Tech/JavaScript.md",
+      "x": -460.1989440917969,
+      "y": 1164.828369140625
+    },
+    {
+      "id": "Technology/Web Tech/SVG.md",
+      "x": -582.5693359375,
+      "y": 1026.9573974609375
+    },
+    {
+      "id": "Technology/Web Tech/Websites.md",
+      "x": -336.49652099609375,
+      "y": 1117.8631591796875
+    },
+    {
+      "id": "University/7. sem/ACS.md",
+      "x": -106.7958984375,
+      "y": 395.44476318359375
+    },
+    {
+      "id": "University/7. sem/ASP.md",
+      "x": -11.080361366271973,
+      "y": 494.9491882324219
+    },
+    {
+      "id": "University/7. sem/EHSD.md",
+      "x": -33.761558532714844,
+      "y": 613.0902709960938
+    },
+    {
+      "id": "University/8. sem/SE.md",
+      "x": -216.82723999023438,
+      "y": 446.0039367675781
+    },
+    {
+      "id": "University/Eduroam.md",
+      "x": -200.3540496826172,
+      "y": 629.792236328125
+    },
+    {
+      "id": "Writing/English.md",
+      "x": 162.1049041748047,
+      "y": 469.0732421875
+    },
+    {
+      "id": "Writing/Markdown.md",
+      "x": 230.87164306640625,
+      "y": 1134.8922119140625
+    },
+    {
+      "id": "Writing/Mermaid.md",
+      "x": 460.3750915527344,
+      "y": 1069.2855224609375
+    },
+    {
+      "id": "Writing/Obsidian.md",
+      "x": 368.2821960449219,
+      "y": 1146.2000732421875
+    },
+    {
+      "id": "Writing/TeX/BibTeX.md",
+      "x": 344.2386474609375,
+      "y": 773.1897583007812
+    },
+    {
+      "id": "Writing/TeX/LaTeX Math.md",
+      "x": 250.23046875,
+      "y": 929.0732421875
+    },
+    {
+      "id": "Writing/TeX/LaTeX.md",
+      "x": 251.84010314941406,
+      "y": 630.6893310546875
+    },
+    {
+      "id": "Writing/TeX/Xparse.md",
+      "x": 225.2703399658203,
+      "y": 757.6707153320312
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Binary Image Morphology.md",
+      "x": -889.6302490234375,
+      "y": -768.2737426757812
+    },
+    {
+      "id": "Science/6.Signal-Processing/Image Processing/Gray-scale Image Morphology.md",
+      "x": -771.4801025390625,
+      "y": -686.7064819335938
+    },
+    {
+      "id": "#Business",
+      "x": 91.3721694946289,
+      "y": 138.18255615234375
+    },
+    {
+      "id": "#Electrical",
+      "x": 859.9518432617188,
+      "y": 243.17185974121094
+    },
+    {
+      "id": "#Meta",
+      "x": -74.60590362548828,
+      "y": 926.369140625
+    },
+    {
+      "id": "#Physics",
+      "x": -634.7726440429688,
+      "y": -222.94476318359375
+    },
+    {
+      "id": "#Mathematics",
+      "x": 158.4141845703125,
+      "y": -740.8922119140625
+    },
+    {
+      "id": "#Signal-Processing",
+      "x": -491.26641845703125,
+      "y": -783.3561401367188
+    },
+    {
+      "id": "#Control",
+      "x": 632.1731567382812,
+      "y": 745.9315795898438
+    },
+    {
+      "id": "#Data-Science",
+      "x": -757.5879516601562,
+      "y": 544.2612915039062
+    },
+    {
+      "id": "#Mechanical",
+      "x": -1098.654052734375,
+      "y": -59.64962387084961
+    },
+    {
+      "id": "#Biology",
+      "x": -1048.10302734375,
+      "y": -591.989013671875
+    },
+    {
+      "id": "#Linux",
+      "x": 799.934326171875,
+      "y": -762.4580688476562
+    },
+    {
+      "id": "#Programming",
+      "x": 416.4705810546875,
+      "y": -229.77182006835938
+    },
+    {
+      "id": "#Web",
+      "x": -463.9309997558594,
+      "y": 1044.89697265625
+    },
+    {
+      "id": "#University",
+      "x": -132.15953063964844,
+      "y": 531.0582275390625
+    },
+    {
+      "id": "#Writing",
+      "x": 370.1856384277344,
+      "y": 927.3424072265625
+    }
+  ],
+  "automaticallyRestoreNodePositions": true
+}

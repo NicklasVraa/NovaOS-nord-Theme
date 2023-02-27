@@ -6,5 +6,6 @@
   "obsidian-completr",
   "obsidian-vault-statistics-plugin",
   "obsidian-contextual-typography",
-  "obsidian-git"
+  "obsidian-git",
+  "persistent-graph"
 ]
