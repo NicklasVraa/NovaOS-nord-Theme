@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4dd9926c50fec5c7",
+        "id": "bff6029ee0eb45de",
         "type": "tabs",
         "children": [
           {
-            "id": "bbb48efc42db6a23",
+            "id": "6b3ef5e101754c61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meta/My Computer/My hardware.md",
+                "file": "Meta/Todo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meta/My Computer/My hardware.md"
+                "file": "Meta/Todo.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/My Computer/My hardware.md",
+                "file": "Meta/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "bbb48efc42db6a23",
+  "active": "6b3ef5e101754c61",
   "lastOpenFiles": [
     "Meta/Curriculum Vitae.md",
     "Meta/Todo.md",
