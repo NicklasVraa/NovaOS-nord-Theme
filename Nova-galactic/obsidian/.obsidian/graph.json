@@ -8,21 +8,21 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:Linux",
+      "query": "tag:Advice",
       "color": {
         "a": 1,
         "rgb": 12542314
       }
     },
     {
-      "query": "tag:Writing",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 12938860
       }
     },
     {
-      "query": "tag:Projects",
+      "query": "tag:Conveniences",
       "color": {
         "a": 1,
         "rgb": 13269614
@@ -43,14 +43,14 @@
       }
     },
     {
-      "query": "tag:Business",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 14857346
       }
     },
     {
-      "query": "tag:University",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 15453067
@@ -64,21 +64,21 @@
       }
     },
     {
-      "query": "tag:Mechanical",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 12305036
       }
     },
     {
-      "query": "tag:Programming",
+      "query": "tag:Cooking",
       "color": {
         "a": 1,
         "rgb": 10731148
       }
     },
     {
-      "query": "tag:Physics",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 10141603
@@ -92,7 +92,7 @@
       }
     },
     {
-      "query": "tag:Control",
+      "query": "tag:Experiences",
       "color": {
         "a": 1,
         "rgb": 8962256
@@ -106,35 +106,35 @@
       }
     },
     {
-      "query": "tag:Electrical",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 7116472
       }
     },
     {
-      "query": "tag:Mathematics",
+      "query": "tag:Personal-details",
       "color": {
         "a": 1,
         "rgb": 6193580
       }
     },
     {
-      "query": "tag:Signal-Processing",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 8095148
       }
     },
     {
-      "query": "tag:Web",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 9931437
       }
     },
     {
-      "query": "tag:Data-Science",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 11833005
@@ -148,7 +148,7 @@
       }
     },
     {
-      "query": "tag:Biology",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 12284032
@@ -165,6 +165,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.24300353297665414,
+  "scale": 0.6752618992458587,
   "close": true
 }

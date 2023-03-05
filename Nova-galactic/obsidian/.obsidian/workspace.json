@@ -4,23 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "bff6029ee0eb45de",
+        "id": "fc8907e51091462b",
         "type": "tabs",
         "children": [
           {
-            "id": "6b3ef5e101754c61",
+            "id": "640975dca0d391e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meta/Todo.md",
+                "file": "Advice/Bikes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5e49bc51b7e074b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,9 +106,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Meta/Todo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -106,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +137,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6b3ef5e101754c61",
+  "active": "a5e49bc51b7e074b",
   "lastOpenFiles": [
-    "Meta/Curriculum Vitae.md",
+    "Advice/Bikes.md",
+    "Meta/Ideas.md",
     "Meta/Todo.md",
-    "Science/6.Signal-Processing/Image Processing/Compression.md",
-    "Science/6.Signal-Processing/Image Processing/Binary Image Morphology.md",
-    "Science/6.Signal-Processing/Image Processing/Image Denoising.md",
-    "Science/6.Signal-Processing/Image Processing/Gray-scale Image Morphology.md",
-    "Meta/Donation Panel.md",
-    "Meta/Licenses.md",
-    "Meta/Rent.md",
-    "Meta/Accounts.md"
+    "Personal Details/Accounts.md",
+    "Personal Details/Codex.md",
+    "Personal Details/Contacts.md",
+    "Personal Details/Licenses.md",
+    "Personal Details/Rent.md",
+    "Personal Details/Wishlist.md",
+    "Cooking/Rice.md"
   ]
 }

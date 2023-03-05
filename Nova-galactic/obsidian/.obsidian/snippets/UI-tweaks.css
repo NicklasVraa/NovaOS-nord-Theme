@@ -93,6 +93,7 @@ table {
 
 /* Invert image colors for dark theme. */
 img {
+    display: block !important;
     margin: 10px auto !important;
     filter: invert(100%) !important;
 }
@@ -116,18 +117,4 @@ img {
 /* Makes quote blocks less prominent. */
 .cm-quote {
     opacity: 60% !important;
-}
-
-/* ACADEMIC EXPORT: --------------------------------------------------------- */
-
-/* Repurposes the tilde characters, i.e. ~~x~~ */
-.cm-strikethrough {
-    text-decoration: none !important;
-}
-.cm-s-obsidian span.cm-math,
-.cm-s-obsidian span.hmd-fold-math-placeholder{
-    font-style: normal;
-}
-figcaption {
-    font-size: 0.8em !important;
 }
