@@ -1,0 +1,170 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:personal-details",
+      "color": {
+        "a": 1,
+        "rgb": 12542314
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 12938860
+      }
+    },
+    {
+      "query": "tag:accounts",
+      "color": {
+        "a": 1,
+        "rgb": 13269614
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 13666160
+      }
+    },
+    {
+      "query": "tag:contacts",
+      "color": {
+        "a": 1,
+        "rgb": 14261881
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14857346
+      }
+    },
+    {
+      "query": "tag:resources",
+      "color": {
+        "a": 1,
+        "rgb": 15453067
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 13879179
+      }
+    },
+    {
+      "query": "tag:advice",
+      "color": {
+        "a": 1,
+        "rgb": 12305036
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 10731148
+      }
+    },
+    {
+      "query": "tag:experiences",
+      "color": {
+        "a": 1,
+        "rgb": 10141603
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 9551801
+      }
+    },
+    {
+      "query": "tag:cooking",
+      "color": {
+        "a": 1,
+        "rgb": 8962256
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 8039364
+      }
+    },
+    {
+      "query": "tag:ideas",
+      "color": {
+        "a": 1,
+        "rgb": 7116472
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 6193580
+      }
+    },
+    {
+      "query": "tag:meta",
+      "color": {
+        "a": 1,
+        "rgb": 8095148
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 9931437
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 11833005
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 12091287
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 12284032
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.00298596152418,
+  "lineSizeMultiplier": 1.00298596152418,
+  "collapse-forces": true,
+  "centerStrength": 1,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.4071353794598978,
+  "close": true
+}

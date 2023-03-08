@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "8303b92e5c7ad3df",
+    "type": "split",
+    "children": [
+      {
+        "id": "72d9cb3fff85afe4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Science/7.Data/Neural Networks.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9aeb4280a2c2d08",
+    "type": "split",
+    "children": [
+      {
+        "id": "281bb42a4e3e314b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8b7a8df1df37d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "697d3d6b2172979e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 166.42283630371094
+  },
+  "right": {
+    "id": "d35ca1f0df1afd36",
+    "type": "split",
+    "children": [
+      {
+        "id": "f434834d50971a90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7947bfbe52180808",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Science/7.Data/Neural Networks.md"
+              }
+            }
+          },
+          {
+            "id": "5709b67c1ca2b6ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Science/7.Data/Neural Networks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1e30728a2c555b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Science/7.Data/Neural Networks.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "96b2d9010676ffec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ab60a500c955b9a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 203.0365447998047,
+    "collapsed": true
+  },
+  "active": "72d9cb3fff85afe4",
+  "lastOpenFiles": [
+    "University/7. sem/DL.md",
+    "Science/7.Data/Neural Networks.md",
+    "Science/7.Data/Machine Learning.md",
+    "Science/7.Data/PyTorch.md",
+    "Science/7.Data/Deep Learning.md",
+    "Meta/Todo.md",
+    "Science/2.Mathematics/Notation.md",
+    "Science/2.Mathematics/Transforms/Laplace Transform.md",
+    "Science/5.Electrical/Digital/Logic Gates.md",
+    "Science/5.Electrical/Analog/Circuit Analysis.md"
+  ]
+}

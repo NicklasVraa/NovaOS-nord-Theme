@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "8303b92e5c7ad3df",
+    "type": "split",
+    "children": [
+      {
+        "id": "55a5b3dff5d6c9c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3ffe6180d729a7d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9aeb4280a2c2d08",
+    "type": "split",
+    "children": [
+      {
+        "id": "281bb42a4e3e314b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8b7a8df1df37d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "697d3d6b2172979e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d35ca1f0df1afd36",
+    "type": "split",
+    "children": [
+      {
+        "id": "f434834d50971a90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32870eac3e631984",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "96b2d9010676ffec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7947bfbe52180808",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "5709b67c1ca2b6ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "a3ffe6180d729a7d",
+  "lastOpenFiles": [
+    "Writing/Languages/Danish.md",
+    "Writing/Languages/English.md",
+    "Untitled.md",
+    "Meta/Todo.md",
+    "Writing/Languages",
+    "Personal Details/Contacts.md",
+    "Personal Details/Licenses.md",
+    "MentorDK/Interview.md",
+    "MentorDK",
+    "Technology/Linux/Software/Docker.md",
+    "Technology/Linux/Arch Linux.md",
+    "Science/8.Mechanical/Materials.md",
+    "Science/8.Mechanical/Joints.md",
+    "Science/8.Mechanical/3D-Printing.md",
+    "Science/7.Data Science/Transfer Learning.md",
+    "Science/7.Data Science/Reinforcement.md",
+    "Science/7.Data Science/Regularization.md",
+    "Science/7.Data Science/Positional Encoding.md",
+    "Science/7.Data Science/Machine Learning.md",
+    "Science/7.Data Science/Loss-Functions.md",
+    "Science/7.Data Science/Hyper-parameter Search.md",
+    "Science/7.Data Science/Datasets.md",
+    "Science/7.Data Science/Neural Networks/Style Transfer.md",
+    "Science/7.Data Science/Neural Networks/PyTorch.md",
+    "Science/7.Data Science/Neural Networks/Optimizers.md",
+    "Science/7.Data Science/Neural Networks/Neural Networks.md",
+    "Science/7.Data Science/Neural Networks/Multitask Learning.md",
+    "Science/7.Data Science/Neural Networks/Deep Learning.md",
+    "Assets/Control/pid_control.svg",
+    "Assets/Control/anti_windup.svg"
+  ]
+}

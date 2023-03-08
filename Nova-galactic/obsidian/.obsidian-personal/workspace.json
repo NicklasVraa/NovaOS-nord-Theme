@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "8303b92e5c7ad3df",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca5125fdcdbcb574",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5c1b9855f480ed9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "b5cc92ea262fb344",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Meta/Todo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9aeb4280a2c2d08",
+    "type": "split",
+    "children": [
+      {
+        "id": "281bb42a4e3e314b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8b7a8df1df37d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "697d3d6b2172979e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d35ca1f0df1afd36",
+    "type": "split",
+    "children": [
+      {
+        "id": "f434834d50971a90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32870eac3e631984",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "96b2d9010676ffec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7947bfbe52180808",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Meta/Todo.md"
+              }
+            }
+          },
+          {
+            "id": "5709b67c1ca2b6ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Meta/Todo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "b5cc92ea262fb344",
+  "lastOpenFiles": [
+    "Accounts/Governmental.md",
+    "Contacts/Organizations.md",
+    "Contacts/People/Martin Winther.md",
+    "Contacts/People/Nicklas Vraa.md",
+    "Contacts/Organisations/MentorDanmark.md",
+    "Contacts/Organisations/Lægehuset Nørager.md",
+    "Contacts/People/Sigrid Bennedsgaard.md",
+    "Contacts/People/Peter Skodborg.md",
+    "Contacts/People/Peter Aaquist.md",
+    "Contacts/People/Osvald Frisk.md",
+    "Contacts/People/Nynne Hummelshøj.md",
+    "Contacts/People/Nina Holst Larsen.md",
+    "Contacts/People/Simone Lasborg.md",
+    "Contacts/People/Sophia Soewarta.md",
+    "Contacts/People/Mie Søltoft.md",
+    "Contacts/People/Jonas Vraa.md",
+    "Contacts/People/Mathias Vraa.md",
+    "Contacts/People/Lisbeth Skodborg.md",
+    "Contacts/People/Li Li.md",
+    "Contacts/People/Kristian Pedersen.md",
+    "Contacts/People/Kasper Vraa.md",
+    "Contacts/People/Jakob Poulsen.md",
+    "Contacts/People/Hooman Farkhani.md",
+    "Contacts/People/Helene Munk.md",
+    "Contacts/People/Helene Lorentzen.md",
+    "Contacts/People/Freja Lyhne.md",
+    "Ideas",
+    "Contacts/Organisations",
+    "Contacts/People",
+    "Contacts",
+    "Accounts",
+    "MentorDanmark",
+    "Assets/Control/pid_control.svg",
+    "Assets/Control/anti_windup.svg"
+  ]
+}

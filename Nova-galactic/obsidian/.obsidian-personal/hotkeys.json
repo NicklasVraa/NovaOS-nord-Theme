@@ -1,0 +1,103 @@
+{
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "app:delete-file": [],
+  "workspace:close": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "table-editor-obsidian:table-control-bar": [],
+  "file-explorer:new-file": [],
+  "file-explorer:new-file-in-new-pane": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "workspace:edit-file-title": [],
+  "app:open-help": [],
+  "app:open-settings": [],
+  "editor:open-link-in-new-leaf": [],
+  "quick-latex:addMatrixBlock": [],
+  "quick-latex:addCasesBlock": [],
+  "quick-latex:addAlignBlock": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "global-search:open": [],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ],
+  "workspace:undo-close-pane": [],
+  "editor:insert-link": [],
+  "homepage:open-homepage": [],
+  "editor:cycle-list-checklist": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "obsidian-completr:completr-bypass-tab-key": [],
+  "obsidian-completr:completr-bypass-enter-key": [],
+  "obsidian-completr:completr-blacklist-current-word": [],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "workspace:export-pdf": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ]
+}

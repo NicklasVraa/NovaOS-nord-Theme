@@ -1,0 +1,19 @@
+{
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "custom",
+    "UI-tweaks",
+    "No-animation",
+    "PDF-export",
+    "academic-pdf-export"
+  ],
+  "translucency": false,
+  "textFontFamily": "Ubuntu,CMU Serif,Latin Modern Roman,Latin Modern Roman Caps",
+  "interfaceFontFamily": "Ubuntu",
+  "monospaceFontFamily": "Monospace,Latin Modern Mono",
+  "baseFontSize": 15,
+  "accentColor": "",
+  "nativeMenus": true,
+  "showViewHeader": false,
+  "baseFontSizeAction": false
+}
