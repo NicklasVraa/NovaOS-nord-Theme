@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ca5125fdcdbcb574",
+        "id": "db25b24b616e4f14",
         "type": "tabs",
         "children": [
           {
-            "id": "d5c1b9855f480ed9",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "b5cc92ea262fb344",
+            "id": "25a169119b09e878",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Meta/Todo.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,9 +90,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Meta/Todo.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,8 +121,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b5cc92ea262fb344",
+  "active": "25a169119b09e878",
   "lastOpenFiles": [
+    "Ideas/Overview.md",
+    "Meta/Todo.md",
+    "MentorDK/Læringsstile.md",
+    "MentorDK/Scenarier.md",
+    "MentorDK/Mentorgærningen.md",
+    "Meta/Templates/Contact.md",
+    "MentorDK/Interview.md",
+    "Meta/Templates/Default.md",
     "Accounts/Governmental.md",
     "Contacts/Organizations.md",
     "Contacts/People/Martin Winther.md",
@@ -160,20 +149,12 @@
     "Contacts/People/Jonas Vraa.md",
     "Contacts/People/Mathias Vraa.md",
     "Contacts/People/Lisbeth Skodborg.md",
-    "Contacts/People/Li Li.md",
-    "Contacts/People/Kristian Pedersen.md",
-    "Contacts/People/Kasper Vraa.md",
-    "Contacts/People/Jakob Poulsen.md",
-    "Contacts/People/Hooman Farkhani.md",
-    "Contacts/People/Helene Munk.md",
-    "Contacts/People/Helene Lorentzen.md",
-    "Contacts/People/Freja Lyhne.md",
     "Ideas",
     "Contacts/Organisations",
     "Contacts/People",
     "Contacts",
     "Accounts",
-    "MentorDanmark",
+    "MentorDK",
     "Assets/Control/pid_control.svg",
     "Assets/Control/anti_windup.svg"
   ]

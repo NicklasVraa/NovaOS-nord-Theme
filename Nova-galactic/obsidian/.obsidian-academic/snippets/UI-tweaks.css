@@ -90,13 +90,14 @@ table {
 }
 /* Invert image colors for dark theme. */
 img {
-    margin: 10px 0px 10px 10px !important;
+    margin: 0px 0px 0px 10px !important;
     filter: invert(100%) !important;
 }
 /* Align math blocks to the left. */
 mjx-container[display="true"] {
     text-align: left !important;
     padding: 5px 10px !important;
+    font-size: 120%;
 }
 /* Makes code block language specifier less intrusive. */
 .code-block-flair{

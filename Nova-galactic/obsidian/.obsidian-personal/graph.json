@@ -134,7 +134,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:MentorDK",
       "color": {
         "a": 1,
         "rgb": 11833005
@@ -165,6 +165,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.4071353794598978,
+  "scale": 0.340380917150234,
   "close": true
 }

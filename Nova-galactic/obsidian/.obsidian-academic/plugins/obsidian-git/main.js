@@ -19853,6 +19853,7 @@ var MyAdapter = class {
     this.promises = {};
     this.adapter = vault.adapter;
     this.vault = vault;
+    this.lastBasePath = this.plugin.settings.basePath;
     this.promises.readFile = this.readFile.bind(this);
     this.promises.writeFile = this.writeFile.bind(this);
     this.promises.readdir = this.readdir.bind(this);
@@ -19877,6 +19878,11 @@ var MyAdapter = class {
       }
     } else {
       if (path2.endsWith(this.gitDir + "/index")) {
+        if (this.plugin.settings.basePath != this.lastBasePath) {
+          this.clearIndex();
+          this.lastBasePath = this.plugin.settings.basePath;
+          return this.adapter.readBinary(path2);
+        }
         return (_a2 = this.index) != null ? _a2 : this.adapter.readBinary(path2);
       }
       const file = this.vault.getAbstractFileByPath(path2);
@@ -20012,13 +20018,15 @@ var MyAdapter = class {
         mtime: this.indexmtime
       });
     }
+    this.clearIndex();
+  }
+  clearIndex() {
     this.index = void 0;
     this.indexctime = void 0;
     this.indexmtime = void 0;
   }
   get gitDir() {
-    var _a2;
-    return (_a2 = this.plugin.settings.gitDir) != null ? _a2 : ".git";
+    return this.plugin.settings.gitDir || ".git";
   }
   maybeLog(text2) {
   }
@@ -20258,6 +20266,7 @@ var IsomorphicGit = class extends GitManager {
     unstagedFiles
   }) {
     try {
+      await this.checkAuthorInfo();
       await this.stageAll({ status: status2, unstagedFiles });
       return this.commit(message);
     } catch (error) {
@@ -20267,6 +20276,7 @@ var IsomorphicGit = class extends GitManager {
   }
   async commit(message) {
     try {
+      await this.checkAuthorInfo();
       this.plugin.setState(PluginState.commit);
       const formatMessage = await this.formatCommitMessage(message);
       const hadConflict = this.plugin.localStorage.getConflict() === "true";
@@ -20419,22 +20429,25 @@ var IsomorphicGit = class extends GitManager {
       const localCommit = await this.resolveRef("HEAD");
       await this.fetch();
       const branchInfo = await this.branchInfo();
-      await this.wrapFS(isomorphic_git_default.merge({
+      await this.checkAuthorInfo();
+      const mergeRes = await this.wrapFS(isomorphic_git_default.merge({
         ...this.getRepo(),
         ours: branchInfo.current,
         theirs: branchInfo.tracking,
         abortOnConflict: false
       }));
-      await this.wrapFS(isomorphic_git_default.checkout({
-        ...this.getRepo(),
-        ref: branchInfo.current,
-        onProgress: (progress) => {
-          if (progressNotice !== void 0) {
-            progressNotice.noticeEl.innerText = this.getProgressText("Checkout", progress);
-          }
-        },
-        remote: branchInfo.remote
-      }));
+      if (!mergeRes.alreadyMerged) {
+        await this.wrapFS(isomorphic_git_default.checkout({
+          ...this.getRepo(),
+          ref: branchInfo.current,
+          onProgress: (progress) => {
+            if (progressNotice !== void 0) {
+              progressNotice.noticeEl.innerText = this.getProgressText("Checkout", progress);
+            }
+          },
+          remote: branchInfo.remote
+        }));
+      }
       progressNotice == null ? void 0 : progressNotice.hide();
       const upstreamCommit = await this.resolveRef("HEAD");
       this.plugin.lastUpdate = Date.now();
@@ -20795,6 +20808,7 @@ var IsomorphicGit = class extends GitManager {
     }
   }
   async getDiffString(filePath, stagedChanges = false) {
+    const vaultPath = this.getVaultPath(filePath);
     const map = async (file, [A]) => {
       if (filePath == file) {
         const oid = await A.oid();
@@ -20821,16 +20835,16 @@ var IsomorphicGit = class extends GitManager {
           return void 0;
         throw err;
       });
-      const diff2 = createPatch(filePath, headContent != null ? headContent : "", stagedContent);
+      const diff2 = createPatch(vaultPath, headContent != null ? headContent : "", stagedContent);
       return diff2;
     } else {
       let workdirContent;
-      if (await app.vault.adapter.exists(filePath)) {
-        workdirContent = await app.vault.adapter.read(filePath);
+      if (await app.vault.adapter.exists(vaultPath)) {
+        workdirContent = await app.vault.adapter.read(vaultPath);
       } else {
         workdirContent = "";
       }
-      const diff2 = createPatch(filePath, stagedContent, workdirContent);
+      const diff2 = createPatch(vaultPath, stagedContent, workdirContent);
       return diff2;
     }
   }
@@ -20849,6 +20863,13 @@ var IsomorphicGit = class extends GitManager {
       path: row[this.FILE],
       vault_path: this.getVaultPath(row[this.FILE])
     };
+  }
+  async checkAuthorInfo() {
+    const name = await this.getConfig("user.name");
+    const email = await this.getConfig("user.email");
+    if (!name || !email) {
+      throw "Git author information is not set. Please set it in the settings.";
+    }
   }
   showNotice(message, infinity = true) {
     if (!this.plugin.settings.disablePopups) {
@@ -32039,11 +32060,21 @@ var ObsidianGit = class extends import_obsidian23.Plugin {
           }
         }
         new import_obsidian23.Notice(`Cloning new repo into "${dir}"`);
-        await this.gitManager.clone(url, dir, depthInt);
+        const oldBase = this.settings.basePath;
+        const customDir = dir && dir !== ".";
+        if (customDir) {
+          this.settings.basePath = dir;
+        }
+        try {
+          await this.gitManager.clone(url, dir, depthInt);
+        } catch (error) {
+          this.settings.basePath = oldBase;
+          this.saveSettings();
+          throw error;
+        }
         new import_obsidian23.Notice("Cloned new repo.");
         new import_obsidian23.Notice("Please restart Obsidian");
-        if (dir && dir !== ".") {
-          this.settings.basePath = dir;
+        if (customDir) {
           this.saveSettings();
         }
       }
