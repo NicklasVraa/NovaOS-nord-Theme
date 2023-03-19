@@ -111,10 +111,13 @@ mjx-container[display="true"] {
     padding-bottom: 5px !important;
 }
 .list-bullet {
-    padding-left: 1px !important;
-    padding-right: 6px !important;
+    padding-left: 0px !important;
+    padding-right: 4px !important;
 }
 /* Makes quote blocks less prominent. */
 .cm-quote {
     opacity: 60% !important;
+}
+.HyperMD-list-line.HyperMD-list-line-1.cm-line {
+    padding-left: 20px !important;
 }

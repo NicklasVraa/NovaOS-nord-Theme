@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -147,6 +146,7 @@
   "active": "6e111faf9563c8f9",
   "lastOpenFiles": [
     "Experiences/Jokes.md",
+    "Resources/Obsidian UI-tweaks testing.md",
     "Meta/Todo.md",
     "Experiences/The List.md",
     "Experiences/Interesting Facts.md",
@@ -171,7 +171,6 @@
     "Contacts/People/Nina Holst Larsen.md",
     "Contacts/People/Simone Lasborg.md",
     "Contacts/People/Sophia Soewarta.md",
-    "Contacts/People/Mie Søltoft.md",
     "Ideas",
     "Contacts/Organisations",
     "Contacts/People",
