@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "db25b24b616e4f14",
+        "id": "fd809308a44de76f",
         "type": "tabs",
         "children": [
           {
-            "id": "25a169119b09e878",
+            "id": "86ee9bc8a3a64345",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Meta/Todo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e111faf9563c8f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/Obsidian UI-tweaks testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -90,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Resources/Obsidian UI-tweaks testing.md"
+              }
             }
           },
           {
@@ -99,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Resources/Obsidian UI-tweaks testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,10 +144,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "25a169119b09e878",
+  "active": "6e111faf9563c8f9",
   "lastOpenFiles": [
-    "Ideas/Overview.md",
+    "Experiences/Jokes.md",
     "Meta/Todo.md",
+    "Experiences/The List.md",
+    "Experiences/Interesting Facts.md",
+    "Ideas/Overview.md",
     "MentorDK/Læringsstile.md",
     "MentorDK/Scenarier.md",
     "MentorDK/Mentorgærningen.md",
@@ -146,9 +172,6 @@
     "Contacts/People/Simone Lasborg.md",
     "Contacts/People/Sophia Soewarta.md",
     "Contacts/People/Mie Søltoft.md",
-    "Contacts/People/Jonas Vraa.md",
-    "Contacts/People/Mathias Vraa.md",
-    "Contacts/People/Lisbeth Skodborg.md",
     "Ideas",
     "Contacts/Organisations",
     "Contacts/People",

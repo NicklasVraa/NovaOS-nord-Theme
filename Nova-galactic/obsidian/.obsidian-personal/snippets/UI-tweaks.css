@@ -106,25 +106,13 @@ mjx-container[display="true"] {
 .cm-line.HyperMD-codeblock{
     padding-left: 10px !important;
 }
-
 /* Adds padding around list elements. */
 .HyperMD-list-line{
-    padding-left: 20px !important;
-    padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
-/* Fix task alignment. */
-.HyperMD-task-line{
-    padding-left: 25px !important;
-}
-/* Fixes indentation for bullet-point lists. */
-.cm-formatting-list-ul{
-    text-indent: 5px !important;
-    margin-left: -14px !important;
-}
-/* Fixes indentation for numbered lists. */
-.cm-formatting-list-ol{
-    margin-left: -3px !important;
+.list-bullet {
+    padding-left: 1px !important;
+    padding-right: 6px !important;
 }
 /* Makes quote blocks less prominent. */
 .cm-quote {

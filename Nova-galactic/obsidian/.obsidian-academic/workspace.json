@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "da6af81ca7f0295b",
+        "id": "c46f6b6cba814fe2",
         "type": "tabs",
         "children": [
           {
-            "id": "0cd10147d0b59cf4",
+            "id": "107c30ee128612d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meta/Todo.md",
+                "file": "Science/5.Electrical/Analog/Transformers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 237.5
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meta/Todo.md"
+                "file": "Science/5.Electrical/Analog/Transformers.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/Todo.md",
+                "file": "Science/5.Electrical/Analog/Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,8 +129,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "0cd10147d0b59cf4",
+  "active": "8a8b7a8df1df37d4",
   "lastOpenFiles": [
+    "Assets/Electronics/transformers.svg",
+    "Science/6.Signal-Processing/Image Processing/2D-Fourier.md",
+    "Assets/Electronics/transformers.svg",
+    "Science/5.Electrical/Analog/Transformers.md",
+    "Meta/Todo.md",
+    "Assets/Signal-Processing/2d_freq_filters.svg",
+    "Assets/Signal-Processing/2d_fourier.svg",
+    "Assets/Signal-Processing/fourier_2d.svg",
+    "Science/7.Data Science/Computer Vision/DETR.md",
+    "Science/7.Data Science/Computer Vision/Edge Detection.md",
+    "Science/7.Data Science/Computer Vision/Object Detection.md",
+    "Science/7.Data Science/Computer Vision/Single-Shot Detectors.md",
+    "Science/7.Data Science/Computer Vision/Semantic Segmentation.md",
+    "Science/7.Data Science/Computer Vision/Bag-of-Words.md",
+    "Science/2.Mathematics/Transforms/Fourier Transform.md",
+    "Science/2.Mathematics/Transforms/Hilbert Transform.md",
+    "Science/6.Signal-Processing/Image Processing/Cameras.md",
+    "Science/2.Mathematics/Algebra.md",
     "Technology/Web Tech/XML.md",
     "Assets/Web/xml_quad.svg",
     "Assets/Web/xml_curve.svg",
@@ -141,35 +159,18 @@
     "Technology/Web Tech/JavaScript.md",
     "Technology/Web Tech/SVG.md",
     "Technology/Web Tech/Websites.md",
-    "Meta/Todo.md",
-    "Science/2.Mathematics/Transforms/Hilbert Transform.md",
     "Science/2.Mathematics/Transforms/Laplace Transform.md",
     "Science/2.Mathematics/Transforms/Transforms.md",
     "Science/2.Mathematics/Transforms/Z-Transform.md",
-    "Science/2.Mathematics/Transforms/Fourier Transform.md",
     "Science/5.Electrical/Analog/Rectifiers/Diode-rectifiers.md",
     "Science/2.Mathematics/Functions/Periodic Functions.md",
     "Assets/Electronics/periodic_functions.svg",
     "Meta/Workflows.md",
     "Assets/Electronics/dc_eq_nonlin_ps.png",
-    "Science/2.Mathematics/Untitled.md",
     "Science/2.Mathematics/Functions",
-    "Science/2.Mathematics/Calculus/Calculus.md",
-    "Science/2.Mathematics/Functions/Functions.md",
-    "Science/6.Signal-Processing/Signals.md",
     "Assets/Electronics/half_wave_rectifier.svg",
     "Assets/Electronics/full_wave_rectifier_smoothed.svg",
-    "Assets/Electronics/full_wave_rectifier.svg",
-    "Science/5.Electrical/Analog/Analog Components.md",
-    "Science/5.Electrical/Analog/Transformers.md",
-    "Science/5.Electrical/Analog/Rectifiers/Untitled.md",
-    "Assets/Electronics/single_diode_rectifier.svg",
     "Science/5.Electrical/Analog/Rectifiers",
-    "Science/5.Electrical/Analog/Diodes/PN-Diodes.md",
-    "Science/5.Electrical/Analog/Diodes/Schottky Diodes.md",
-    "Science/5.Electrical/Analog/Diodes/Zener Diodes.md",
-    "Assets/Electronics/schottky_iv.svg",
-    "Assets/Electronics/zener_equivalent.svg",
     "Science/5.Electrical/Analog/Diodes",
     "Meta/Untitled",
     "Assets/Electronics/pn-junction 1.xml",
