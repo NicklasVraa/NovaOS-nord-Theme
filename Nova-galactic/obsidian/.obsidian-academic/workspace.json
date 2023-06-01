@@ -11,13 +11,8 @@
             "id": "107c30ee128612d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Science/5.Electrical/Analog/Transformers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -95,9 +90,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Science/5.Electrical/Analog/Transformers.md"
-              }
+              "state": {}
             }
           },
           {
@@ -106,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/5.Electrical/Analog/Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,13 +121,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8a8b7a8df1df37d4",
+  "active": "107c30ee128612d3",
   "lastOpenFiles": [
+    "Meta/Todo.md",
     "Assets/Electronics/transformers.svg",
     "Science/6.Signal-Processing/Image Processing/2D-Fourier.md",
     "Assets/Electronics/transformers.svg",
     "Science/5.Electrical/Analog/Transformers.md",
-    "Meta/Todo.md",
     "Assets/Signal-Processing/2d_freq_filters.svg",
     "Assets/Signal-Processing/2d_fourier.svg",
     "Assets/Signal-Processing/fourier_2d.svg",
@@ -169,7 +161,6 @@
     "Assets/Electronics/dc_eq_nonlin_ps.png",
     "Science/2.Mathematics/Functions",
     "Assets/Electronics/half_wave_rectifier.svg",
-    "Assets/Electronics/full_wave_rectifier_smoothed.svg",
     "Science/5.Electrical/Analog/Rectifiers",
     "Science/5.Electrical/Analog/Diodes",
     "Meta/Untitled",
