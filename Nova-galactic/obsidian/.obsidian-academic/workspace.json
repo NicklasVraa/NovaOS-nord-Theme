@@ -11,8 +11,13 @@
             "id": "107c30ee128612d3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Technology/Linux/Basics/Bash Scripting.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -90,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technology/Linux/Basics/Bash Scripting.md"
+              }
             }
           },
           {
@@ -99,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technology/Linux/Basics/Bash Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,6 +131,7 @@
   },
   "active": "107c30ee128612d3",
   "lastOpenFiles": [
+    "Assets/Electronics/Power/boost_converter.svg",
     "Meta/Todo.md",
     "Assets/Electronics/transformers.svg",
     "Science/6.Signal-Processing/Image Processing/2D-Fourier.md",
