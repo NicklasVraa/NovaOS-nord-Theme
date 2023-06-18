@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c46f6b6cba814fe2",
+        "id": "0063e1996b47a115",
         "type": "tabs",
         "children": [
           {
-            "id": "107c30ee128612d3",
+            "id": "20dff7fddfeab85c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology/Linux/Basics/Bash Scripting.md",
+                "file": "Meta/Todo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -50,19 +50,27 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "397342d7f4bdf654",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 200
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -96,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology/Linux/Basics/Bash Scripting.md"
+                "file": "Meta/Todo.md"
               }
             }
           },
@@ -106,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology/Linux/Basics/Bash Scripting.md",
+                "file": "Meta/Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,53 +137,53 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "107c30ee128612d3",
+  "active": "20dff7fddfeab85c",
   "lastOpenFiles": [
-    "Assets/Electronics/Power/boost_converter.svg",
+    "Science/6.Electrical/Analog/Op-Amps/Comparator Op-Amps.md",
+    "University/8. sem/ACAS.md",
+    "Science/6.Electrical/Analog/Op-Amps/Non-ideal Op-Amps.md",
+    "Science/6.Electrical/Analog/Op-Amps/Instrumentation Amplifiers.md",
+    "Science/6.Electrical/Analog/Op-Amps/Integrator Op-Amps.md",
+    "Science/6.Electrical/Analog/Op-Amps/Inverting Op-Amps.md",
+    "Science/6.Electrical/Analog/Op-Amps/Non-inverting Op-Amps.md",
+    "Science/6.Electrical/Analog/Op-Amps/Op-Amp Converters.md",
+    "Science/6.Electrical/Analog/Op-Amps/Differential Op-Amps.md",
+    "Science/6.Electrical/Analog/Op-Amps/Differentiator Op-Amps.md",
+    "Science/6.Electrical/Analog/Op-Amps/Bridge Amplifiers.md",
+    "Science/6.Electrical/Analog/Op-Amps/Ideal Operational Amplifiers.md",
+    "University/Untitled.md",
+    "University/8. sem",
     "Meta/Todo.md",
+    "Business/Innovation/Models and Frameworks.md",
+    "Business/Innovation/AIE.md",
+    "Business/Innovation/Theory of Innovation.md",
+    "Business/Innovation/Business Modelling.md",
+    "Business/Innovation/Negotiation.md",
+    "Business/Innovation/CIS.md",
+    "Business/Innovation/Teams and Cooperation.md",
+    "Business/Innovation/Intellectual Property.md",
+    "Science/7.Data Science/Basics/Regularization.md",
+    "Science/7.Data Science/Neural Networks/Optimizers.md",
+    "Science/7.Data Science/Basics/Loss-Functions.md",
+    "Science/2.Mathematics/Linear Algebra/Convolution.md",
+    "Business/Innovation/Untitled",
+    "Business/Innovation",
+    "Assets/Electronics/Power/boost_converter.svg",
     "Assets/Electronics/transformers.svg",
-    "Science/6.Signal-Processing/Image Processing/2D-Fourier.md",
     "Assets/Electronics/transformers.svg",
-    "Science/5.Electrical/Analog/Transformers.md",
     "Assets/Signal-Processing/2d_freq_filters.svg",
     "Assets/Signal-Processing/2d_fourier.svg",
     "Assets/Signal-Processing/fourier_2d.svg",
-    "Science/7.Data Science/Computer Vision/DETR.md",
-    "Science/7.Data Science/Computer Vision/Edge Detection.md",
-    "Science/7.Data Science/Computer Vision/Object Detection.md",
-    "Science/7.Data Science/Computer Vision/Single-Shot Detectors.md",
-    "Science/7.Data Science/Computer Vision/Semantic Segmentation.md",
-    "Science/7.Data Science/Computer Vision/Bag-of-Words.md",
-    "Science/2.Mathematics/Transforms/Fourier Transform.md",
-    "Science/2.Mathematics/Transforms/Hilbert Transform.md",
-    "Science/6.Signal-Processing/Image Processing/Cameras.md",
-    "Science/2.Mathematics/Algebra.md",
-    "Technology/Web Tech/XML.md",
     "Assets/Web/xml_quad.svg",
     "Assets/Web/xml_curve.svg",
     "Assets/Web",
     "Assets/Untitled Folder",
-    "Technology/Web Tech/CSS.md",
-    "Technology/Web Tech/HTML.md",
-    "Technology/Web Tech/JavaScript.md",
-    "Technology/Web Tech/SVG.md",
-    "Technology/Web Tech/Websites.md",
-    "Science/2.Mathematics/Transforms/Laplace Transform.md",
-    "Science/2.Mathematics/Transforms/Transforms.md",
-    "Science/2.Mathematics/Transforms/Z-Transform.md",
-    "Science/5.Electrical/Analog/Rectifiers/Diode-rectifiers.md",
-    "Science/2.Mathematics/Functions/Periodic Functions.md",
     "Assets/Electronics/periodic_functions.svg",
-    "Meta/Workflows.md",
     "Assets/Electronics/dc_eq_nonlin_ps.png",
     "Science/2.Mathematics/Functions",
-    "Assets/Electronics/half_wave_rectifier.svg",
     "Science/5.Electrical/Analog/Rectifiers",
     "Science/5.Electrical/Analog/Diodes",
     "Meta/Untitled",
-    "Assets/Electronics/pn-junction 1.xml",
-    "Assets/Electronics/pn-junction.xml",
-    "Assets/Electronics/pn-junction.pdf",
-    "Writing/Languages"
+    "Assets/Electronics/pn-junction 1.xml"
   ]
 }

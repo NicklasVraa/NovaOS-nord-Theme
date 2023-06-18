@@ -78116,7 +78116,8 @@ var DEFAULT_SETTINGS = {
   frontMatterProviderEnabled: true,
   frontMatterTagAppendSuffix: true,
   frontMatterIgnoreCase: true,
-  calloutProviderEnabled: true
+  calloutProviderEnabled: true,
+  calloutProviderSource: "Completr" /* COMPLETR */
 };
 function intoCompletrPath(vault, ...path) {
   return vault.configDir + "/plugins/obsidian-completr/" + path.join("/");
@@ -79690,6 +79691,67 @@ ${indentation}- `;
 };
 var FrontMatter = new FrontMatterSuggestionProvider();
 
+// node_modules/obsidian-callout-manager/dist/api-esm.mjs
+function __awaiter(thisArg, _arguments, P, generator) {
+  function adopt(value) {
+    return value instanceof P ? value : new P(function(resolve) {
+      resolve(value);
+    });
+  }
+  return new (P || (P = Promise))(function(resolve, reject) {
+    function fulfilled(value) {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    }
+    function rejected(value) {
+      try {
+        step(generator["throw"](value));
+      } catch (e) {
+        reject(e);
+      }
+    }
+    function step(result) {
+      result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
+    }
+    step((generator = generator.apply(thisArg, _arguments || [])).next());
+  });
+}
+var PLUGIN_ID = "callout-manager";
+var PLUGIN_API_VERSION = "v1";
+function getApi(plugin) {
+  var _a;
+  return __awaiter(this, void 0, void 0, function* () {
+    const app = (_a = plugin === null || plugin === void 0 ? void 0 : plugin.app) !== null && _a !== void 0 ? _a : globalThis.app;
+    const { plugins } = app;
+    if (!plugins.enabledPlugins.has(PLUGIN_ID)) {
+      return void 0;
+    }
+    const calloutManagerInstance = yield new Promise((resolve, reject) => {
+      const instance = plugins.plugins[PLUGIN_ID];
+      if (instance !== void 0) {
+        return resolve(instance);
+      }
+      const interval = setInterval(() => {
+        const instance2 = plugins.plugins[PLUGIN_ID];
+        if (instance2 !== void 0) {
+          clearInterval(interval);
+          resolve(instance2);
+        }
+      }, 10);
+    });
+    return calloutManagerInstance.newApiHandle(PLUGIN_API_VERSION, plugin, () => {
+      calloutManagerInstance.destroyApiHandle(PLUGIN_API_VERSION, plugin);
+    });
+  });
+}
+function isInstalled(app) {
+  const appWithPlugins = app !== null && app !== void 0 ? app : globalThis.app;
+  return appWithPlugins.plugins.enabledPlugins.has(PLUGIN_ID);
+}
+
 // src/provider/callout_provider.ts
 var import_obsidian3 = require("obsidian");
 var CALLOUT_SUGGESTIONS_FILE = "callout_suggestions.json";
@@ -79700,6 +79762,7 @@ var CalloutSuggestionProvider = class {
   constructor() {
     this.blocksAllOtherProviders = true;
     this.loadedSuggestions = [];
+    this.boundLoadSuggestionsUsingCalloutManager = this.loadSuggestionsUsingCalloutManager.bind(this);
   }
   getSuggestions(context, settings) {
     if (!settings.calloutProviderEnabled)
@@ -79739,7 +79802,20 @@ var CalloutSuggestionProvider = class {
       });
     });
   }
-  async loadSuggestions(vault) {
+  async loadSuggestions(vault, plugin) {
+    const source = plugin.settings.calloutProviderSource;
+    const calloutManagerApi = await getApi(plugin);
+    if (calloutManagerApi != null) {
+      calloutManagerApi.off("change", this.boundLoadSuggestionsUsingCalloutManager);
+      if (source === "Callout Manager" /* CALLOUT_MANAGER */) {
+        calloutManagerApi.on("change", this.boundLoadSuggestionsUsingCalloutManager);
+        await this.loadSuggestionsUsingCalloutManager();
+        return;
+      }
+    }
+    await this.loadSuggestionsUsingCompletr(vault);
+  }
+  async loadSuggestionsUsingCompletr(vault) {
     const path = intoCompletrPath(vault, CALLOUT_SUGGESTIONS_FILE);
     if (!await vault.adapter.exists(path)) {
       const defaultCommands = generateDefaulCalloutOptions();
@@ -79757,6 +79833,15 @@ var CalloutSuggestionProvider = class {
       }
     }
     this.loadedSuggestions = SuggestionBlacklist.filter(this.loadedSuggestions);
+  }
+  async loadSuggestionsUsingCalloutManager() {
+    const api = await getApi();
+    this.loadedSuggestions = Array.from(api.getCallouts()).sort(({ id: a }, { id: b }) => a.localeCompare(b)).map((callout) => newSuggestion(
+      api.getTitle(callout),
+      callout.id,
+      callout.icon,
+      `rgb(${callout.color})`
+    ));
   }
 };
 var Callout = new CalloutSuggestionProvider();
@@ -80228,6 +80313,18 @@ var CompletrSettingsTab = class extends import_obsidian5.PluginSettingTab {
     });
     new import_obsidian5.Setting(containerEl).setName("Callout provider").setHeading();
     this.createEnabledSetting("calloutProviderEnabled", "Whether or not the callout provider is enabled", containerEl);
+    new import_obsidian5.Setting(containerEl).setName("Source").setDesc("Where callout suggestions come from.").addDropdown((component) => {
+      component.addOption("Completr", "Completr" /* COMPLETR */).setValue("Completr" /* COMPLETR */).onChange(async (value) => {
+        this.plugin.settings.calloutProviderSource = value;
+        await this.plugin.saveSettings();
+      });
+      if (isInstalled()) {
+        component.addOption("Callout Manager", "Callout Manager" /* CALLOUT_MANAGER */);
+        if (this.plugin.settings.calloutProviderSource === "Callout Manager" /* CALLOUT_MANAGER */) {
+          component.setValue(this.plugin.settings.calloutProviderSource);
+        }
+      }
+    });
   }
   async reloadWords() {
     if (this.isReloadingWords)
@@ -80540,7 +80637,7 @@ var CompletrPlugin = class extends import_obsidian6.Plugin {
       WordList.loadFromFiles(this.app.vault, this.settings);
       FileScanner.loadData(this.app.vault);
       Latex.loadCommands(this.app.vault);
-      Callout.loadSuggestions(this.app.vault);
+      Callout.loadSuggestions(this.app.vault, this);
     });
   }
   get suggestionPopup() {
