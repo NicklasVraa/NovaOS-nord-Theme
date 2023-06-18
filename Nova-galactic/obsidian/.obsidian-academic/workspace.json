@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meta/Todo.md",
+                "file": "University/8. sem/ACAS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meta/Todo.md"
+                "file": "University/8. sem/ACAS.md"
               }
             }
           },
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meta/Todo.md",
+                "file": "University/8. sem/ACAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +140,8 @@
   },
   "active": "20dff7fddfeab85c",
   "lastOpenFiles": [
+    "Meta/Templates/Default.md",
+    "Meta/Todo.md",
     "Science/6.Electrical/Analog/Op-Amps/Comparator Op-Amps.md",
     "University/8. sem/ACAS.md",
     "Science/6.Electrical/Analog/Op-Amps/Non-ideal Op-Amps.md",
@@ -153,7 +156,6 @@
     "Science/6.Electrical/Analog/Op-Amps/Ideal Operational Amplifiers.md",
     "University/Untitled.md",
     "University/8. sem",
-    "Meta/Todo.md",
     "Business/Innovation/Models and Frameworks.md",
     "Business/Innovation/AIE.md",
     "Business/Innovation/Theory of Innovation.md",
@@ -165,7 +167,6 @@
     "Science/7.Data Science/Basics/Regularization.md",
     "Science/7.Data Science/Neural Networks/Optimizers.md",
     "Science/7.Data Science/Basics/Loss-Functions.md",
-    "Science/2.Mathematics/Linear Algebra/Convolution.md",
     "Business/Innovation/Untitled",
     "Business/Innovation",
     "Assets/Electronics/Power/boost_converter.svg",
