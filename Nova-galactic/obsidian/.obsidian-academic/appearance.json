@@ -2,10 +2,10 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "custom",
-    "UI-tweaks",
     "No-animation",
     "PDF-export",
-    "academic-pdf-export"
+    "academic-pdf-export",
+    "UI-tweaks"
   ],
   "translucency": false,
   "textFontFamily": "Ubuntu,CMU Serif,Latin Modern Roman,Latin Modern Roman Caps",

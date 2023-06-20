@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0063e1996b47a115",
+        "id": "0b328ca863833191",
         "type": "tabs",
         "children": [
           {
-            "id": "20dff7fddfeab85c",
+            "id": "e1f54621e2a1868e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/8. sem/ACAS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bridge",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -104,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "University/8. sem/ACAS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -115,14 +107,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/8. sem/ACAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -138,53 +129,53 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "20dff7fddfeab85c",
+  "active": "e1f54621e2a1868e",
   "lastOpenFiles": [
-    "Meta/Templates/Default.md",
-    "Meta/Todo.md",
-    "Science/6.Electrical/Analog/Op-Amps/Comparator Op-Amps.md",
+    "University/8. sem/0. Summary.md",
+    "University/8. sem/8. Buck Converters.md",
+    "Science/6.Electrical/Analog/Converters/Switch-mode Converters.md",
     "University/8. sem/ACAS.md",
-    "Science/6.Electrical/Analog/Op-Amps/Non-ideal Op-Amps.md",
-    "Science/6.Electrical/Analog/Op-Amps/Instrumentation Amplifiers.md",
-    "Science/6.Electrical/Analog/Op-Amps/Integrator Op-Amps.md",
-    "Science/6.Electrical/Analog/Op-Amps/Inverting Op-Amps.md",
-    "Science/6.Electrical/Analog/Op-Amps/Non-inverting Op-Amps.md",
-    "Science/6.Electrical/Analog/Op-Amps/Op-Amp Converters.md",
-    "Science/6.Electrical/Analog/Op-Amps/Differential Op-Amps.md",
-    "Science/6.Electrical/Analog/Op-Amps/Differentiator Op-Amps.md",
-    "Science/6.Electrical/Analog/Op-Amps/Bridge Amplifiers.md",
-    "Science/6.Electrical/Analog/Op-Amps/Ideal Operational Amplifiers.md",
-    "University/Untitled.md",
+    "Science/6.Electrical/Basics/PWM.md",
+    "University/8. sem/4. DAC.md",
+    "Science/6.Electrical/Analog/Converters/Power Supplies Stacks.md",
+    "Science/6.Electrical/Analog/Converters/Rectifiers.md",
+    "Science/6.Electrical/Analog/Converters/Regulators.md",
+    "University/8. sem/7. Passive Filters.md",
+    "University/8. sem/5-6. Mini-Project.md",
+    "University/8. sem/3. ADC.md",
+    "University/8. sem/2. Active Filters.md",
+    "University/8. sem/1. Instrumental Amps.md",
+    "Science/6.Electrical/Analog/Converters/DAC.md",
+    "Assets/charge_scaling_dac.svg",
+    "Assets/charge_scaling_dac.svg",
+    "Assets/current_scaling_dac.svg",
+    "Assets/r-2r_dac.svg",
+    "Assets/r-2r_dac.svg",
+    "Science/6.Electrical/Analog/Converters/ADC.md",
+    "Assets/sar_adc.svg",
+    "Science/2.Mathematics/Basics/Notation.md",
+    "Science/2.Mathematics/Basics/Logarithms.md",
+    "Science/2.Mathematics/Basics/Fraction Decomposition.md",
+    "Science/2.Mathematics/Basics/Euler's Theorem.md",
+    "Science/2.Mathematics/Basics/Complex Numbers.md",
+    "Science/2.Mathematics/Basics/Algebra.md",
+    "Science/1.Cross-discipline/SI-units.md",
+    "Science/1.Cross-discipline/SI-notation.md",
+    "Science/1.Cross-discipline/Scientific Methods.md",
+    "Science/1.Cross-discipline/Constants.md",
+    "Assets/eeg_drl.svg",
+    "University/8. sem/Untitled",
     "University/8. sem",
-    "Business/Innovation/Models and Frameworks.md",
-    "Business/Innovation/AIE.md",
-    "Business/Innovation/Theory of Innovation.md",
-    "Business/Innovation/Business Modelling.md",
-    "Business/Innovation/Negotiation.md",
-    "Business/Innovation/CIS.md",
-    "Business/Innovation/Teams and Cooperation.md",
-    "Business/Innovation/Intellectual Property.md",
-    "Science/7.Data Science/Basics/Regularization.md",
-    "Science/7.Data Science/Neural Networks/Optimizers.md",
-    "Science/7.Data Science/Basics/Loss-Functions.md",
     "Business/Innovation/Untitled",
     "Business/Innovation",
     "Assets/Electronics/Power/boost_converter.svg",
     "Assets/Electronics/transformers.svg",
     "Assets/Electronics/transformers.svg",
-    "Assets/Signal-Processing/2d_freq_filters.svg",
-    "Assets/Signal-Processing/2d_fourier.svg",
-    "Assets/Signal-Processing/fourier_2d.svg",
-    "Assets/Web/xml_quad.svg",
-    "Assets/Web/xml_curve.svg",
     "Assets/Web",
     "Assets/Untitled Folder",
-    "Assets/Electronics/periodic_functions.svg",
-    "Assets/Electronics/dc_eq_nonlin_ps.png",
     "Science/2.Mathematics/Functions",
     "Science/5.Electrical/Analog/Rectifiers",
     "Science/5.Electrical/Analog/Diodes",
-    "Meta/Untitled",
-    "Assets/Electronics/pn-junction 1.xml"
+    "Meta/Untitled"
   ]
 }

@@ -6,8 +6,8 @@ Auth: Nicklas Vraa
 
 /* UI: ---------------------------------------------------------------------- */
 body {
-    --radius-m: 0;
     /* Removes all rounded corners. */
+    --radius-m: 0;
     --input-radius: 0;
 }
 
@@ -62,10 +62,15 @@ body:not(.is-mobile) .modal,
     margin: 0 0 0 20px !important;
 }
 
-.nav-file-title,
+.nav-file-title {
+    margin-bottom: 0px !important;
+    padding-bottom: 2px !important;
+}
+
 .nav-folder-title {
     margin-bottom: 0px !important;
     padding-bottom: 2px !important;
+    margin-left: -18px !important;
 }
 
 .minimal-status-off .status-bar {
@@ -78,6 +83,7 @@ body:not(.is-mobile) .modal,
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
 
 /* GRAPH: ------------------------------------------------------------------- */
 .graph-view.color-fill-tag {
@@ -106,10 +112,9 @@ table {
     margin: 5px 10px !important;
 }
 
-/* Invert image colors for dark theme. */
+/* Adjust spacing around images. */
 img {
     margin: 0px 0px 0px 10px !important;
-    filter: invert(100%) !important;
 }
 
 /* Align math blocks to the left. */
@@ -135,11 +140,6 @@ mjx-container[display="true"] {
     padding-bottom: 3px !important;
 }
 
-/* Fix task alignment. */
-.HyperMD-task-line {
-    padding-left: 25px !important;
-}
-
 /* Fixes indentation for bullet-point lists. */
 .cm-formatting-list-ul {
     margin-left: -2px !important;
@@ -153,4 +153,19 @@ mjx-container[display="true"] {
 /* Makes quote blocks less prominent. */
 .cm-quote {
     opacity: 60% !important;
+}
+
+@media not print {
+    /* Invert image colors for dark theme,
+    but not when exporting to PDF. */
+    img {
+        filter: invert(100%) !important;
+    }
+}
+
+/* Page break rules when exporting to PDF. */
+@media print {
+    hr {
+      page-break-after: always;
+    }
 }
