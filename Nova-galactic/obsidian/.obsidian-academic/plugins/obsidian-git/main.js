@@ -31065,6 +31065,7 @@ var IsomorphicGit = class extends GitManager {
       "110": "DA",
       // Technically, two files: first one is deleted "D " and second one is untracked "??"
       "111": "  ",
+      "113": "MM",
       "120": "DA",
       // Same as "110"
       "121": " M",
@@ -32181,7 +32182,7 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
         })
       );
       new import_obsidian8.Setting(containerEl).setName("Commit message on auto backup/commit").setDesc(
-        "Available placeholders: {{date}} (see below), {{hostname}} (see below) and {{numFiles}} (number of changed files in the commit)"
+        "Available placeholders: {{date}} (see below), {{hostname}} (see below), {{numFiles}} (number of changed files in the commit) and {{files}} (changed files in commit message)"
       ).addText(
         (text2) => text2.setPlaceholder("vault backup: {{date}}").setValue(plugin.settings.autoCommitMessage).onChange((value) => {
           plugin.settings.autoCommitMessage = value;
@@ -32191,7 +32192,7 @@ var ObsidianGitSettingsTab = class extends import_obsidian8.PluginSettingTab {
       containerEl.createEl("br");
       containerEl.createEl("h3", { text: "Commit message" });
       new import_obsidian8.Setting(containerEl).setName("Commit message on manual backup/commit").setDesc(
-        "Available placeholders: {{date}} (see below), {{hostname}} (see below) and {{numFiles}} (number of changed files in the commit)"
+        "Available placeholders: {{date}} (see below), {{hostname}} (see below), {{numFiles}} (number of changed files in the commit) and {{files}} (changed files in commit message)"
       ).addText(
         (text2) => text2.setPlaceholder("vault backup: {{date}}").setValue(
           plugin.settings.commitMessage ? plugin.settings.commitMessage : ""
@@ -43127,10 +43128,6 @@ var ObsidianGit = class extends import_obsidian30.Plugin {
         committedFiles = await this.gitManager.commit(cmtMessage);
       } else {
         committedFiles = await this.gitManager.commitAll({
-          // A type error occurs here because `this.settings.autoCommitMessage` is possibly undefined.
-          // However, since `this.settings.autoCommitMessage` is always set to string in `this.migrateSettings`,
-          // `undefined` is never passed here. Therefore, temporarily ignore this error.
-          // @ts-ignore
           message: cmtMessage,
           status: status2,
           unstagedFiles

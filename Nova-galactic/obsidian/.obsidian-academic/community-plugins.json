@@ -6,5 +6,8 @@
   "obsidian-completr",
   "obsidian-vault-statistics-plugin",
   "obsidian-contextual-typography",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-plugin-toc",
+  "tag-wrangler",
+  "global-search-and-replace"
 ]

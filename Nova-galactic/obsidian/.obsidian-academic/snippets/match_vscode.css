@@ -1,8 +1,9 @@
-/*
-Desc: UI-Tweaks for the Obsidian application.
+/* -----------------------------------------------------------------------------
+Desc: UI-Tweaks for the Obsidian application to match VSCode.
       Should be used with the minimal theme.
+
 Auth: Nicklas Vraa
-*/
+----------------------------------------------------------------------------- */
 
 /* UI: ---------------------------------------------------------------------- */
 body {
@@ -154,6 +155,8 @@ mjx-container[display="true"] {
 .cm-quote {
     opacity: 60% !important;
 }
+
+/* Use-case specific styling. --------------------------------------------- */
 
 @media not print {
     /* Invert image colors for dark theme,

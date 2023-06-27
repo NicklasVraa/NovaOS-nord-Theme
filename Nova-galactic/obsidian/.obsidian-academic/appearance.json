@@ -5,7 +5,10 @@
     "No-animation",
     "PDF-export",
     "academic-pdf-export",
-    "UI-tweaks"
+    "UI-tweaks",
+    "ui-tweaks",
+    "match_vscode",
+    "number_headings"
   ],
   "translucency": false,
   "textFontFamily": "Ubuntu,CMU Serif,Latin Modern Roman,Latin Modern Roman Caps",
@@ -15,5 +18,6 @@
   "accentColor": "",
   "nativeMenus": true,
   "showViewHeader": false,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "theme": "obsidian"
 }

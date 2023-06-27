@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "tag:defence",
       "color": {
         "a": 1,
         "rgb": 12542314
@@ -92,7 +92,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:analog-electronics",
       "color": {
         "a": 1,
         "rgb": 8962256
@@ -113,14 +113,14 @@
       }
     },
     {
-      "query": "tag:electrical",
+      "query": "tag:digital-electronics",
       "color": {
         "a": 1,
         "rgb": 6193580
       }
     },
     {
-      "query": "tag:control",
+      "query": "tag:control-systems",
       "color": {
         "a": 1,
         "rgb": 8095148
@@ -165,6 +165,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.12736132074272566,
+  "scale": 0.22850854896581965,
   "close": true
 }
