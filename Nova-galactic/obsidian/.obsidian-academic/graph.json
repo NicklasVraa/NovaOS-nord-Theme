@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:cutting-edge",
       "color": {
         "a": 1,
         "rgb": 12938860
@@ -165,6 +165,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.22850854896581965,
+  "scale": 0.13735730957303333,
   "close": true
 }

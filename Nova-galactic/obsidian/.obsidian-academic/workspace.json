@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eaff8b9a66bc6c61",
+        "id": "ddbc9cad21b2e125",
         "type": "tabs",
         "children": [
           {
-            "id": "f34031e0291030a2",
+            "id": "44fe018935daa8f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology/Linux/Basics/GNU-Linux.md",
+                "file": "Science/9. Cutting-Edge/Neuromorphic Computing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology/Linux/Basics/GNU-Linux.md"
+                "file": "Science/9. Cutting-Edge/Neuromorphic Computing.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology/Linux/Basics/GNU-Linux.md",
+                "file": "Science/9. Cutting-Edge/Neuromorphic Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,10 +138,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f34031e0291030a2",
+  "active": "44fe018935daa8f8",
   "lastOpenFiles": [
-    "Meta/Formating Test File.md",
+    "Science/9. Cutting-Edge/Spintronics.md",
+    "Science/9. Cutting-Edge/Neuromorphic Computing.md",
+    "Science/9. Cutting-Edge",
+    "Assets/Electronics/von_neumann_computing.svg",
+    "Assets/Electronics/neuromorphic_computing.svg",
+    "Technology/Programming/Languages/Python/Virtual Environments.md",
+    "Technology/Programming/Languages/Python/Python Syntax.md",
+    "Technology/Programming/Languages/Python",
+    "Technology/Programming/Languages/Interpreted Languages",
+    "Technology/Programming/Languages/Python/Jypyter Notebooks.md",
     "Technology/Linux/Basics/GNU-Linux.md",
+    "Meta/Formating Test File.md",
     "Technology/Linux/Basics/Damage Control.md",
     "Technology/Linux/Basics/Bash Scripting.md",
     "Meta/Color Palettes.md",
@@ -161,11 +171,6 @@
     "Technology/Linux/Hardware Notes.md",
     "Technology/Linux/WMs and DEs/Regolith.md",
     "Technology/Programming/Languages/Programming Languages.md",
-    "Technology/Programming/Frameworks/ROS.md",
-    "Technology/Programming/Languages/Interpreted Languages/Python/Python Syntax.md",
-    "Technology/Programming/Languages/Interpreted Languages/Python/Scipy.md",
-    "Technology/Programming/Languages/Interpreted Languages/Python/Pip.md",
-    "Technology/Programming/Languages/Interpreted Languages/Python/Numpy.md",
     "Technology/Programming/Regular Expressions",
     "Science/7. Digital-Electronics",
     "Assets/Web/XML/xml_quad.svg",
@@ -176,15 +181,10 @@
     "Assets/Mathematics/periodic_functions.svg",
     "Assets/Mathematics/measurements.svg",
     "Assets/Mathematics/mahalanobis_distance.svg",
-    "Assets/Linux/tree_tiling_simple.svg",
-    "Assets/Linux/tree_tiling_complex.svg",
     "Assets/Electronics/Converters",
     "University/8. sem/Image Processing/Hardware",
     "University/8. sem/Untitled",
     "University/8. sem",
-    "Business/Innovation/Untitled",
-    "Business/Innovation",
-    "Assets/Web",
-    "Assets/Untitled Folder"
+    "Business/Innovation/Untitled"
   ]
 }
