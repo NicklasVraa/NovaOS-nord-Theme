@@ -10,6 +10,7 @@ body {
     /* Removes all rounded corners. */
     --radius-m: 0;
     --input-radius: 0;
+    --file-margins: 5px;
 }
 
 body:not(.is-mobile) .modal,

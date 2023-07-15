@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ddbc9cad21b2e125",
+        "id": "c8b4eadf42f8382a",
         "type": "tabs",
         "children": [
           {
-            "id": "44fe018935daa8f8",
+            "id": "929b9e044733ee84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/9. Cutting-Edge/Neuromorphic Computing.md",
+                "file": "Writing/TeX/LaTeX Math.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Science/9. Cutting-Edge/Neuromorphic Computing.md"
+                "file": "Writing/TeX/LaTeX Math.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/9. Cutting-Edge/Neuromorphic Computing.md",
+                "file": "Writing/TeX/LaTeX Math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,13 +135,38 @@
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
+      "canvas:Create new canvas": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "44fe018935daa8f8",
+  "active": "929b9e044733ee84",
   "lastOpenFiles": [
-    "Science/9. Cutting-Edge/Spintronics.md",
+    "Scratchpad.md",
+    "Business/Startup/Firmaer.md",
+    "Business/Startup/Bogføring.md",
+    "Business/Startup/Moms.md",
+    "Business/Theory/Business Modelling.md",
+    "Business/Startup",
+    "Business/Theory/Teamwork.md",
+    "Business/Theory",
+    "Business/Theory/Negotiation.md",
+    "Business/Tax Law.md",
+    "Business/Theory/Management.md",
+    "Business/Management 1.md",
+    "Business/Theory/Key Performance Indicators.md",
+    "Business/Theory/Intellectual Property.md",
+    "Business/Theory/Innovation.md",
+    "Readme.md",
+    "Science/4. Signal-Processing/Image Processing/Compression.md",
+    "Science/4. Signal-Processing/Image Processing/Untitled.md",
+    "Science/4. Signal-Processing/Image Processing/Color Spaces.md",
+    "Technology/Linux/Distributions/Linux Mint.md",
+    "Business Model.canvas",
+    "Technology/Linux/Software/Penguins-eggs.md",
+    "Technology/Programming/Regular Expressions/Regex Syntax.md",
+    "Technology/Linux/Software/LibreOffice.md",
     "Science/9. Cutting-Edge/Neuromorphic Computing.md",
+    "Science/9. Cutting-Edge/Spintronics.md",
     "Science/9. Cutting-Edge",
     "Assets/Electronics/von_neumann_computing.svg",
     "Assets/Electronics/neuromorphic_computing.svg",
@@ -150,27 +175,6 @@
     "Technology/Programming/Languages/Python",
     "Technology/Programming/Languages/Interpreted Languages",
     "Technology/Programming/Languages/Python/Jypyter Notebooks.md",
-    "Technology/Linux/Basics/GNU-Linux.md",
-    "Meta/Formating Test File.md",
-    "Technology/Linux/Basics/Damage Control.md",
-    "Technology/Linux/Basics/Bash Scripting.md",
-    "Meta/Color Palettes.md",
-    "Technology/Linux/Basics/The Linux Stack.md",
-    "Technology/Linux/Basics/Window Tiling.md",
-    "Technology/Linux/Basics/Symbolic Links.md",
-    "Technology/Linux/Basics/Maintenance.md",
-    "Technology/Linux/Basics/Linux Packages.md",
-    "Meta/My system/My Docker Containers.md",
-    "Technology/Linux/Software/Docker.md",
-    "Technology/Linux/Software/Expect.md",
-    "Technology/Linux/Software/Ffmpeg.md",
-    "Technology/Linux/Software/Git.md",
-    "Technology/Linux/Software/ImageMagick.md",
-    "Technology/Linux/Software/Penguins-eggs.md",
-    "Technology/Linux/Software/Wmctrl.md",
-    "Technology/Linux/Hardware Notes.md",
-    "Technology/Linux/WMs and DEs/Regolith.md",
-    "Technology/Programming/Languages/Programming Languages.md",
     "Technology/Programming/Regular Expressions",
     "Science/7. Digital-Electronics",
     "Assets/Web/XML/xml_quad.svg",
@@ -183,8 +187,6 @@
     "Assets/Mathematics/mahalanobis_distance.svg",
     "Assets/Electronics/Converters",
     "University/8. sem/Image Processing/Hardware",
-    "University/8. sem/Untitled",
-    "University/8. sem",
-    "Business/Innovation/Untitled"
+    "University/8. sem/Untitled"
   ]
 }

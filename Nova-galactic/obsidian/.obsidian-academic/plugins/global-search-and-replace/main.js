@@ -525,7 +525,7 @@ var require_react_development = __commonJS({
           }
           return element;
         };
-        function createElement9(type, config, children) {
+        function createElement11(type, config, children) {
           var propName;
           var props = {};
           var key = null;
@@ -1127,7 +1127,7 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useCallback(callback, deps);
         }
-        function useMemo(create, deps) {
+        function useMemo2(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useMemo(create, deps);
         }
@@ -1624,7 +1624,7 @@ var require_react_development = __commonJS({
               error("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
             }
           }
-          var element = createElement9.apply(this, arguments);
+          var element = createElement11.apply(this, arguments);
           if (element == null) {
             return element;
           }
@@ -1898,7 +1898,7 @@ var require_react_development = __commonJS({
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
         exports.useLayoutEffect = useLayoutEffect;
-        exports.useMemo = useMemo;
+        exports.useMemo = useMemo2;
         exports.useReducer = useReducer;
         exports.useRef = useRef;
         exports.useState = useState2;
@@ -2397,9 +2397,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React9 = require_react();
+        var React11 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React9.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React11.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -4004,7 +4004,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React9.Children.forEach(props.children, function(child) {
+                React11.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -9403,7 +9403,7 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function createElement9(type, props, rootContainerElement, parentNamespace) {
+        function createElement11(type, props, rootContainerElement, parentNamespace) {
           var isCustomComponentTag;
           var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
           var domElement;
@@ -10264,7 +10264,7 @@ var require_react_dom_development = __commonJS({
             }
             parentNamespace = hostContextDev.namespace;
           }
-          var domElement = createElement9(type, props, rootContainerInstance, parentNamespace);
+          var domElement = createElement11(type, props, rootContainerInstance, parentNamespace);
           precacheFiberNode(internalInstanceHandle, domElement);
           updateFiberProps(domElement, props);
           return domElement;
@@ -12451,7 +12451,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React9.Component().refs;
+        var emptyRefsObject = new React11.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -23534,10 +23534,10 @@ var import_obsidian3 = require("obsidian");
 // src/obsidian-components/search-and-replace-modal.tsx
 var import_obsidian2 = require("obsidian");
 var import_client = __toESM(require_client());
-var React8 = __toESM(require_react());
+var React10 = __toESM(require_react());
 
 // src/react-components/SearchAndReplace.tsx
-var React7 = __toESM(require_react());
+var React9 = __toESM(require_react());
 var import_react = __toESM(require_react());
 
 // src/react-components/PromptInstructions.tsx
@@ -23545,9 +23545,102 @@ var React = __toESM(require_react());
 var PromptInstructions = () => /* @__PURE__ */ React.createElement("div", { className: "prompt-instructions" }, /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2191\u2193"), /* @__PURE__ */ React.createElement("span", null, "to navigate")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to replace")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2318\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to open")));
 
 // src/react-components/SearchInput.tsx
+var React4 = __toESM(require_react());
+
+// src/react-components/EnableRegexButton.tsx
 var React2 = __toESM(require_react());
-function SearchInput({ value, onChange }) {
-  return /* @__PURE__ */ React2.createElement("div", { className: "snr-input-icon-wrapper" }, /* @__PURE__ */ React2.createElement(
+function EnableRegexButton({
+  regexEnabled,
+  onEnableRegexButtonClick
+}) {
+  return /* @__PURE__ */ React2.createElement(
+    "div",
+    {
+      className: "workspace-tab-header",
+      "aria-label": "Enable regex search",
+      "aria-label-delay": "50"
+    },
+    /* @__PURE__ */ React2.createElement(
+      "div",
+      {
+        className: `workspace-tab-header-inner snr-workspace-tab-header-inner snr-regex-button ${regexEnabled ? "snr-workspace-tab-header-inner-icon-active" : ""}`,
+        onClick: onEnableRegexButtonClick
+      },
+      /* @__PURE__ */ React2.createElement("div", { className: "workspace-tab-header-inner-icon" }, /* @__PURE__ */ React2.createElement(
+        "svg",
+        {
+          xmlns: "http://www.w3.org/2000/svg",
+          width: "24",
+          height: "24",
+          viewBox: "0 0 24 24",
+          fill: "none",
+          stroke: "currentColor",
+          strokeWidth: "2",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          className: "svg-icon"
+        },
+        /* @__PURE__ */ React2.createElement("path", { d: "M17 3v10" }),
+        /* @__PURE__ */ React2.createElement("path", { d: "m12.67 5.5 8.66 5" }),
+        /* @__PURE__ */ React2.createElement("path", { d: "m12.67 10.5 8.66-5" }),
+        /* @__PURE__ */ React2.createElement("path", { d: "M9 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2z" })
+      ))
+    )
+  );
+}
+
+// src/react-components/EnableCaseSensitivityButton.tsx
+var React3 = __toESM(require_react());
+function EnableCaseSensitivityButton({
+  caseSensitivityEnabled,
+  onEnableCaseSensitivityButtonClick
+}) {
+  return /* @__PURE__ */ React3.createElement(
+    "div",
+    {
+      className: "workspace-tab-header",
+      "aria-label": "Enable case-sensitive search",
+      "aria-label-delay": "50"
+    },
+    /* @__PURE__ */ React3.createElement(
+      "div",
+      {
+        className: `workspace-tab-header-inner snr-workspace-tab-header-inner ${caseSensitivityEnabled ? "snr-workspace-tab-header-inner-icon-active" : ""}`,
+        onClick: onEnableCaseSensitivityButtonClick
+      },
+      /* @__PURE__ */ React3.createElement("div", { className: "workspace-tab-header-inner-icon" }, /* @__PURE__ */ React3.createElement(
+        "svg",
+        {
+          xmlns: "http://www.w3.org/2000/svg",
+          width: "24",
+          height: "24",
+          viewBox: "0 0 24 24",
+          fill: "none",
+          stroke: "currentColor",
+          strokeWidth: "2",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          className: "svg-icon"
+        },
+        /* @__PURE__ */ React3.createElement("path", { d: "m3 15 4-8 4 8" }),
+        /* @__PURE__ */ React3.createElement("path", { d: "M4 13h6" }),
+        /* @__PURE__ */ React3.createElement("circle", { cx: "18", cy: "12", r: "3" }),
+        /* @__PURE__ */ React3.createElement("path", { d: "M21 9v6" })
+      ))
+    )
+  );
+}
+
+// src/react-components/SearchInput.tsx
+function SearchInput({
+  searchInputValue,
+  onSearchInputChange,
+  regexEnabled,
+  onEnableRegexButtonClick,
+  onEnableCaseSensitivityButtonClick,
+  caseSensitivityEnabled
+}) {
+  return /* @__PURE__ */ React4.createElement("div", { className: "snr-input-icon-wrapper" }, /* @__PURE__ */ React4.createElement(
     "input",
     {
       className: "prompt-input",
@@ -23555,16 +23648,28 @@ function SearchInput({ value, onChange }) {
       type: "text",
       placeholder: "Search",
       autoFocus: true,
-      value,
-      onChange
+      value: searchInputValue,
+      onChange: onSearchInputChange
+    }
+  ), /* @__PURE__ */ React4.createElement(
+    EnableCaseSensitivityButton,
+    {
+      caseSensitivityEnabled,
+      onEnableCaseSensitivityButtonClick
+    }
+  ), /* @__PURE__ */ React4.createElement(
+    EnableRegexButton,
+    {
+      regexEnabled,
+      onEnableRegexButtonClick
     }
   ));
 }
 
 // src/react-components/ReplaceInput.tsx
-var React3 = __toESM(require_react());
+var React5 = __toESM(require_react());
 function ReplaceInput({ value, onChange }) {
-  return /* @__PURE__ */ React3.createElement("div", { className: "snr-input-button-wrapper" }, /* @__PURE__ */ React3.createElement(
+  return /* @__PURE__ */ React5.createElement("div", { className: "snr-input-button-wrapper" }, /* @__PURE__ */ React5.createElement(
     "input",
     {
       className: "prompt-input",
@@ -23578,10 +23683,10 @@ function ReplaceInput({ value, onChange }) {
 }
 
 // src/react-components/SearchResultsContainer.tsx
-var React5 = __toESM(require_react());
+var React7 = __toESM(require_react());
 
 // src/react-components/SearchResultDisplay.tsx
-var React4 = __toESM(require_react());
+var React6 = __toESM(require_react());
 var SearchResultDisplay = ({
   isSelected,
   searchResult,
@@ -23589,7 +23694,7 @@ var SearchResultDisplay = ({
   selectedIndexChangeHandler,
   searchResultChosenHandler
 }) => {
-  return /* @__PURE__ */ React4.createElement(
+  return /* @__PURE__ */ React6.createElement(
     "div",
     {
       onPointerMove: () => selectedIndexChangeHandler(index),
@@ -23598,8 +23703,8 @@ var SearchResultDisplay = ({
       "data-search-result-index": index,
       className: `suggestion-item mod-complex ${isSelected ? "is-selected" : ""}`
     },
-    /* @__PURE__ */ React4.createElement("div", { className: "suggestion-content snr-suggestion-content" }, /* @__PURE__ */ React4.createElement("div", { className: "suggestion-title" }, searchResult.getBeforeMatchSubstring(), /* @__PURE__ */ React4.createElement("span", { className: "snr-highlight" }, searchResult.getMatchSubstring()), searchResult.getAfterMatchSubstring())),
-    /* @__PURE__ */ React4.createElement("div", { className: "suggestion-aux snr-suggestion-aux" }, /* @__PURE__ */ React4.createElement("span", { className: "suggestion-flair snr-suggestion-flair" }, searchResult.filePath), /* @__PURE__ */ React4.createElement("span", { className: "snr-line-number" }, searchResult.lineNumber))
+    /* @__PURE__ */ React6.createElement("div", { className: "suggestion-content snr-suggestion-content" }, /* @__PURE__ */ React6.createElement("div", { className: "suggestion-title" }, searchResult.getBeforeMatchSubstring(), /* @__PURE__ */ React6.createElement("span", { className: "snr-highlight" }, searchResult.getMatchSubstring()), searchResult.getAfterMatchSubstring())),
+    /* @__PURE__ */ React6.createElement("div", { className: "suggestion-aux snr-suggestion-aux" }, /* @__PURE__ */ React6.createElement("span", { className: "suggestion-flair snr-suggestion-flair" }, searchResult.filePath), /* @__PURE__ */ React6.createElement("span", { className: "snr-line-number" }, searchResult.lineNumber))
   );
 };
 
@@ -23619,7 +23724,7 @@ function SearchResultsContainer({
     const key = createKey(searchResult);
     if (index >= numberOfResultsToDisplay)
       return null;
-    return /* @__PURE__ */ React5.createElement(
+    return /* @__PURE__ */ React7.createElement(
       SearchResultDisplay,
       {
         key,
@@ -23641,7 +23746,7 @@ function SearchResultsContainer({
       scrollThresholdExceededHandler();
     }
   }
-  return /* @__PURE__ */ React5.createElement("div", { onScroll: handleScroll, className: "prompt-results" }, resultsMarkup);
+  return /* @__PURE__ */ React7.createElement("div", { onScroll: handleScroll, className: "prompt-results" }, resultsMarkup);
 }
 
 // src/infrastructure/event-bridge.ts
@@ -23670,17 +23775,17 @@ function findLastIndex(array, predicate) {
 }
 
 // src/react-components/ResultsNumberSummary.tsx
-var React6 = __toESM(require_react());
+var React8 = __toESM(require_react());
 function ResultsNumberSummary({
   numberOfResults,
   numberOfFilesWithMatches
 }) {
-  return /* @__PURE__ */ React6.createElement("div", { className: "snr-result-summary" }, numberOfResults, " matches found in ", numberOfFilesWithMatches, " files");
+  return /* @__PURE__ */ React8.createElement("div", { className: "snr-result-summary" }, numberOfResults, " matches found in ", numberOfFilesWithMatches, " files");
 }
 
 // src/react-components/SearchAndReplace.tsx
 var import_obsidian = require("obsidian");
-var NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER = 20;
+var INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER = 20;
 function SearchAndReplace({
   fileOperator
 }) {
@@ -23689,10 +23794,12 @@ function SearchAndReplace({
   const [selectedIndex, setSelectedIndex] = (0, import_react.useState)(0);
   const [searchResults, setSearchResults] = (0, import_react.useState)([]);
   const [numberOfResultsToDisplay, setNumberOfResultsToDisplay] = (0, import_react.useState)(
-    NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
+    INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
   );
+  const [regexEnabled, setRegexEnabled] = (0, import_react.useState)(false);
+  const [caseSensitivityEnabled, setCaseSensitivityEnabled] = (0, import_react.useState)(false);
   const [numberOfFilesWithMatches, setNumberOfFilesWithMatches] = (0, import_react.useState)(0);
-  const handleArrowUp = (0, import_react.useCallback)(() => {
+  const moveSelectionUp = (0, import_react.useCallback)(() => {
     setSelectedIndex((i) => {
       let newIndex;
       if (i === 0) {
@@ -23704,7 +23811,7 @@ function SearchAndReplace({
       return newIndex;
     });
   }, []);
-  const handleArrowDown = (0, import_react.useCallback)(() => {
+  const moveSelectionDown = (0, import_react.useCallback)(() => {
     setSelectedIndex((i) => {
       let newIndex;
       if (i === searchResults.length - 1) {
@@ -23716,16 +23823,15 @@ function SearchAndReplace({
       return newIndex;
     });
   }, [searchResults]);
-  const handleCommandEnter = (0, import_react.useCallback)(async () => {
-    await fileOperator.open(searchResults[selectedIndex]);
-  }, [fileOperator, searchResults, selectedIndex]);
-  const handleEnterOrClick = (0, import_react.useCallback)(async () => {
+  const replaceSelection = (0, import_react.useCallback)(async () => {
     if (searchResults.length === 0)
       return;
     const replaceOperationResult = await fileOperator.replace(
       searchResults[selectedIndex],
       replaceText,
-      searchText
+      searchText,
+      regexEnabled,
+      caseSensitivityEnabled
     );
     if (!replaceOperationResult) {
       setSearchResults((previousResults) => {
@@ -23758,46 +23864,82 @@ function SearchAndReplace({
         ];
       });
     }
-  }, [selectedIndex, searchResults, replaceText, searchText, fileOperator]);
+  }, [
+    searchResults,
+    fileOperator,
+    selectedIndex,
+    replaceText,
+    searchText,
+    regexEnabled,
+    caseSensitivityEnabled
+  ]);
+  const openSelectionInEditor = (0, import_react.useCallback)(async () => {
+    await fileOperator.open(searchResults[selectedIndex]);
+  }, [fileOperator, searchResults, selectedIndex]);
   (0, import_react.useEffect)(() => {
-    event_bridge_default.onArrowUp = handleArrowUp;
-    event_bridge_default.onArrowDown = handleArrowDown;
-    event_bridge_default.onEnter = handleEnterOrClick;
-    event_bridge_default.onCommandEnter = handleCommandEnter;
-  }, [handleArrowUp, handleArrowDown, handleEnterOrClick, handleCommandEnter]);
+    event_bridge_default.onArrowUp = moveSelectionUp;
+    event_bridge_default.onArrowDown = moveSelectionDown;
+    event_bridge_default.onEnter = replaceSelection;
+    event_bridge_default.onCommandEnter = openSelectionInEditor;
+  }, [
+    moveSelectionUp,
+    moveSelectionDown,
+    replaceSelection,
+    openSelectionInEditor
+  ]);
   const handleReplaceInputChanged = (event) => {
     setReplaceText(event.target.value);
   };
-  const handleSearchInputChanged = async (event) => {
-    const query = event.target.value;
-    setSearchText(query);
-    if (isBlank(query)) {
-      setSearchResults([]);
-      setNumberOfFilesWithMatches(0);
-      return;
-    }
-    debouncedSearch(query);
-  };
-  const debouncedSearch = (0, import_react.useCallback)(
-    (0, import_obsidian.debounce)(
-      async (query) => {
-        const { searchResults: searchResults2, numberOfFilesWithMatches: numberOfFilesWithMatches2 } = await fileOperator.search(query);
-        setNumberOfFilesWithMatches(numberOfFilesWithMatches2);
-        setSearchResults(searchResults2);
-        setSelectedIndex(0);
-        scrollIntoView(0);
-        setNumberOfResultsToDisplay(
-          NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
-        );
-      },
+  const search = (0, import_react.useCallback)(
+    async (query, withRegex, withCaseSensitivity) => {
+      const { searchResults: searchResults2, numberOfFilesWithMatches: numberOfFilesWithMatches2 } = await fileOperator.search(
+        query,
+        withRegex,
+        withCaseSensitivity
+      );
+      setNumberOfFilesWithMatches(numberOfFilesWithMatches2);
+      setSearchResults(searchResults2);
+      setSelectedIndex(0);
+      scrollIntoView(0);
+      setNumberOfResultsToDisplay(
+        INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
+      );
+    },
+    [fileOperator, regexEnabled]
+  );
+  const debouncedSearch = (0, import_react.useMemo)(
+    () => (0, import_obsidian.debounce)(
+      (query, withRegex, withCaseSensitivity) => search(query, withRegex, withCaseSensitivity),
       500,
       false
     ),
-    []
+    [search]
+  );
+  const clearResults = (0, import_react.useCallback)(() => {
+    setSearchResults([]);
+    setNumberOfFilesWithMatches(0);
+  }, []);
+  const doSearch = (0, import_react.useCallback)(
+    (query, withRegex, withCaseSensitivity) => {
+      setSearchText(query);
+      if (isBlank(query)) {
+        clearResults();
+        return;
+      }
+      debouncedSearch(query, withRegex, withCaseSensitivity);
+    },
+    [clearResults, debouncedSearch]
+  );
+  const handleSearchInputChanged = (0, import_react.useCallback)(
+    async (event) => {
+      const query = event.target.value;
+      doSearch(query, regexEnabled, caseSensitivityEnabled);
+    },
+    [caseSensitivityEnabled, doSearch, regexEnabled]
   );
   const scrollThresholdExceededHandler = (0, import_react.useCallback)(
     () => setNumberOfResultsToDisplay(
-      (n) => n + NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
+      (n) => n + INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
     ),
     []
   );
@@ -23805,19 +23947,39 @@ function SearchAndReplace({
     setSelectedIndex(i);
     scrollIntoView(i);
   }, []);
-  return /* @__PURE__ */ React7.createElement(React7.Fragment, null, /* @__PURE__ */ React7.createElement(
+  const regexButtonClickedHandler = (0, import_react.useCallback)(() => {
+    clearResults();
+    setRegexEnabled((p) => {
+      const newRegexEnabled = !p;
+      doSearch(searchText, newRegexEnabled, caseSensitivityEnabled);
+      return newRegexEnabled;
+    });
+  }, [caseSensitivityEnabled, clearResults, doSearch, searchText]);
+  const caseSensitivityButtonClickedHandler = (0, import_react.useCallback)(() => {
+    clearResults();
+    setCaseSensitivityEnabled((p) => {
+      const newCaseSensitivityEnabled = !p;
+      doSearch(searchText, regexEnabled, newCaseSensitivityEnabled);
+      return newCaseSensitivityEnabled;
+    });
+  }, [clearResults, doSearch, regexEnabled, searchText]);
+  return /* @__PURE__ */ React9.createElement(React9.Fragment, null, /* @__PURE__ */ React9.createElement(
     SearchInput,
     {
-      value: searchText,
-      onChange: handleSearchInputChanged
+      searchInputValue: searchText,
+      onSearchInputChange: handleSearchInputChanged,
+      onEnableRegexButtonClick: regexButtonClickedHandler,
+      regexEnabled,
+      onEnableCaseSensitivityButtonClick: caseSensitivityButtonClickedHandler,
+      caseSensitivityEnabled
     }
-  ), /* @__PURE__ */ React7.createElement(
+  ), /* @__PURE__ */ React9.createElement(
     ReplaceInput,
     {
       value: replaceText,
       onChange: handleReplaceInputChanged
     }
-  ), /* @__PURE__ */ React7.createElement(
+  ), /* @__PURE__ */ React9.createElement(
     SearchResultsContainer,
     {
       selectedIndex,
@@ -23825,15 +23987,15 @@ function SearchAndReplace({
       numberOfResultsToDisplay,
       searchResults,
       scrollThresholdExceededHandler,
-      searchResultChosenHandler: handleEnterOrClick
+      searchResultChosenHandler: replaceSelection
     }
-  ), /* @__PURE__ */ React7.createElement(
+  ), /* @__PURE__ */ React9.createElement(
     ResultsNumberSummary,
     {
       numberOfResults: searchResults.length,
       numberOfFilesWithMatches
     }
-  ), /* @__PURE__ */ React7.createElement(PromptInstructions, null));
+  ), /* @__PURE__ */ React9.createElement(PromptInstructions, null));
 }
 function scrollIntoView(selectedIndex) {
   const searchResultElement = document.querySelector(
@@ -23853,13 +24015,13 @@ var SearchAndReplaceModal = class extends import_obsidian2.Modal {
     this.registerEventListeners();
     this.fileOperator = fileOperator;
   }
-  initReactRoot() {
-    this.root = (0, import_client.createRoot)(this.modalEl);
-  }
   prepareModalEl() {
     this.modalEl.replaceChildren();
     this.modalEl.addClass("prompt");
     this.modalEl.removeClass("modal");
+  }
+  initReactRoot() {
+    this.root = (0, import_client.createRoot)(this.modalEl);
   }
   registerEventListeners() {
     this.scope.register([], "ArrowUp", (e, ctx) => {
@@ -23879,7 +24041,7 @@ var SearchAndReplaceModal = class extends import_obsidian2.Modal {
         return;
       (_b = (_a = event_bridge_default).onEnter) == null ? void 0 : _b.call(_a, e, ctx);
     });
-    this.scope.register(["Meta"], "Enter", (e, ctx) => {
+    this.scope.register(["Mod"], "Enter", (e, ctx) => {
       var _a, _b;
       e.preventDefault();
       if (e.repeat)
@@ -23892,7 +24054,7 @@ var SearchAndReplaceModal = class extends import_obsidian2.Modal {
     if (!this.root)
       return;
     this.root.render(
-      /* @__PURE__ */ React8.createElement(React8.StrictMode, null, /* @__PURE__ */ React8.createElement(SearchAndReplace, { fileOperator: this.fileOperator }))
+      /* @__PURE__ */ React10.createElement(React10.StrictMode, null, /* @__PURE__ */ React10.createElement(SearchAndReplace, { fileOperator: this.fileOperator }))
     );
   }
   onClose() {
@@ -23934,53 +24096,60 @@ var SearchResult = class {
 
 // src/domain/file-operator.ts
 var NEW_LINE_REGEX = /\r?\n|\r|\n/g;
+var EMPTY_SEARCH_OPERATION_RESULT = {
+  numberOfFilesWithMatches: 0,
+  searchResults: []
+};
 var FileOperator = class {
   constructor(app) {
     __publicField(this, "app");
     this.app = app;
   }
-  async search(query) {
+  async search(query, regexEnabled, caseSensitivityEnabled) {
     if (isBlank(query)) {
-      return {
-        numberOfFilesWithMatches: 0,
-        searchResults: []
-      };
+      return EMPTY_SEARCH_OPERATION_RESULT;
     }
-    const queryRegex = this.createQueryRegex(query);
+    const queryRegex = this.createQueryRegex(
+      query,
+      regexEnabled,
+      caseSensitivityEnabled
+    );
     const markdownFiles = this.app.vault.getMarkdownFiles();
     const searchResults = [];
     let numberOfFilesWithMatches = 0;
     for (const file of markdownFiles) {
       const contents = await this.app.vault.read(file);
       const lines = this.splitIntoLines(contents);
-      let foundAMatchInThisFile = false;
+      let foundAMatchInCurrentFile = false;
       lines.forEach((line, i) => {
         const intermediateResults = this.searchInLine(
           line,
           i + 1,
           file,
-          query,
           queryRegex
         );
         if (intermediateResults.length !== 0) {
-          foundAMatchInThisFile = true;
+          foundAMatchInCurrentFile = true;
         }
         searchResults.push(...intermediateResults);
       });
-      if (foundAMatchInThisFile) {
+      if (foundAMatchInCurrentFile) {
         numberOfFilesWithMatches++;
+        foundAMatchInCurrentFile = false;
       }
-      foundAMatchInThisFile = false;
     }
     return { searchResults, numberOfFilesWithMatches };
   }
-  createQueryRegex(query) {
-    return new RegExp(this.escapeRegexString(query), "g");
+  createQueryRegex(query, regexEnabled, caseSensitivityEnabled) {
+    let flags = "g";
+    if (!caseSensitivityEnabled) {
+      flags += "i";
+    }
+    query = regexEnabled ? query : this.escapeRegexString(query);
+    return new RegExp(query, flags);
   }
-  searchInLine(line, lineNumber, file, query, queryRegex) {
-    const matches = line.matchAll(
-      queryRegex ? queryRegex : this.createQueryRegex(query)
-    );
+  searchInLine(line, lineNumber, file, queryRegex) {
+    const matches = line.matchAll(queryRegex);
     return [...matches].map((match) => {
       if (match.index === void 0)
         throw new Error(
@@ -23991,7 +24160,7 @@ var FileOperator = class {
         lineNumber,
         file.path,
         match.index,
-        match.index + query.length - 1,
+        match.index + match[0].length - 1,
         file
       );
     });
@@ -23999,7 +24168,7 @@ var FileOperator = class {
   splitIntoLines(contents) {
     return contents.split(NEW_LINE_REGEX);
   }
-  async replace(searchResult, replacementText, query) {
+  async replace(searchResult, replacementText, query, regexEnabled, caseSensitivityEnabled) {
     const file = searchResult.file;
     if (!file)
       return;
@@ -24023,11 +24192,16 @@ var FileOperator = class {
     );
     editor.replaceSelection(replacementText);
     await this.app.vault.modify(file, editor.getValue());
+    const queryRegex = this.createQueryRegex(
+      query,
+      regexEnabled,
+      caseSensitivityEnabled
+    );
     const lineSearchResults = this.searchInLine(
       editor.getLine(searchResult.lineNumber - 1),
       searchResult.lineNumber,
       file,
-      query
+      queryRegex
     );
     return {
       lineSearchResults,
