@@ -1,7 +1,7 @@
 # Nova-galactic-theme
 Inspired by the Nordic Darker theme, but adjusted for coherency and simplicity. The theme includes configs for cinnamon, gnome-shell, gtk-2.0, gtk-3.0, gtk-4.0, metacity, as well as vscode, terminator, firefox and obsidian.
 
-**NOTICE**: Only tested on Linux Mint 20. I suggest using the theme as a reference.
+**NOTICE**: Only tested on Linux Mint, but should work with any Cinnamon or Gnome desktop environment.
 
 Check out the accompanying [icon-pack](https://github.com/NicklasVraa/Nova-galactic-icons) and try the theme with redshift.
 
