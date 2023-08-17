@@ -1,0 +1,170 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:defence",
+      "color": {
+        "a": 1,
+        "rgb": 12542314
+      }
+    },
+    {
+      "query": "tag:cutting-edge",
+      "color": {
+        "a": 1,
+        "rgb": 12938860
+      }
+    },
+    {
+      "query": "tag:biology",
+      "color": {
+        "a": 1,
+        "rgb": 13269614
+      }
+    },
+    {
+      "query": "tag:mechanical",
+      "color": {
+        "a": 1,
+        "rgb": 13666160
+      }
+    },
+    {
+      "query": "tag:writing",
+      "color": {
+        "a": 1,
+        "rgb": 14261881
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14857346
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 15453067
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 13879179
+      }
+    },
+    {
+      "query": "tag:business",
+      "color": {
+        "a": 1,
+        "rgb": 12305036
+      }
+    },
+    {
+      "query": "tag:university",
+      "color": {
+        "a": 1,
+        "rgb": 10731148
+      }
+    },
+    {
+      "query": "tag:programming",
+      "color": {
+        "a": 1,
+        "rgb": 10141603
+      }
+    },
+    {
+      "query": "tag:physics",
+      "color": {
+        "a": 1,
+        "rgb": 9551801
+      }
+    },
+    {
+      "query": "tag:analog-electronics",
+      "color": {
+        "a": 1,
+        "rgb": 8962256
+      }
+    },
+    {
+      "query": "tag:data-science",
+      "color": {
+        "a": 1,
+        "rgb": 8039364
+      }
+    },
+    {
+      "query": "tag:mathematics",
+      "color": {
+        "a": 1,
+        "rgb": 7116472
+      }
+    },
+    {
+      "query": "tag:digital-electronics",
+      "color": {
+        "a": 1,
+        "rgb": 6193580
+      }
+    },
+    {
+      "query": "tag:control-systems",
+      "color": {
+        "a": 1,
+        "rgb": 8095148
+      }
+    },
+    {
+      "query": "tag:linux",
+      "color": {
+        "a": 1,
+        "rgb": 9931437
+      }
+    },
+    {
+      "query": "tag:signal-processing",
+      "color": {
+        "a": 1,
+        "rgb": 11833005
+      }
+    },
+    {
+      "query": "tag:web",
+      "color": {
+        "a": 1,
+        "rgb": 12091287
+      }
+    },
+    {
+      "query": "tag:meta",
+      "color": {
+        "a": 1,
+        "rgb": 12284032
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.00298596152418,
+  "lineSizeMultiplier": 1.00298596152418,
+  "collapse-forces": true,
+  "centerStrength": 1,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.20603596435955,
+  "close": true
+}

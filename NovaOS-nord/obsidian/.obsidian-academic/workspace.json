@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "8303b92e5c7ad3df",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb1c25313afed9cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcaff73b07153155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technology/Linux/Software/Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d9aeb4280a2c2d08",
+    "type": "split",
+    "children": [
+      {
+        "id": "281bb42a4e3e314b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8b7a8df1df37d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b2671256a6aa85df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "697d3d6b2172979e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "397342d7f4bdf654",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 229.5110321044922
+  },
+  "right": {
+    "id": "d35ca1f0df1afd36",
+    "type": "split",
+    "children": [
+      {
+        "id": "f434834d50971a90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96b2d9010676ffec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7947bfbe52180808",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Technology/Linux/Software/Docker.md"
+              }
+            }
+          },
+          {
+            "id": "5709b67c1ca2b6ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Technology/Linux/Software/Docker.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "bcaff73b07153155",
+  "lastOpenFiles": [
+    "Science/8. Data-Science/Neural Networks/Deep Learning.md",
+    "Science/8. Data-Science/Basics/Loss-Functions.md",
+    "Science/8. Data-Science/Neural Networks/CNN.md",
+    "Science/8. Data-Science/Neural Networks/Optimizers.md",
+    "Science/8. Data-Science/Neural Networks/Neural Networks.md",
+    "Science/8. Data-Science/Basics/Classifiers.md",
+    "Science/8. Data-Science/Neural Networks/Generative Modeling/Auto-encoders.md",
+    "Science/8. Data-Science/Neural Networks/Sequence Models/Sequence Modelling.md",
+    "Science/8. Data-Science/Neural Networks/Sequence Models/Self-attention.md",
+    "Science/8. Data-Science/Neural Networks/Sequence Models/NLP.md",
+    "Science/8. Data-Science/Neural Networks/Sequence Models/Multi-Head-Attention.md",
+    "Science/8. Data-Science/Neural Networks/Sequence Models/ML Transformers.md",
+    "Science/8. Data-Science/Neural Networks/Sequence Models/Encoder-Decoder.md",
+    "Science/8. Data-Science/Neural Networks/Sequence Models/Attention.md",
+    "Assets/Data-Science/autoencoder_curve_fitting.svg",
+    "Assets/Data-Science/bidirectional_rnn.svg",
+    "Assets/Data-Science/deconvolution.svg",
+    "Assets/Data-Science/dense_block.svg",
+    "Assets/Data-Science/fairmot_architecture.svg",
+    "Assets/Data-Science/fcn_dimensions.svg",
+    "Assets/Data-Science/fcn_pooling.svg",
+    "Assets/Data-Science/generative_network_principle.svg",
+    "Assets/Data-Science/precision_vs_recall.svg",
+    "Assets/Data-Science/residual_block.svg",
+    "Science/8. Data-Science/Basics/Datasets.md",
+    "Science/8. Data-Science/Basics/Hyper-parameter Search.md",
+    "Science/8. Data-Science/Basics/Machine Learning.md",
+    "Science/8. Data-Science/Basics/Positional Encoding.md",
+    "Science/8. Data-Science/Basics/Regularization.md",
+    "Science/8. Data-Science/Basics/Reinforcement.md",
+    "Science/8. Data-Science/Basics/Transfer Learning.md",
+    "Science/8. Data-Science/Computer Vision/Bag-of-Words.md",
+    "Science/8. Data-Science/Computer Vision/DETR.md",
+    "Science/8. Data-Science/Computer Vision/Edge Detection.md",
+    "Science/8. Data-Science/Computer Vision/Object Detection.md",
+    "Science/8. Data-Science/Computer Vision/Semantic Segmentation.md",
+    "Untitled.canvas",
+    "Business/Startup",
+    "Business/Theory",
+    "Business Model.canvas",
+    "Science/9. Cutting-Edge",
+    "Technology/Programming/Languages/Python",
+    "Technology/Programming/Languages/Interpreted Languages",
+    "Technology/Programming/Regular Expressions",
+    "Science/7. Digital-Electronics",
+    "Assets/Electronics/Converters",
+    "University/8. sem/Image Processing/Hardware",
+    "University/8. sem/Untitled"
+  ]
+}
