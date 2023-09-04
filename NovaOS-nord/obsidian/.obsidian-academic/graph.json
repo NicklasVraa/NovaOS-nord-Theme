@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "tag:biology",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 13269614
@@ -36,21 +36,21 @@
       }
     },
     {
-      "query": "tag:writing",
+      "query": "",
       "color": {
         "a": 1,
         "rgb": 14261881
       }
     },
     {
-      "query": "",
+      "query": "tag:writing",
       "color": {
         "a": 1,
         "rgb": 14857346
       }
     },
     {
-      "query": "",
+      "query": "tag:biology",
       "color": {
         "a": 1,
         "rgb": 15453067
@@ -165,6 +165,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.20603596435955,
+  "scale": 0.17488687091271207,
   "close": true
 }

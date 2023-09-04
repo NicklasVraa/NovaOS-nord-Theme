@@ -10,7 +10,7 @@ body {
     /* Removes all rounded corners. */
     --radius-m: 0;
     --input-radius: 0;
-    --file-margins: 5px;
+    --file-margins: 8px;
 }
 
 body:not(.is-mobile) .modal,
@@ -133,13 +133,23 @@ mjx-container[display="true"] {
 }
 
 .cm-line.HyperMD-codeblock {
-    padding-left: 10px !important;
+    padding-left: 8px !important;
 }
 
 /* Adds padding around list elements. */
 .HyperMD-list-line {
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
+    padding-top: 6px !important;
+    padding-bottom: 2px !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+}
+
+/* Turns bullet point into squares and improves alignment. */
+.list-bullet:after {
+    height: 0.3em !important;
+    width: 0.3em !important;
+    margin-left: -10px !important;
+    border-radius: 0 !important;
 }
 
 /* Fixes indentation for bullet-point lists. */
@@ -155,6 +165,15 @@ mjx-container[display="true"] {
 /* Makes quote blocks less prominent. */
 .cm-quote {
     opacity: 60% !important;
+}
+
+/* Remove padding before headers. */
+.cm-s-obsidian .cm-line.HyperMD-header {
+    padding-top: 0px !important;
+}
+
+.list-bullet {
+    list-style-type: square !important;
 }
 
 /* Use-case specific styling. --------------------------------------------- */

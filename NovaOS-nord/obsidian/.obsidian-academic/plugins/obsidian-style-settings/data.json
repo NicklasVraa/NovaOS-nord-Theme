@@ -45,8 +45,9 @@
   "minimal-style@@h1-weight": 600,
   "minimal-style@@h4-size": "1.0em",
   "minimal-style@@h5-size": "1.0em",
-  "minimal-style@@h2-size": "1.15em",
+  "minimal-style@@h2-size": "1.2em",
   "minimal-style@@h6-color@@dark": "#88C0D0",
-  "minimal-style@@h1-size": "1.2em",
-  "minimal-style@@h3-size": "1.1em"
+  "minimal-style@@h1-size": "1.3em",
+  "minimal-style@@h3-size": "1.1em",
+  "minimal-style@@list-spacing": 0.075
 }

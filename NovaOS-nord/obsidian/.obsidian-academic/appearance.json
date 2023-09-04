@@ -7,13 +7,14 @@
     "academic-pdf-export",
     "UI-tweaks",
     "ui-tweaks",
+    "number_headings",
     "match_vscode",
-    "number_headings"
+    "novaos_ui_tweak"
   ],
   "translucency": false,
-  "textFontFamily": "Ubuntu,CMU Serif,Latin Modern Roman,Latin Modern Roman Caps",
+  "textFontFamily": "Ubuntu",
   "interfaceFontFamily": "Ubuntu",
-  "monospaceFontFamily": "Monospace,Latin Modern Mono",
+  "monospaceFontFamily": "Monospace",
   "baseFontSize": 15,
   "accentColor": "",
   "nativeMenus": true,

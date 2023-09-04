@@ -59,7 +59,8 @@
     font = Monospace 9
     show_titlebar = False
     scrollbar_position = hidden
-    palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#d8dee9:#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#d8dee9"
+    scrollback_lines = 2000
+    palette = "#2e3440:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#d8dee9:#2e3440:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#d8dee9"
     use_system_font = False
     use_theme_colors = True
 [layouts]

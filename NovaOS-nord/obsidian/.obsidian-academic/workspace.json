@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bb1c25313afed9cf",
+        "id": "3b6e1fe9b86a411f",
         "type": "tabs",
         "children": [
           {
-            "id": "bcaff73b07153155",
+            "id": "72bb486ef4d995c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology/Linux/Software/Docker.md",
+                "file": "Science/7. Digital-Electronics/HDLs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5110321044922
+    "width": 200
   },
   "right": {
     "id": "d35ca1f0df1afd36",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology/Linux/Software/Docker.md"
+                "file": "Science/7. Digital-Electronics/HDLs.md"
               }
             }
           },
@@ -115,14 +115,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology/Linux/Software/Docker.md",
+                "file": "Science/7. Digital-Electronics/HDLs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,62 +130,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "bcaff73b07153155",
+  "active": "72bb486ef4d995c5",
   "lastOpenFiles": [
-    "Science/8. Data-Science/Neural Networks/Deep Learning.md",
-    "Science/8. Data-Science/Basics/Loss-Functions.md",
-    "Science/8. Data-Science/Neural Networks/CNN.md",
-    "Science/8. Data-Science/Neural Networks/Optimizers.md",
-    "Science/8. Data-Science/Neural Networks/Neural Networks.md",
-    "Science/8. Data-Science/Basics/Classifiers.md",
-    "Science/8. Data-Science/Neural Networks/Generative Modeling/Auto-encoders.md",
-    "Science/8. Data-Science/Neural Networks/Sequence Models/Sequence Modelling.md",
-    "Science/8. Data-Science/Neural Networks/Sequence Models/Self-attention.md",
-    "Science/8. Data-Science/Neural Networks/Sequence Models/NLP.md",
-    "Science/8. Data-Science/Neural Networks/Sequence Models/Multi-Head-Attention.md",
-    "Science/8. Data-Science/Neural Networks/Sequence Models/ML Transformers.md",
-    "Science/8. Data-Science/Neural Networks/Sequence Models/Encoder-Decoder.md",
-    "Science/8. Data-Science/Neural Networks/Sequence Models/Attention.md",
-    "Assets/Data-Science/autoencoder_curve_fitting.svg",
-    "Assets/Data-Science/bidirectional_rnn.svg",
-    "Assets/Data-Science/deconvolution.svg",
-    "Assets/Data-Science/dense_block.svg",
-    "Assets/Data-Science/fairmot_architecture.svg",
-    "Assets/Data-Science/fcn_dimensions.svg",
-    "Assets/Data-Science/fcn_pooling.svg",
-    "Assets/Data-Science/generative_network_principle.svg",
-    "Assets/Data-Science/precision_vs_recall.svg",
-    "Assets/Data-Science/residual_block.svg",
-    "Science/8. Data-Science/Basics/Datasets.md",
-    "Science/8. Data-Science/Basics/Hyper-parameter Search.md",
-    "Science/8. Data-Science/Basics/Machine Learning.md",
-    "Science/8. Data-Science/Basics/Positional Encoding.md",
-    "Science/8. Data-Science/Basics/Regularization.md",
-    "Science/8. Data-Science/Basics/Reinforcement.md",
-    "Science/8. Data-Science/Basics/Transfer Learning.md",
-    "Science/8. Data-Science/Computer Vision/Bag-of-Words.md",
-    "Science/8. Data-Science/Computer Vision/DETR.md",
-    "Science/8. Data-Science/Computer Vision/Edge Detection.md",
-    "Science/8. Data-Science/Computer Vision/Object Detection.md",
-    "Science/8. Data-Science/Computer Vision/Semantic Segmentation.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL basics.md",
+    "Science/7. Digital-Electronics/HDLs.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL abstraction.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL data types.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL examples.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL explicit processes.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL signals and variables.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL popular libraries.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL synthesis.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL examples/Untitled.md",
+    "Science/7. Digital-Electronics/VHDL/VHDL examples",
+    "Science/7. Digital-Electronics/VHDL/VHDL Architecture.md",
+    "Science/3. Physics/Photonics/Lasers.md",
+    "Science/3. Physics/Photonics/Light-Matter Interaction.md",
+    "Science/3. Physics/Photonics/The Atom.md",
+    "Assets/Physics/Photonics",
+    "Assets/Physics/Photonics/light_matter_interaction.svg",
+    "Assets/hdl_execution_cycle.svg",
+    "Assets/vhdl_simple_signal_assignment.svg",
+    "Science/7. Digital-Electronics/VHDL",
+    "Untitled.md",
+    "Science/7. Digital-Electronics/Digital Memory.md",
+    "Science/7. Digital-Electronics/Logic Gates.md",
+    "Science/7. Digital-Electronics/NAND-Implementation.md",
+    "Meta/Todo.md",
+    "Science/7. Digital-Electronics/Digital Circuits.md",
+    "Science/5. Control-Systems/Basics/Control Theory.md",
+    "Science/7. Digital-Electronics/Digital Memory/Digital Latches.md",
+    "Science/7. Digital-Electronics/Digital Memory",
+    "Assets/universal_shift_register.svg",
+    "Science/6. Analog-Electronics/Analog/Filters/Passive/Passive RC-Filters.md",
+    "University/DMCES.md",
+    "Science/6. Analog-Electronics/Analog/Filters/Passive/Nth-order Passive Filters.md",
+    "Assets/open_loop_control.svg",
+    "Assets/Control/system_plant.svg",
+    "Assets/Control/control_plant.svg",
+    "Assets/Control/closed_loop_control.svg",
+    "Science/5. Control-Systems/Basics/State-Space.md",
+    "Assets/Electronics/light_matter_interactions.svg",
+    "Assets/Electronics/Digital/d_flip_flop.svg",
+    "Science/3. Physics/Photonics",
+    "Assets/Electronics/Cutting-edge",
+    "Assets/Electronics/Digital",
     "Untitled.canvas",
     "Business/Startup",
     "Business/Theory",
     "Business Model.canvas",
-    "Science/9. Cutting-Edge",
-    "Technology/Programming/Languages/Python",
-    "Technology/Programming/Languages/Interpreted Languages",
-    "Technology/Programming/Regular Expressions",
-    "Science/7. Digital-Electronics",
-    "Assets/Electronics/Converters",
-    "University/8. sem/Image Processing/Hardware",
-    "University/8. sem/Untitled"
+    "Science/9. Cutting-Edge"
   ]
 }
