@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:defence",
@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#projects  ",
       "color": {
         "a": 1,
         "rgb": 13269614
@@ -165,6 +165,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.17488687091271207,
+  "scale": 0.11659124727514138,
   "close": true
 }

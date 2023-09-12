@@ -12,7 +12,7 @@
     "novaos_ui_tweak"
   ],
   "translucency": false,
-  "textFontFamily": "Ubuntu",
+  "textFontFamily": "Ubuntu,Latin Modern Sans",
   "interfaceFontFamily": "Ubuntu",
   "monospaceFontFamily": "Monospace",
   "baseFontSize": 15,
