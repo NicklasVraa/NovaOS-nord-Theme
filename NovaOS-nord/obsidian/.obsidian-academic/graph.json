@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": false,
@@ -15,14 +15,14 @@
       }
     },
     {
-      "query": "tag:cutting-edge",
+      "query": "tag:neuromorphic",
       "color": {
         "a": 1,
         "rgb": 12938860
       }
     },
     {
-      "query": "tag:#projects  ",
+      "query": "tag:projects  ",
       "color": {
         "a": 1,
         "rgb": 13269614
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:physics",
       "color": {
         "a": 1,
         "rgb": 14261881
@@ -57,7 +57,7 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:domestics",
       "color": {
         "a": 1,
         "rgb": 13879179
@@ -85,7 +85,7 @@
       }
     },
     {
-      "query": "tag:physics",
+      "query": "tag:power-electronics  ",
       "color": {
         "a": 1,
         "rgb": 9551801
@@ -157,14 +157,14 @@
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 1.00298596152418,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1.00647482014388,
   "lineSizeMultiplier": 1.00298596152418,
   "collapse-forces": true,
   "centerStrength": 1,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.11659124727514138,
+  "scale": 0.1048045315273107,
   "close": true
 }

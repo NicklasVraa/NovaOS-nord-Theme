@@ -14,5 +14,6 @@
   "showInlineTitle": false,
   "spellcheck": false,
   "spellcheckLanguages": null,
-  "useTab": false
+  "useTab": false,
+  "showLineNumber": false
 }

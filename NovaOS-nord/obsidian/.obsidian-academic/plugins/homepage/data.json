@@ -1,12 +1,17 @@
 {
-  "version": 2,
-  "defaultNote": "Meta/Todo",
-  "useMoment": false,
-  "momentFormat": "YYYY-MM-DD",
-  "workspace": "Home",
-  "workspaceEnabled": false,
-  "hasRibbonIcon": true,
-  "openMode": "Replace all open notes",
-  "view": "Default view",
-  "refreshDataview": false
+  "version": 3,
+  "homepages": {
+    "Main Homepage": {
+      "version": 2,
+      "hasRibbonIcon": true,
+      "openMode": "Replace all open notes",
+      "view": "Default view",
+      "refreshDataview": false,
+      "value": "Scratchpad",
+      "kind": "File",
+      "commands": [],
+      "openOnStartup": true
+    }
+  },
+  "separateMobile": false
 }
