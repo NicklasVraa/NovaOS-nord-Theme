@@ -1,0 +1,69 @@
+.ofwc-command-list.setting-item {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.ofwc-commands-heading {
+    padding-top: 0 !important;
+}
+
+
+
+.ofwc-command-list .setting-item-control {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.ofwc-command-list .setting-item-info {
+    display: none !important;
+}
+
+.ofwc-command-list .search-input-container {
+    width: 100%;
+}
+
+.is-mobile .ofwc-command-list input {
+    width: 100% !important;
+}
+
+.is-mobile .ofwc-command-list button {
+    width: fit-content !important;
+}
+
+@media screen and (max-width: 1250px) {
+    .ofwc-command-list input {
+        width: 100% !important;
+    }
+
+    .ofwc-command-list,
+    .ofwc-command-list.setting-item-control {
+        overflow-x: scroll;
+    }
+}
+
+.variable-item .setting-item-info {
+    display: none !important;
+}
+
+.variable-item .setting-item-control {
+    width: 100%;
+    justify-content: flex-start !important;
+    display: flex;
+}
+
+.variable-item textarea {
+    width: 100%;
+}
+
+.variable-item input {
+    width: fit-content;
+}
+
+.variable-item .setting-item-control {
+    width: fit-content;
+}
+
+.variable-settings {
+    margin-top: 1rem !important;
+}

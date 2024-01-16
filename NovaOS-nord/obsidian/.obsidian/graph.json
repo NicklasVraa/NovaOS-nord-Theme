@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:defence",
@@ -127,7 +127,7 @@
       }
     },
     {
-      "query": "tag:linux",
+      "query": "tag:computers",
       "color": {
         "a": 1,
         "rgb": 9931437
@@ -153,6 +153,13 @@
         "a": 1,
         "rgb": 12284032
       }
+    },
+    {
+      "query": "tag:crafts",
+      "color": {
+        "a": 1,
+        "rgb": 9419963
+      }
     }
   ],
   "collapse-display": true,
@@ -165,6 +172,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.1048045315273107,
+  "scale": 0.15708007549775851,
   "close": true
 }

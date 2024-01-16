@@ -1,0 +1,30 @@
+{
+  "openNewTab": false,
+  "openFileIn": "activeTab",
+  "deleteCommandWhenFileIsDeleted": true,
+  "updateCommandsOnRename": true,
+  "commands": [
+    {
+      "id": "7c3dccdf-4657-4ec3-b699-27f3160661ed",
+      "name": "Todo",
+      "filePath": "Meta/Todo.md",
+      "openFileIn": "activeTab",
+      "command": {
+        "id": "open-files-with-commands:7c3dccdf-4657-4ec3-b699-27f3160661ed",
+        "name": "Open files with commands: Todo"
+      }
+    }
+  ],
+  "customVariables": [
+    {
+      "name": "date",
+      "value": "{{d:YYYY-MM-DD}}",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "value": "{{d:HH:mm:ss}}",
+      "type": "string"
+    }
+  ]
+}

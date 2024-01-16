@@ -1,0 +1,68 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "cmdr:macro-0",
+      "icon": "upload",
+      "name": "Commander: Sync",
+      "mode": "any"
+    },
+    {
+      "id": "open-files-with-commands:7c3dccdf-4657-4ec3-b699-27f3160661ed",
+      "icon": "check-circle",
+      "name": "Open files with commands: Todo",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "download",
+      "name": "Obsidian Git: Pull",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-git:commit"
+        },
+        {
+          "action": 1,
+          "delay": "3000"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-git:push2"
+        }
+      ],
+      "name": "Sync",
+      "icon": "upload",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

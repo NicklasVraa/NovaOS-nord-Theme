@@ -1,14 +1,16 @@
 [
   "table-editor-obsidian",
   "obsidian-minimal-settings",
-  "obsidian-style-settings",
   "homepage",
-  "obsidian-completr",
   "obsidian-vault-statistics-plugin",
   "obsidian-contextual-typography",
   "obsidian-plugin-toc",
   "tag-wrangler",
   "global-search-and-replace",
   "obsidian-git",
-  "obsidian-sortable"
+  "obsidian-sortable",
+  "obsidian-completr",
+  "obsidian-style-settings",
+  "cmdr",
+  "open-files-with-commands"
 ]

@@ -10,7 +10,8 @@
       "value": "Scratchpad",
       "kind": "File",
       "commands": [],
-      "openOnStartup": true
+      "openOnStartup": true,
+      "hideReleaseNotes": false
     }
   },
   "separateMobile": false

@@ -1,0 +1,10 @@
+{
+  "id": "open-files-with-commands",
+  "name": "Open files with commands",
+  "version": "1.2.3",
+  "minAppVersion": "0.15.0",
+  "description": "Create commands that only open one file at the time and that can be used with the commander plugin.",
+  "author": "Lost Paul",
+  "authorUrl": "https://github.com/LostPaul",
+  "isDesktopOnly": false
+}

@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2582200522038aed",
+        "id": "446984cad54195fb",
         "type": "tabs",
         "children": [
           {
-            "id": "beac7dea6f18b77b",
+            "id": "d675293ba4635546",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Scratchpad.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -55,8 +60,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "ideas",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -99,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Scratchpad.md"
+              }
             }
           },
           {
@@ -108,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Scratchpad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,58 +144,61 @@
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "cmdr:Commander: Sync": false,
+      "cmdr:Open files with commands: Todo": false,
+      "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "beac7dea6f18b77b",
+  "active": "d675293ba4635546",
   "lastOpenFiles": [
-    "Science/9. Neuromorphic/Models/Izhikevich Neuron Model.md",
-    "Computers/Web Tech/CSS.md",
-    "Meta/My system/Portable OS.md",
-    "Meta/Todo.md",
     "Scratchpad.md",
-    "Science/2. Mathematics/Calculus/Differentiation.md",
-    "Science/2. Mathematics/Calculus/Differential Equations.md",
-    "Science/2. Mathematics/Calculus/Integration.md",
-    "Science/2. Mathematics/Numerical Integration/Numerical Integration Methods.md",
-    "Readme.md",
-    "Science/5. Control-Systems/Basics/System Modelling.md",
-    "Science/2. Mathematics/Basics/Notation.md",
-    "Science/2. Mathematics/Calculus/Calculus.md",
-    "Science/5. Control-Systems/Basics/Control Theory.md",
-    "Science/2. Mathematics/Numerical Integration",
-    "Science/2. Mathematics/Numerical Integration.md",
-    "Science/3. Physics/Photonics/Light-Matter Interaction.md",
-    "Science/3. Physics/Photonics/Optical Amplifiers.md",
-    "Science/9. Neuromorphic/Photonic SNNs.md",
-    "Science/3. Physics/Photonics/Lasers.md",
-    "Science/3. Physics/Photonics/Crystal Materials.md",
-    "Science/3. Physics/Photonics/Crystal Growth.md",
-    "Science/3. Physics/Photonics/Photonic Devices.md",
-    "Science/3. Physics/Photonics/The Atom.md",
-    "Science/3. Physics/Photonics/Quantum Tunneling.md",
-    "Science/3. Physics/Photonics/Photonics Research Tools.md",
-    "Science/3. Physics/Photonics/PIN-Junctions.md",
-    "Assets/stdp_learning_rule.svg",
-    "Assets/test.svg",
-    "Mechanics",
+    "Science/1. Cross-discipline/Untitled.md",
+    "Science/1. Cross-discipline/Logic",
+    "Computers/Hardware/Hardware-Software Co-design.md",
+    "Computers/Hardware/Xilinx/The Xilinx Suite.md",
+    "Computers/Hardware/Xilinx/Vivado Basics.md",
+    "Computers/Hardware/Xilinx/Vitis Basics.md",
+    "Computers/Hardware/PLCs.md",
+    "Computers/Hardware/CPUs.md",
+    "Computers/Hardware/HW-SW Co-design.md",
+    "Computers/Hardware/Tcl.md",
+    "Computers/Programming/Languages/C/C Basics.md",
+    "Computers/Hardware/Interfaces and Protocols.md",
+    "Computers/Hardware/Xilinx/Vivado Installation.md",
+    "Computers/Hardware/Xilinx/Constraints Files.md",
+    "Computers/Hardware/FPGAs.md",
+    "Meta/Personal/Clothing.md",
+    "Crafts/Leatherworking.md",
+    "Crafts/Woodworking.md",
+    "Meta/Personal/Contacts.md",
+    "Meta/Personal/Accounts.md",
+    "Computers/Storage/Digital Storage.md",
+    "Computers/Storage/Logical Volume Manager.md",
+    "Computers/Storage/RAID Storage.md",
+    "Computers/Storage/Storage Arrays.md",
+    "Computers/Storage/Volume Groups 1.md",
+    "Computers/Storage",
+    "Assets/Physics/Photonics/light_matter_interaction.svg",
+    "Assets/Physics/Photonics/atom_energy_bands.svg",
     "Assets/Physics/Photonics/Pasted image 20231009104419.png",
-    "Assets/Neuromorphic/izhikevich_responses.svg",
-    "Assets/Neuromorphic/izhikevich_responses.svg",
-    "Assets/Analog/Oscillators/colpitts_crystal_oscillator.svg",
-    "Assets/Analog/Oscillators/colpitts_oscillator_opamp.svg",
-    "Assets/Analog/Oscillators/hartley_oscillator_opamp.svg",
-    "Assets/Analog/Oscillators/hartley_oscillator_bjt.svg",
-    "Assets/Neuromorphic/photonic_snn.svg",
-    "Assets/Analog/Oscillators",
-    "Science/6. Analog-Electronics/Power/DC-AC Converters/Oscillators",
-    "Science/6. Analog-Electronics/Analog/Converters",
-    "Science/6. Analog-Electronics/Power",
-    "Science/10. Power",
-    "Science/6. Analog-Electronics/Power/DC-AC Converters",
-    "University/Archived",
-    "Science/6. Analog-Electronics/Power/Batteries",
+    "Assets/Physics/Photonics/Pasted image 20230920084418.png",
+    "Assets/Physics/Photonics/Pasted image 20230920084343.png",
+    "Assets/Physics/Photonics/Pasted image 20230920083628.png",
+    "Assets/Physics/Photonics/Pasted image 20230920084255.png",
+    "Assets/Physics/Photonics/Pasted image 20230918105057.png",
+    "Assets/Physics/Photonics/Pasted image 20230918104504.png",
+    "Assets/Physics/Photonics/Pasted image 20230918102947.png",
+    "Computers/Programming/Languages/C",
     "Untitled.canvas",
+    "Domestics/Dependency Map.canvas",
+    "Crafts/Bookbinding",
+    "Business/Specific/MentorDK",
+    "Business/Specific",
+    "Business/Untitled Folder",
+    "Meta/Personal",
+    "Meta/Contacts",
+    "Meta/Personal/Everyday Advice",
     "Business Model.canvas"
   ]
 }
