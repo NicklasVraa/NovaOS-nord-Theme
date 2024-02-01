@@ -92,14 +92,8 @@ body:not(.is-mobile) .modal,
 
 
 /* GRAPH: ------------------------------------------------------------------- */
-.graph-view.color-fill-tag {
-    color: white !important;
-    opacity: 1;
-}
-
 .graph-view.color-fill-attachment {
-    color: white !important;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .graph-view.color-line {
